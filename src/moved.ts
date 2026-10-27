@@ -1,6 +1,6 @@
 export function boot(): void {
-  init();
-  loadConfig();
-  connectDb();
-  startServer();
+    loadConfig();
+    connectDb();
+    startServer();
+    init();
 }
