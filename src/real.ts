@@ -3,5 +3,5 @@ export function isEven(n: number): boolean {
 }
 
 export function isOdd(n: number): boolean {
-  return n % 2 === 1;
+  return !isEven(n);
 }

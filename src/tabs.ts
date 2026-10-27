@@ -1,12 +1,12 @@
 export class Counter {
-	private n = 0;
+  private n = 0;
 
-	increment(): number {
-		this.n += 1;
-		return this.n;
-	}
+  increment(): number {
+    this.n += 1;
+    return this.n;
+  }
 
-	reset(): void {
-		this.n = 0;
-	}
+  reset(): void {
+    this.n = 0;
+  }
 }
