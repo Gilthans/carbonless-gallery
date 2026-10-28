@@ -75,21 +75,3 @@ function parseField(
 	}
 	return values;
 }
-
-/** "every 5 minutes", "at 09:30 on weekdays": a short human description. */
-export function describe(schedule: Schedule): string {
-	const minutes = [...schedule.minutes];
-	const hours = [...schedule.hours];
-	if (minutes.length === 60 && hours.length === 24) return "every minute";
-	if (hours.length === 24 && minutes.length > 1) {
-		const step = minutes[1] - minutes[0];
-		if (minutes.every((m, i) => m === i * step)) return `every ${step} minutes`;
-	}
-	if (minutes.length === 1 && hours.length === 1) {
-		const time = `${String(hours[0]).padStart(2, "0")}:${String(minutes[0]).padStart(2, "0")}`;
-		const days = [...schedule.daysOfWeek];
-		const weekdays = days.length === 5 && days.every((d) => d >= 1 && d <= 5);
-		return weekdays ? `at ${time} on weekdays` : `at ${time}`;
-	}
-	return "on a custom schedule";
-}
