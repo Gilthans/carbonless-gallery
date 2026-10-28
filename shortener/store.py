@@ -24,4 +24,6 @@ class Store:
             self._links[code] = (url, expires_at)
 
     def count(self) -> int:
-        return len(self._links)
+        """Live links only: expired ones are still in the dict until overwritten."""
+        now = time.time()
+        return sum(1 for _, expires_at in self._links.values() if expires_at is None or expires_at > now)
