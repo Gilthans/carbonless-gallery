@@ -5,7 +5,7 @@ export async function withRetry<T>(run: () => Promise<T>, attempts = 3): Promise
 			return await run();
 		} catch (error) {
 			lastError = error;
-		await new Promise((resolve) => setTimeout(resolve, 2 ** attempt * 100));
+    	await new Promise((resolve) => setTimeout(resolve, 2 ** attempt * 100));
 		}
 	}
 	throw lastError;
