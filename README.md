@@ -7,3 +7,12 @@ Each case has its own base branch (`base/<case>`) and head branch (`case/<case>`
 | Case | PR | What it shows |
 |---|---|---|
 | whitespace | #1 | Re-indents, CRLF, trailing spaces and a moved block next to real changes (Settings → Ignore whitespace). |
+| regular | #2 | An ordinary feature PR with tests: the control case. |
+| renames | #3 | Pure, edited, moved and copied files, and renames either side of git's 50% similarity threshold. |
+| file-kinds | #4 | Binary and image files, empty files, a symlink, a mode change, a deleted file and a submodule bump. |
+| moved-code | #5 | A function moved within a file, one moved to another file, and one moved and edited. |
+| invisibles | #6 | Zero-width and no-break spaces, tabs vs spaces, a BOM, a missing final newline, RTL text, emoji and a 401-character line. |
+| big | #7 | 60 files, a regenerated lockfile, a minified vendored file and generated code: first-open performance. |
+| history-merge | #8 | The base moves on and is merged into the PR branch (with a conflict), then a later commit. |
+| history-force-push | #9 | A first version, a review on it, then a rebase onto a moved base with edits and a force-push. |
+| threads | #10 | Single-line, multi-line, deleted-line and file-level review threads, replies with Markdown, one resolved, one outdated. |
