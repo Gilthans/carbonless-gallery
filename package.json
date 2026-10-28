@@ -1,11 +1,12 @@
 {
   "name": "storefront-api",
-  "version": "2.7.4",
+  "version": "3.0.0",
   "private": true,
   "type": "module",
   "dependencies": {
-    "date-fns": "^3.6.0",
-    "fastify": "^4.28.1",
+    "date-fns": "^4.1.0",
+    "fastify": "^5.1.0",
+    "pino": "^9.5.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
