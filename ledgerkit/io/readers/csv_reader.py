@@ -7,7 +7,7 @@ from decimal import Decimal
 from pathlib import Path
 from typing import Iterator
 
-from ledgerkit.utils.strings import normalise_payee
+from ledgerkit.utils.text import normalise_payee
 
 DATE_FORMATS = ("%d/%m/%Y", "%Y-%m-%d", "%d %b %Y")
 
