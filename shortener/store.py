@@ -14,3 +14,6 @@ class Store:
     def put(self, code: str, url: str) -> None:
         with self._lock:
             self._links[code] = url
+
+    def count(self) -> int:
+        return len(self._links)
