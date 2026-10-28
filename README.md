@@ -17,3 +17,4 @@ Each case has its own base branch (`base/<case>`) and head branch (`case/<case>`
 | history-force-push | #9 | A first version, a review on it, then a rebase onto a moved base with edits and a force-push. |
 | threads | #10 | Single-line, multi-line, deleted-line and file-level review threads, replies with Markdown, one resolved, one outdated. |
 | merged-left | #11 | A review started in carbonless, then the PR merged by a merge commit: GitHub still puts LEFT lines on the PR's own diff, while the base branch now holds the head. |
+| side-by-side | #12 | Clusters of 2/5, 5/2 and 1/5, a 400-character line, tabs, a lost final newline (one 1/1, one in a 1/3), whitespace-only and mixed clusters, a context line with threads on both sides, a 2,000-line single hunk (Settings → Side by side). |
