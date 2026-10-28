@@ -11,14 +11,18 @@ store = Store()
 
 @app.post("/links")
 def create_link():
-    url = (request.get_json(silent=True) or {}).get("url", "")
+    body = request.get_json(silent=True) or {}
+    url = body.get("url", "")
     if not url.startswith(("http://", "https://")):
         abort(400, "url must be http(s)")
+    ttl = body.get("ttl_seconds")
+    if ttl is not None and (not isinstance(ttl, int) or ttl <= 0):
+        abort(400, "ttl_seconds must be a positive integer")
     code = new_code()
     while store.get(code) is not None:
         code = new_code()
-    store.put(code, url)
-    return jsonify(code=code, url=url), 201
+    store.put(code, url, ttl_seconds=ttl)
+    return jsonify(code=code, url=url, ttl_seconds=ttl), 201
 
 
 @app.get("/<code>")
