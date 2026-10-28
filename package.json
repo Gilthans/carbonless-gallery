@@ -1,0 +1,7 @@
+{
+  "name": "cronlite",
+  "version": "0.9.1",
+  "private": true,
+  "type": "module",
+  "devDependencies": { "typescript": "^5.6.3", "vitest": "^2.1.4" }
+}
