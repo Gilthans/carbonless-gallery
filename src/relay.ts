@@ -1,3 +1,5 @@
+import { randomUUID } from "node:crypto";
+import { retry } from "./retry.js";
 import { verifySignature } from "./verify.js";
 
 export interface Target {
@@ -9,6 +11,8 @@ export interface Target {
 export interface RelayConfig {
 	secret: string;
 	targets: Target[];
+	/** Tries per target, the first one included. */
+	attempts?: number;
 }
 
 export interface Delivery {
@@ -16,7 +20,11 @@ export interface Delivery {
 	status: number;
 }
 
-/** Forwards a verified webhook to every target, one after another. */
+/**
+ * Forwards a verified webhook to every target, one after another. Every try
+ * of one delivery carries the same Idempotency-Key, so a target can drop a
+ * retry of something it already processed.
+ */
 export async function relay(
 	config: RelayConfig,
 	body: string,
@@ -27,11 +35,16 @@ export async function relay(
 	}
 	const deliveries: Delivery[] = [];
 	for (const target of config.targets) {
-		const response = await fetch(target.url, {
-			method: "POST",
-			headers: { ...target.headers, "content-type": "application/json" },
-			body,
-		});
+		const key = randomUUID();
+		const response = await retry(async () => {
+			const r = await fetch(target.url, {
+				method: "POST",
+				headers: { ...target.headers, "content-type": "application/json", "idempotency-key": key },
+				body,
+			});
+			if (r.status >= 500) throw new Error(`relay: ${target.url} answered ${r.status}`);
+			return r;
+		}, config.attempts ?? 3);
 		deliveries.push({ target: target.url, status: response.status });
 	}
 	return deliveries;
