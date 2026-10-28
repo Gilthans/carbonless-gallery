@@ -1,5 +1,7 @@
 """WSGI middleware: one bucket per client IP."""
 
+import math
+
 from ratelimit.bucket import TokenBucket
 
 DEFAULT_CAPACITY = 20
@@ -25,7 +27,7 @@ class RateLimitMiddleware:
         if bucket is None:
             bucket = self.buckets[client] = TokenBucket(self.capacity, self.rate)
         if not bucket.take():
-            retry_after = max(1, round(bucket.wait_time()))
+            retry_after = max(1, math.ceil(bucket.wait_time()))
             start_response(
                 "429 Too Many Requests",
                 [("Content-Type", "text/plain"), ("Retry-After", str(retry_after))],
