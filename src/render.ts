@@ -11,7 +11,7 @@ export function renderPage(checks: ServiceCheck[]): string {
 		.join("\n");
 	return `<!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><title>Status</title><link rel="icon" href="logo.png"></head>
+<head><meta charset="utf-8"><title>Status</title><link rel="icon" href="favicon.png"></head>
 <body><img src="logo.png" alt=""><img class="hero" src="hero.png" alt=""><ul>${rows}</ul></body>
 </html>`;
 }
