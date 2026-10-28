@@ -2,7 +2,8 @@ import type { Db } from "./db.js";
 
 export interface Request {
 	db: Db;
-	userId: string;
+	accountId: string;
+	query: Record<string, string | undefined>;
 	params: Record<string, string>;
 }
 

@@ -1,27 +1,28 @@
 // Shipping: orders.
-import { log } from "../../lib/log.js";
+import { logger } from "../../lib/logger.js";
+import { type Page, paginate } from "../../lib/paginate.js";
 import type { Db } from "../../lib/db.js";
 
 export interface Order {
 	id: string;
-	userId: string;
+	accountId: string;
 	createdAt: Date;
 	currency: string;
 	amount: number;
 	region: string;
 }
 
-export async function listOrders(db: Db, userId: string): Promise<Order[]> {
-	log("info", "list orders", { userId });
-	return db.select<Order>("shipping_orders", { userId });
+export async function listOrders(db: Db, accountId: string, cursor?: string): Promise<Page<Order>> {
+	logger.info({ accountId, cursor }, "list orders");
+	return paginate(db, "shipping_orders", { accountId }, cursor);
 }
 
-export async function getOrder(db: Db, userId: string, id: string): Promise<Order | null> {
-	log("debug", "get order", { userId, id });
-	return db.first<Order>("shipping_orders", { userId, id });
+export async function getOrder(db: Db, accountId: string, id: string): Promise<Order | null> {
+	logger.debug({ accountId, id }, "get order");
+	return db.first<Order>("shipping_orders", { accountId, id });
 }
 
-export async function deleteOrder(db: Db, userId: string, id: string): Promise<void> {
-	log("warn", "delete order", { userId, id });
-	await db.delete("shipping_orders", { userId, id });
+export async function deleteOrder(db: Db, accountId: string, id: string): Promise<void> {
+	logger.warn({ accountId, id }, "delete order");
+	await db.delete("shipping_orders", { accountId, id });
 }

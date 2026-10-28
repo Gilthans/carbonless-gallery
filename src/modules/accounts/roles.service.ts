@@ -1,27 +1,28 @@
 // Accounts: roles.
-import { log } from "../../lib/log.js";
+import { logger } from "../../lib/logger.js";
+import { type Page, paginate } from "../../lib/paginate.js";
 import type { Db } from "../../lib/db.js";
 
 export interface Role {
 	id: string;
-	userId: string;
+	accountId: string;
 	currency: string;
 	amount: number;
 	priority: 1 | 2 | 3;
 	updatedAt: Date;
 }
 
-export async function listRoles(db: Db, userId: string): Promise<Role[]> {
-	log("info", "list roles", { userId });
-	return db.select<Role>("accounts_roles", { userId });
+export async function listRoles(db: Db, accountId: string, cursor?: string): Promise<Page<Role>> {
+	logger.info({ accountId, cursor }, "list roles");
+	return paginate(db, "accounts_roles", { accountId }, cursor);
 }
 
-export async function getRole(db: Db, userId: string, id: string): Promise<Role | null> {
-	log("debug", "get role", { userId, id });
-	return db.first<Role>("accounts_roles", { userId, id });
+export async function getRole(db: Db, accountId: string, id: string): Promise<Role | null> {
+	logger.debug({ accountId, id }, "get role");
+	return db.first<Role>("accounts_roles", { accountId, id });
 }
 
-export async function deleteRole(db: Db, userId: string, id: string): Promise<void> {
-	log("warn", "delete role", { userId, id });
-	await db.delete("accounts_roles", { userId, id });
+export async function deleteRole(db: Db, accountId: string, id: string): Promise<void> {
+	logger.warn({ accountId, id }, "delete role");
+	await db.delete("accounts_roles", { accountId, id });
 }

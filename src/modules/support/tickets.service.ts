@@ -1,27 +1,28 @@
 // Support: tickets.
-import { log } from "../../lib/log.js";
+import { logger } from "../../lib/logger.js";
+import { type Page, paginate } from "../../lib/paginate.js";
 import type { Db } from "../../lib/db.js";
 
 export interface Ticket {
 	id: string;
-	userId: string;
+	accountId: string;
 	note: string | null;
 	externalRef: string | null;
 	region: string;
 	priority: 1 | 2 | 3;
 }
 
-export async function listTickets(db: Db, userId: string): Promise<Ticket[]> {
-	log("info", "list tickets", { userId });
-	return db.select<Ticket>("support_tickets", { userId });
+export async function listTickets(db: Db, accountId: string, cursor?: string): Promise<Page<Ticket>> {
+	logger.info({ accountId, cursor }, "list tickets");
+	return paginate(db, "support_tickets", { accountId }, cursor);
 }
 
-export async function getTicket(db: Db, userId: string, id: string): Promise<Ticket | null> {
-	log("debug", "get ticket", { userId, id });
-	return db.first<Ticket>("support_tickets", { userId, id });
+export async function getTicket(db: Db, accountId: string, id: string): Promise<Ticket | null> {
+	logger.debug({ accountId, id }, "get ticket");
+	return db.first<Ticket>("support_tickets", { accountId, id });
 }
 
-export async function deleteTicket(db: Db, userId: string, id: string): Promise<void> {
-	log("warn", "delete ticket", { userId, id });
-	await db.delete("support_tickets", { userId, id });
+export async function deleteTicket(db: Db, accountId: string, id: string): Promise<void> {
+	logger.warn({ accountId, id }, "delete ticket");
+	await db.delete("support_tickets", { accountId, id });
 }
