@@ -1,8 +1,12 @@
 /** Comma-separated numbers; blanks and junk are skipped. */
 export function parse(input: string): number[] {
   const parts = input.split(",");
-  const numbers = parts.map((p) => Number(p.trim()));
-  return numbers;
+  const out: number[] = [];
+  for (const part of parts) {
+    const n = Number(part.trim());
+    if (!Number.isNaN(n)) out.push(n);
+  }
+  return out;
 }
 
 export function sum(values: number[]): number {
