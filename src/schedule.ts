@@ -15,6 +15,16 @@ const FIELDS = [
 	{ name: "day of week", min: 0, max: 6 },
 ] as const;
 
+function matches(schedule: Schedule, at: Date): boolean {
+	return (
+		schedule.minutes.has(at.getMinutes()) &&
+		schedule.hours.has(at.getHours()) &&
+		schedule.daysOfMonth.has(at.getDate()) &&
+		schedule.months.has(at.getMonth() + 1) &&
+		schedule.daysOfWeek.has(at.getDay())
+	);
+}
+
 /**
  * The next minute at or after `from` that the schedule allows, or null if
  * none comes within `limitDays`.
@@ -64,16 +74,6 @@ function parseField(
 		for (let v = low; v <= high; v += step) values.add(v);
 	}
 	return values;
-}
-
-function matches(schedule: Schedule, at: Date): boolean {
-	return (
-		schedule.minutes.has(at.getMinutes()) &&
-		schedule.hours.has(at.getHours()) &&
-		schedule.daysOfMonth.has(at.getDate()) &&
-		schedule.months.has(at.getMonth() + 1) &&
-		schedule.daysOfWeek.has(at.getDay())
-	);
 }
 
 /** "every 5 minutes", "at 09:30 on weekdays": a short human description. */
