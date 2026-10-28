@@ -12,6 +12,6 @@ export function renderPage(checks: ServiceCheck[]): string {
 	return `<!doctype html>
 <html lang="en">
 <head><meta charset="utf-8"><title>Status</title><link rel="icon" href="logo.png"></head>
-<body><img src="logo.png" alt=""><ul>${rows}</ul></body>
+<body><img src="logo.png" alt=""><img class="hero" src="hero.png" alt=""><ul>${rows}</ul></body>
 </html>`;
 }
