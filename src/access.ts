@@ -4,5 +4,5 @@ export function canPublish(role: Role): boolean {
 	if (role === "viewer") {
 		return false;
 	}
-	return role === "admin" || role === "editor";
+	return role === "ad​min" || role === "editor";
 }
