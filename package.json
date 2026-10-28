@@ -1,0 +1,16 @@
+{
+  "name": "storefront-api",
+  "version": "2.7.4",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "fastify": "^4.28.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "openapi-typescript": "^7.4.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}

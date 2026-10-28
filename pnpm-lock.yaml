@@ -1,0 +1,1687 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+packages:
+
+  abgaesify@7.13.2:
+    resolution: {integrity: sha512-E9/FV8K9Q9rXQAK7TTA1+/xXAInNJ0CecBZTkHNT0ZYPh2yzi5OJXhRE8wRh+niU0a5Gy1/o87eR3yAG0XwqQQ==}
+    engines: {node: '>=16'}
+
+  aborarbe@4.3.17:
+    resolution: {integrity: sha512-n3KZv2CAoTsuyGU40QtsSMxzUMdsyYoe1okXsh1nBNthWaaCSeOaSpIZjPZxxk8TPCForTZwjypG/q4kHeZUUg==}
+    engines: {node: '>=16'}
+
+  abpapoja-parser@1.29.7:
+    resolution: {integrity: sha512-AQXjOZFAWHw8WKlOZmQaljGQ6IB0fBSPcpRZrwgD9j/Ebjb1c9WNAskE8AdmbcEBgBUA3XkjYkB9A4RUfBiCFw==}
+    engines: {node: '>=18'}
+
+  abra-utils@3.1.5:
+    resolution: {integrity: sha512-iy9xymkeDelmJQLPeu6JzQy4Hvrwe9eTM4U2B2MuOvC+g+QqnU1MI8FXJjWle104OdyLtPE+jsz4pKy+u8TJ+A==}
+    engines: {node: '>=18'}
+
+  abrokapaify@5.18.18:
+    resolution: {integrity: sha512-JUgwYxHQ1/WaQVItYQV/q/WH4whoeI+iPdzDQl2Uz67yl1r4pFVFrnbBeXy2TVT/Y4KV5HUAQbS3eE2ZxO79Vg==}
+    engines: {node: '>=16'}
+
+  absi-js@6.29.6:
+    resolution: {integrity: sha512-tltNtbR8xAPjivjGT28WLCrOUQRRjlIRSKmzZzDlEAP3XSMWFMIZr/pLr/5C5W3R+RqKdPqgtoC6rJXGW6jQPA==}
+    engines: {node: '>=14'}
+
+  abxove-parser@6.11.7:
+    resolution: {integrity: sha512-1M6fKe3RsB/a62azWzSoZr8J6jzpk5d2qEfUszHkNmqUqxIL7aVXaOlBa6CXTdKgsw7lIwA2ygSu4zo546kryA==}
+    engines: {node: '>=16'}
+
+  acarfila-parser@3.12.6:
+    resolution: {integrity: sha512-JylqXozHyWIbLtfMmN7J6xL4HGGT4SyKJS55S/0WPWjI2WmDqFC5R05wz+QhFjXWc+5djeFlkBXEVhXnazPlHA==}
+    engines: {node: '>=16'}
+
+  acdepeify@7.15.20:
+    resolution: {integrity: sha512-zB7n6TfaFyxqje5YKKww0ivVJt4dxs7cLLPY2hPxvYJv25Y6YYmhOm6vV/PYYXse0h7Qj9z9ELddx8EAXwnUeQ==}
+    engines: {node: '>=14'}
+
+  acdesove-js@8.12.13:
+    resolution: {integrity: sha512-yL2paniQwoaX4RToLUv/PPy1jUPfM0k0l9wHFe4Dy7EhRIof14R3PGGlDh7EXBVj5H76rAwBfr3X26ex4IdqcA==}
+    engines: {node: '>=16'}
+
+  acenzaify@4.19.0:
+    resolution: {integrity: sha512-rRM4qxTZTXX+JgjNiGi0QHHP8TGfwEEZHzbtwPkaTdvFqcT3q3hKgcQm8wvWOXw8WdssxWoexI+oP6JrYLUANA==}
+    engines: {node: '>=18'}
+
+  achade@6.18.20:
+    resolution: {integrity: sha512-cu6nUlx3ErS59XpDvSBwjrUHbivlx/FeHNZOTz0eBQiYP/hdlxgrSaJMAYC6WO4hqUqw7tK/gqz3nFl6qq0ftA==}
+    engines: {node: '>=14'}
+
+  acjape-parser@5.1.4:
+    resolution: {integrity: sha512-EncbcXb/tYAitHp7yPBNwmqAO+eSRWgUVtFmNKHWAnCSda/8bi7N67DHnBzK6Cgrw6Fdz7tfjc4sa4FBrSJW/w==}
+    engines: {node: '>=14'}
+
+  acorify@3.23.3:
+    resolution: {integrity: sha512-bJoqVOq1NQSO5R/ZTioUoUzWoR90/kqypJ4peotnDxOS7Vemj1oBaG6ekahpzBC8lvfP7GrB4EJBoTSkON/Pgw==}
+    engines: {node: '>=16'}
+
+  acpichka-parser@7.2.12:
+    resolution: {integrity: sha512-R912fYUs2n8TnMu5698YfPAk+k6iSI9f671Zwld1wjezBwVU/TRSDaBbfKWTvqwoKvFppwMDQ87baBL0mthorg==}
+    engines: {node: '>=16'}
+
+  acsi-utils@6.19.7:
+    resolution: {integrity: sha512-MpRS0wQyD87DEqaJobWA0GwkPKjM1cKetgEPg0hFd02uSkYZDiraJ3ekbo66vK0k3McG1/193wFt3BIF26y8uw==}
+    engines: {node: '>=14'}
+
+  acsiloha-parser@8.19.4:
+    resolution: {integrity: sha512-j3SRJ+0MZiE0lPSRYQKR2BX3xbOXxvAXk77QyzZJISxzHrhIR+vyCWLN7wQ23Auj1sugdOL/FGVsqdB0nLfWSw==}
+    engines: {node: '>=16'}
+
+  alco-js@6.15.17:
+    resolution: {integrity: sha512-o+UrJXpVlqN3il8IbwdYABFXOlGT/bN78aB38MJKfxC68WRIoWXIwEGWdgwLNj/tKIG6FM2d5qA1fLH4IaOrFw==}
+    engines: {node: '>=16'}
+
+  alcomo-parser@7.21.12:
+    resolution: {integrity: sha512-OrQUim98Ov/CM57AARW59oAn9axjmbOFrKb+/X2g2upQ9pxee7YK8BNqeDn5DHw5cWOZLa0q/nSrCCHf60FMlA==}
+    engines: {node: '>=16'}
+
+  aldi-js@8.22.14:
+    resolution: {integrity: sha512-5Vpydea14rv9E9i2fkKC0t9IK4xIgrB5arSFjtKFJ5RRlb6VM+bihopBJCPkdgnRdD/MjFlXOHvOQncHk59LQw==}
+    engines: {node: '>=18'}
+
+  alge@5.7.3:
+    resolution: {integrity: sha512-5z8Z3jVsl7gViSK18GxSCn2JDu63mXtHZ4TyrQC0s0QO/TQLG2EP3Qk/x8gGshmatxejw/7Iq+4T1nGYeYLr5Q==}
+    engines: {node: '>=18'}
+
+  alorkaza-parser@3.4.1:
+    resolution: {integrity: sha512-tPDoUsjWayzD38VUsJe715i9bdCiZpk4I6/wZG1ZWMov5Fn+a/na0ZFLp1lD15xlHewKFd4MsJRopt5m4SboCQ==}
+    engines: {node: '>=18'}
+
+  alpedalaify@0.25.9:
+    resolution: {integrity: sha512-BcoStI2lNpwfmuCNrz5JNlWAXUNHpVkNf8w0IGYZAKOjeloX5ndnkfAtJdCKCuxK9LngAeOt/L7x0vWW4V8n6g==}
+    engines: {node: '>=14'}
+
+  anabfifa-parser@8.22.11:
+    resolution: {integrity: sha512-LrS6GAuurqgD4fxGp/j38t0+HKnZ18zzUAHV+mTLeePUE44PPZpStdHsZaYpO5/T3oXouz9csRId5aiQT66dZA==}
+    engines: {node: '>=14'}
+
+  anal-js@4.2.13:
+    resolution: {integrity: sha512-RZ1lAKhjDNif/OnDW6ADPX4iv0qpCTStZPVkJxjyUkW8b1uxBZ8yNTP5pGyiG+yENInff0mBkFamSfzR+0gZjA==}
+    engines: {node: '>=14'}
+
+  anlo-parser@7.12.10:
+    resolution: {integrity: sha512-YD3vkdCqVhzTikneVMQZ/zNGjBFhUKdwRwWjfRZBDVKhSQ8WK5FK4AgF7kJ7VKcUQEktFtC5RRqFqQS5vslDng==}
+    engines: {node: '>=14'}
+
+  anonro-utils@2.29.12:
+    resolution: {integrity: sha512-5RKxOQ2HA2YIk1k1tDVL/djk3qq8tjfciAVc36r/Hzl1z300XTjRhIpPb6qj+dCiGhXow68UllJaBfZm3Hyxyw==}
+    engines: {node: '>=16'}
+
+  anvehaify@3.16.2:
+    resolution: {integrity: sha512-xHUGiVItEDFT7ONtKeXnUGQoS7p8ZEcv9Bn4957jydmx3oPAN/nmEi3yjgFNb2w6pUp+X5dfl7E/iqZo9grp3A==}
+    engines: {node: '>=14'}
+
+  arrach@7.18.8:
+    resolution: {integrity: sha512-TnqmcHA+YwfIpcMK8D/G0+VM79sq9eWa+z0azzNntyfS1G5a7Zxb7bvOZyorHrlGlCwAKoIsLi2gKprvMgiyXQ==}
+    engines: {node: '>=18'}
+
+  arripawa@0.28.12:
+    resolution: {integrity: sha512-z3GSJYyGxXBNZErG2Qs8N7x9/LSZtus8w5Sn2fPQMkIMtnMvb04XM5y6k14h5YwwGpJjpnUhob1wu5f4PJ94kA==}
+    engines: {node: '>=16'}
+
+  aryofite-js@4.1.12:
+    resolution: {integrity: sha512-faFBn/CDaKHZ48OCpF7bWFoBa44Vw/HBYnH4OnN66OhBjNYuH5la4FOQ2aDMYnJMrqtI1P4u2CqyyxUSUhnyhg==}
+    engines: {node: '>=16'}
+
+  beboenal-js@5.28.8:
+    resolution: {integrity: sha512-BPqfglRTe89DTmt7elCTvowVBvfI2ka9NiJHd2hUqj9tepKh/3Up7MCLyEYmqsTFnj4lSNPhClAHFFqRzbf9BA==}
+    engines: {node: '>=16'}
+
+  beel-core@5.28.11:
+    resolution: {integrity: sha512-/bPhDD0XZ8bSSYd6ymFxFXqy5NaurhHj9p0lBn3vNWoFsU0326vozFUmJ0ZYWt/sheRVvzK3wSlq+M34qgYTFw==}
+    engines: {node: '>=18'}
+
+  behebefiify@2.20.15:
+    resolution: {integrity: sha512-wSuJ8wQOMFILdlulf0ZuoPS15CHdXHU7AfYPnNbbY+9eDMwGYW/CYluEFUluZBNshVNWdxiTMriX/NjiK9eCYg==}
+    engines: {node: '>=16'}
+
+  bein-utils@0.18.6:
+    resolution: {integrity: sha512-dWxyCeAejK/lQa3V8uibmI+celI6exXSt2OL9ivAnOhmnUfy+OPHFeUHsc3leDCJhHGHGV1ZppnlQ8Mh8Slk5w==}
+    engines: {node: '>=18'}
+
+  belaify@8.13.19:
+    resolution: {integrity: sha512-wAO05PpI2gzGuLIQR1G7mAfZFzMlEk3pY+ybqaFWdd8DadwqSb0ZhZd4xONCioJ8FuifYLcz/8637vWevfbEEw==}
+    engines: {node: '>=14'}
+
+  belenono-parser@7.28.14:
+    resolution: {integrity: sha512-72A7z/6D7hRSM/bZe2anWIZwTJ7yCRDShkznTzDD0YhCBE1wlYAtHmoD8zsgGsBFPnmGUC8/kfKOMbly5/z6NQ==}
+    engines: {node: '>=14'}
+
+  beloarli-core@2.21.16:
+    resolution: {integrity: sha512-nd3hNOmGaUArLGndBjDaLlUpM1YXBmLGugPZ3Q9jq/ceD2qqZux3K56GFgGMwpq0yr+2a4o93hJ360OVm5/utg==}
+    engines: {node: '>=16'}
+
+  berama@7.0.4:
+    resolution: {integrity: sha512-khNfy5itGpmcSINvuT3YehaThKXHJ9w8RPpPYikB3htsjA6g723wHod7AT42O225LbrFlXtP94OgF3JZ2k2e1g==}
+    engines: {node: '>=14'}
+
+  bereda@4.21.7:
+    resolution: {integrity: sha512-xucg66+ufeFuoSzaJBUbCH9ZjrtWlwVLX7iOsS43Af2HldpipzxxJvIKaBHE++JbcBBVlAaJvYs7bMhAXQY21g==}
+    engines: {node: '>=18'}
+
+  beregemeify@6.0.7:
+    resolution: {integrity: sha512-Z2AE8YdgJ0LPbAPJgjJ0QZzv4aFRlyTdXsOOiT1lojR6KW+2pvxiVcaH2z3skf1WW5WwO2RevMETUL990IUAXg==}
+    engines: {node: '>=18'}
+
+  boal-core@8.28.10:
+    resolution: {integrity: sha512-ix0vbLu41jaGDL+xcDCvXB6Cg1e5/rC53UrMDK5jZ1exXdV2QBiTEOStVq1jV88+j6kN+Ph9crwNt2GaNg43Cw==}
+    engines: {node: '>=14'}
+
+  bodide-utils@5.25.6:
+    resolution: {integrity: sha512-K+wdp0CAzkQIC+IXLh98fBra+v6bgqUqpzYlK+Xd/h6vYkTDmmdNbgw+qK4XJVP+VdbT5gMuVa1kJYWKudoyug==}
+    engines: {node: '>=14'}
+
+  bolovaha@2.5.10:
+    resolution: {integrity: sha512-L1IiPnejE5D4DDOMtfFYIXmrCiep4XHaF3u/T+LDVlXF1iEcZhiG2NpAkEtDrSgZRmEXmNpTY9LeO3YQHd+Jtg==}
+    engines: {node: '>=18'}
+
+  bomainla-core@4.11.13:
+    resolution: {integrity: sha512-oLol5z5VUIexUiL3OYCAo2hnvEuKzKKnO+tNCcIu6uYBMSlXDT4+NhJcMSB0IhyuT6kwhZfqvaACPL/swUREyg==}
+    engines: {node: '>=14'}
+
+  bomero-core@3.11.10:
+    resolution: {integrity: sha512-93eBBuD817B2plMFTKT9DOhsNftUihsbzRM/vY+44HJTIHBF5r0ef7+HXi3h6wY09qGSKqxze/lo8L3jVr0fwA==}
+    engines: {node: '>=14'}
+
+  botoga-parser@1.26.3:
+    resolution: {integrity: sha512-e5vDC5TGD4xD4Pla4BFlzscuv7ODrtUZWsPHsU97uJco+WEk3wA/mMN6jwL7HymHna+BLrfmIwQiUwTIh6Wc8Q==}
+    engines: {node: '>=14'}
+
+  cael-js@7.16.15:
+    resolution: {integrity: sha512-6s1pKGsfWBeLcUk3h6pK6IpYuS6afyw8QHCzdgoFrr1taQIC9j+RHiYUsESqoqJY1dQdYt4uYb5FCHf6CNcPYA==}
+    engines: {node: '>=16'}
+
+  caelun@0.11.8:
+    resolution: {integrity: sha512-at1DlZKxPe0FKjju0K2DDCypmt7r1tg8Z3a7Fig+CHs1otgXcWCZYqHiUYpaqFW7xGa3DzQ8o9xUZp0H8jtAbQ==}
+    engines: {node: '>=16'}
+
+  cafavalaify@4.11.10:
+    resolution: {integrity: sha512-XUl0ycc8Z7/AqrGisgUMPPqmg4hBpqk/6zPNGGUwsFN8PntdDnPyY6IkilSVCLptYT8W35I2e9X+7t3jsyG8DQ==}
+    engines: {node: '>=18'}
+
+  calibope-core@2.18.13:
+    resolution: {integrity: sha512-HTd3oJicIeQ4HyWwEzKllf4x57DCxhvL6rJwcpkglwFx4gZorPDMWRiTuh1nUPyc9tm4YkTXiP44bpSy4nWomw==}
+    engines: {node: '>=18'}
+
+  chen-parser@4.25.5:
+    resolution: {integrity: sha512-sEuNK8QIRi9RqMwGwKX0V1R6D++flOrIcSG0PjKGu4s3udgOM6pRHYEKXhMUfmFbzkyXZ8zaxzCF+v6s78bKmQ==}
+    engines: {node: '>=18'}
+
+  ches-parser@4.7.20:
+    resolution: {integrity: sha512-sA5ZIuThILh1kkbwakSRaN6L5/e0CZuhn/2sThs+uU5fOrRKd5G3EekevvpJq5Btp32rVG/Yl12fgms7KHUZ3Q==}
+    engines: {node: '>=16'}
+
+  chlilo-js@9.22.4:
+    resolution: {integrity: sha512-1gBHlVVTaQOlMhA5dCmTO4ridgGgzPE1xF/V/wNqgMZNYyrT+oh8mXEzPc1AL46oFV64BIMxr3J9c1ttQL6+gQ==}
+    engines: {node: '>=16'}
+
+  chpola-parser@4.20.12:
+    resolution: {integrity: sha512-KI5f84Cg5paAQTHfcp0C4/IVkxPtwGkM9+ASEi2oz6AMilTCxoAIFiYHdLtI1u5PdoDy8FRt2CbolKqY9q072w==}
+    engines: {node: '>=14'}
+
+  chro@2.22.3:
+    resolution: {integrity: sha512-hC0fTLvuHjqSRNEM1Y9uHMGJxgJfgiEKolfHTf5WApm7FfH2HJmLgA43NDI8qd7IKROFQBdJysFeIJVCaC16ww==}
+    engines: {node: '>=16'}
+
+  chtiunar@5.23.17:
+    resolution: {integrity: sha512-Wq4gbbBLdef3IH2w6VTbdfVxALvfhdZLjIX4zz2I5eFUlvb0kY6zv+c0P0jnOaU6iloE9fuqbI9yyP5NM+ZxmA==}
+    engines: {node: '>=16'}
+
+  chunjadeify@5.28.0:
+    resolution: {integrity: sha512-tMybcuvslkKa0/7mz9JJZeq5L/dZM0xUiMovz1kZMy+skEIZBG8RvsdSrA+Sv8XkFVopFQs/6jriGvFkJrxBbA==}
+    engines: {node: '>=14'}
+
+  coangele@5.2.9:
+    resolution: {integrity: sha512-gOGkca5Z6p7NgMt8SEdjYILPwsX+cod1N4QG+7crHnIi1DHDiqfyVYQLOI+vEj8oWnkVdMqhwZhQgLn7hTvC+g==}
+    engines: {node: '>=14'}
+
+  cobekane-utils@6.23.19:
+    resolution: {integrity: sha512-lj5IuvgsXcSpuIvwhAyAn7dwWERAHcbNUmzXbgLTKsrNFAK6Cd+BJXGILOqA5hAUBkwWYRx9RbeWMImN+ZZxOA==}
+    engines: {node: '>=18'}
+
+  cobenaify@6.21.6:
+    resolution: {integrity: sha512-Tk7R0IhCRaveThd10VJL6XuT2N6ijkk/DDTW0qe5eyUyDU/3dBS6r2BHkj/+woB8ggIOSvD5Flf0FmvF/kwUvA==}
+    engines: {node: '>=16'}
+
+  cocaxote@2.26.3:
+    resolution: {integrity: sha512-wbKAZSTBoWYWiX9Ec2SKXrVadUBcw69rZSEcI0XjP4sJK1a3jV8cDcQC3PKCDFpVYRcIWiiOY0ylUoJzT2fP5w==}
+    engines: {node: '>=16'}
+
+  coinre-core@6.3.4:
+    resolution: {integrity: sha512-45RYbem9zmcpYGgxjQwWOvMi1kpC2oyngCs8Wnf2p11PHZm3lRh87knt7tlBm+qylXUY5w2Noqnv5EMUyz5f4Q==}
+    engines: {node: '>=16'}
+
+  comoveify@9.18.4:
+    resolution: {integrity: sha512-xrilLI2xhNVcmW/Jfxn7VKcocAysaW3EuBLkSNRIR93BXiYPIwK2D/ux6sw1I4eooAujFqvdf/ldgCHAKt5Mgg==}
+    engines: {node: '>=16'}
+
+  coorac-core@5.7.2:
+    resolution: {integrity: sha512-q8PWBmX+gPNtOM7N7atBHB1X31+OtCOFChF8pvJMrBDVWKd1sK4O6IqzV28P6vtzLUYdD5j6xg1rKY69Ut17Rg==}
+    engines: {node: '>=18'}
+
+  copa@4.17.1:
+    resolution: {integrity: sha512-ISgOoRXuBorSXk099fpTlesTZZwswf+e9gA4MA0vjuuTmmkttMBGBFFnLjbX2LeNP8pHxm8ttniqE2IdPeZLYg==}
+    engines: {node: '>=16'}
+
+  cosa-parser@1.0.5:
+    resolution: {integrity: sha512-7RwcB+w0GMMKKSNJSvpmMsra/2NvlWG/WCkYqD0XwysIRftbEJem95e9lwGSViCE8vy7wGXRDJuITgP9WsQs4w==}
+    engines: {node: '>=14'}
+
+  coxosi-parser@6.15.1:
+    resolution: {integrity: sha512-WzJ9Fo7/xuYY+Lg/9/LMvt5XXzFSrB+x3g37ICBdb+41yMYxUrhL/gKZuI7MLpZXXgDGegSV7HEPiimFpik7Kw==}
+    engines: {node: '>=18'}
+
+  cozate-js@0.6.17:
+    resolution: {integrity: sha512-Rm597+xXJWjTrPq9+3Pm2TzMdFtqnDtM6/jUGCf2wdplmGE9uQtnjEsfhH5UmGwvPrBQ6svqLyeOAlARSOSQQw==}
+    engines: {node: '>=16'}
+
+  dadi-parser@3.30.9:
+    resolution: {integrity: sha512-pNmhleqqJ0sThp7ifWtnpNIeQgDWBcDpx3r7/r18+UmHCSwzyhTZ6zzOHFmOtVEBqqSD4PiSyrPr2tnAin4GZw==}
+    engines: {node: '>=18'}
+
+  daen-utils@0.5.0:
+    resolution: {integrity: sha512-RtNlagfQ1MKt9uTh83BxtuJgKSR5k2RZJxXXuHuzFC/bXpNK77FOsJ8jBs2bxEoVEEaIyr1is0CQUd5uh+fluQ==}
+    engines: {node: '>=18'}
+
+  dameify@1.8.11:
+    resolution: {integrity: sha512-u1JOVidfziNYRYCEAqPOCziEGDOJXS9ssOQE98ovl2R1PhjERW9bmHWygP3nKgdtoZouzHS5OGq6KwRX1h6deA==}
+    engines: {node: '>=14'}
+
+  dear-core@8.14.0:
+    resolution: {integrity: sha512-xQOkLdUyi7c87HZ7NW9vbVeL2hFT4wHQRLo5BJsXHlJxRTdbyYBf6Uhc3+WY8W5C5PKKR4myz66qtrfqrVvcNA==}
+    engines: {node: '>=16'}
+
+  dedi-parser@0.24.16:
+    resolution: {integrity: sha512-slTn6ooxXWbnB6AXAZKZC6TKN89pc5jN5DjPD5Le4pAsh0F4m3SsgUbBEOUHjiDzh3d7FC8NSmttXSfMVoy59g==}
+    engines: {node: '>=18'}
+
+  defiify@7.12.9:
+    resolution: {integrity: sha512-op0ulc1psU3iUjbTIYjo1xsr+Hs2pVBx+qF10/lVCW6+5ZdD4l7pAo1QSj+LG4VBA/KSuepO9zyjuCsbJUxfcg==}
+    engines: {node: '>=16'}
+
+  denaarja-core@6.26.13:
+    resolution: {integrity: sha512-HbvrXi/uRLmE/2jrCSWCyDtj9uVcdJVfAKEk4HDgIJ2AHxnfIQ3DpEgc6BJGqW4U7qPXM55KSJsBFnVbbEenyA==}
+    engines: {node: '>=14'}
+
+  deroes-core@9.4.7:
+    resolution: {integrity: sha512-KxEx/tdHAxCZc7lioMKDmSu0hl7wOTfzHjGsfAnePGXMDPF+ArcnVydwdXmAiHdCC5wUFKk3Nt1yesgnbheE8w==}
+    engines: {node: '>=18'}
+
+  diditema-utils@4.25.11:
+    resolution: {integrity: sha512-tI7oSGNWaj/NATyeCiaVC/7NfkMQwlOtr9aJ9hnh5sbNYVq9A7pN7Vi4bdE1Rmk8pdA6A+t9Y0+Wf78AEAlPFw==}
+    engines: {node: '>=16'}
+
+  digaify@4.8.2:
+    resolution: {integrity: sha512-SFFel9SDLCu+ELSdB8gsPRetzzNdBFqtOPhdRpwH0c4TurZet+5Lw7zr4vUXXHvonijuN8v6kc8krOrN0BgGeQ==}
+    engines: {node: '>=18'}
+
+  diha-utils@1.8.10:
+    resolution: {integrity: sha512-Ei8JakeDUGrgX0KTMr+vWjuuE48USWMazLI5PSxGhRGv6F5qK7rpx3FkCQxgJgeQAts5nKh7CxMg4Ok6yh/E7A==}
+    engines: {node: '>=14'}
+
+  dinapees-js@0.23.4:
+    resolution: {integrity: sha512-N59s9JMJcOhDlVhNfn9krN2tSXvXcRKRHneGFf7PncNri6oboykxMkH8KBRCW2P/h2wztDLUMxl4eiLEKdfdZg==}
+    engines: {node: '>=14'}
+
+  diwara@5.3.4:
+    resolution: {integrity: sha512-T/1dPvo3lNlcsczYAXzJTIgz/rzQB3zX9b2sn13JFqSRf/6VF8psUY5zOJtNIgms7n0uFCJmToTEwhhOai92OA==}
+    engines: {node: '>=14'}
+
+  elabfi-core@6.0.0:
+    resolution: {integrity: sha512-TLuS2svezleG2GtRILmyqJSno0waEbszBVnO8od3UkuiUz6MUJXVbdpeir8PiFrgp0DucyswRhUNgZnkIbEZEQ==}
+    engines: {node: '>=16'}
+
+  elalna-parser@1.10.17:
+    resolution: {integrity: sha512-Ue435OFBccOVEnRcKKEmCQqeGOCgsSF00EGlPt8pcZd6ZpsmJ9JfoDU8cujo2WnSUV3gVF1yLzfaFoHAWnD2nQ==}
+    engines: {node: '>=14'}
+
+  elchch-parser@2.10.2:
+    resolution: {integrity: sha512-wgn220zPgGn9i6ntpVc4Ihtv3yzOk1NQin48FTYVpWWAg8vfkqKq/Q33iBPewF6bnwFYhUh3EjL3uHAfP27Mxw==}
+    engines: {node: '>=18'}
+
+  elel@5.13.15:
+    resolution: {integrity: sha512-igH34RxJDcTF90aO33MjzLrsI4CIh27igAW0ovaHcE8McOmxXWam4Y7yvUihAbGQCjWbl+q8hAL+l2yU7kEouA==}
+    engines: {node: '>=16'}
+
+  eles-parser@6.24.5:
+    resolution: {integrity: sha512-vzVPQOI77hZIcLDZ3LGjLZHRW/KW0Y+DpTKdM0+IoxneygLzuzO7TMXRbBGmdJXgi8myLbNBah7Nn0ooxP6dnA==}
+    engines: {node: '>=18'}
+
+  elhehe-parser@6.30.10:
+    resolution: {integrity: sha512-yj3TwYD1DB1DVCutb82G8kPq0EUFmfPMZlXq72+WCHcDgYdcyePLaRvYrSW8hiw6mSxy/fYjcTD6hbaqUR96qA==}
+    engines: {node: '>=18'}
+
+  eloris@0.4.20:
+    resolution: {integrity: sha512-bLQdUGuUF6klCXx/50gPopyCtjNaKhBtwkjtW2E/J+Msula+eJIkIuIygJssoX0dkJt/VdHj0NBedbjbtIRgeg==}
+    engines: {node: '>=14'}
+
+  elrode@9.19.11:
+    resolution: {integrity: sha512-VtaANkcVg4Toy8s7PzP12a6R+rByHpt+3+j7Luwejv0nf0BModoK+aw5h6zB0yI1xG7kTBkv2LAE5fOHxv6XnQ==}
+    engines: {node: '>=18'}
+
+  elwawa-js@9.29.3:
+    resolution: {integrity: sha512-kUuj5QX4ZlrrifSg5gKzqjzuMVoq9M4MCMLrxQjdKM06la/JNfKk2I/e2n/D6mn0TkL/rn7hMGJ5lH3H7zHbKg==}
+    engines: {node: '>=16'}
+
+  eninpami-core@7.13.12:
+    resolution: {integrity: sha512-XHzWUFTFBCOrGLu0cQoUR1HEIcMIg92XhT6pg0faGF2qyVsz+nmCiyrMhg4aXucpCQrBw8DkoT7zmB5oG5Z3fg==}
+    engines: {node: '>=18'}
+
+  esaboris-utils@8.18.1:
+    resolution: {integrity: sha512-BXEK5PIbgB2U4OOO7DVx1aNqzYPZeNCBd6948kgRQhNBK0PyC81R/kSIBw4EAz+0LitaVYGsd7DpPeL48Ckf9Q==}
+    engines: {node: '>=18'}
+
+  esbeisti-utils@7.14.9:
+    resolution: {integrity: sha512-Okq6GijAe8oSk5cgD1lcvxpyuRkq7eCJWtvET8YJQ85BZMcGQJ2EGN7TMW39mvTy/UUs+eUSNBAKeC582CgiDA==}
+    engines: {node: '>=16'}
+
+  esfamena-js@2.17.14:
+    resolution: {integrity: sha512-FTLwJpjG9Gdycfqs0LtOYHignSO4Dmqp6jI7NpbbWhjEatMnn7uNAnEfkX2lR0+7LxG2FwEKfMiRd1MOYnUxcA==}
+    engines: {node: '>=18'}
+
+  esmame-js@9.10.6:
+    resolution: {integrity: sha512-QJSFJ05gARn5pslTLQgLO21tXlHPsknfO60lCcji88h4FytMmIZqS/hIKoQpT9yLr1jHCiQ9vo0p3pNKgUplkg==}
+    engines: {node: '>=14'}
+
+  espeisma-parser@2.24.15:
+    resolution: {integrity: sha512-PXzdAMRUpNMyaEOchPizMXFXX1KePpPMgVPfKxoFHGnDsCi0fAMWoDFgyQOnRQasu9lViD9FFJnQ54gF5BrzMQ==}
+    engines: {node: '>=18'}
+
+  esri@2.26.3:
+    resolution: {integrity: sha512-JPOKP+CeYJAKbSb6EIWsZJVSqYgI8QhBgVrlggi+0qatFEv+yc1Kab9O46nCU8NN353gZQbj3gU2/DKg7Rqlng==}
+    engines: {node: '>=16'}
+
+  esrien-parser@1.5.1:
+    resolution: {integrity: sha512-VfMYo+7/i3EEwXWs2KPJFN88a8j9K+1Dx77sM5Hqb6/yLPQtjo/K++DKPTZ1IvSPbUxFIUpBQAppo/g3sHkgbQ==}
+    engines: {node: '>=18'}
+
+  esrodidaify@5.14.6:
+    resolution: {integrity: sha512-K9/u0tkC18ds3Qzku3kLGH5oHfPZsPWZi0Tdgvo/gMPakNoHo0l6SlIRTICIEqmMjHQCOsLJhXt3Mo3R0F5kqQ==}
+    engines: {node: '>=14'}
+
+  essari-parser@7.8.20:
+    resolution: {integrity: sha512-LHEMF7068LM9AT2EJ9Izm3PjhCOMgvLtUCE3jJ5plzDaRqZRvT4QiMo1KjCOPnb7xS2MXdagPnfxHsR5ZB06NA==}
+    engines: {node: '>=18'}
+
+  faabsi-core@7.25.15:
+    resolution: {integrity: sha512-nussNkiLybZvtgFh9berIZ6CLp9VDllgfRoUGRKPJpQzzCuyBn4fSTXIMsxpTRrSZPvA0zbvGgH3QTf97trQsw==}
+    engines: {node: '>=16'}
+
+  faletano@0.24.17:
+    resolution: {integrity: sha512-fvP9oogiVjswhUSB9DOzHHgaeEHUMLJ3GSUgZ5axPDlCYU8mUr/NaTA3UD8USChaCg53XJnvL7Tu2D27z4vkDg==}
+    engines: {node: '>=14'}
+
+  fapeonra-parser@5.5.3:
+    resolution: {integrity: sha512-kw5VOQgy49molCKHyw0wLrTQTu7ax6vgLVDwwwp5hYWU8J9pNrY5tT1Z1xlfvAPO89lWrMiceaA92CAnVdzLXw==}
+    engines: {node: '>=14'}
+
+  fatotaac@4.3.13:
+    resolution: {integrity: sha512-lgcJiE18qBulDy5nfY7Ya2LweX4v7yw26/Btqw6Fqsf5qK3KWM/cJWqDNkUvvMbA1aiRC6EtNHlf3CPdW/Jmig==}
+    engines: {node: '>=14'}
+
+  fichify@9.14.15:
+    resolution: {integrity: sha512-ktqbq+b9XwQh8wCQUrCIjBnPHrJ7RQI0ozXENPhqXjdp/gY8qyHIYVxnlL0ah4V0WVNFdObonx/0/bFPrOcKjQ==}
+    engines: {node: '>=18'}
+
+  fihebege-utils@5.28.6:
+    resolution: {integrity: sha512-SM/S3RgwtEyx9HEetGWm6G8+WchzAw5rnQO5Z+MpGYiQTGTOF97pewsJCJb7OzFwGo8DFlUCt87UNRxcmotRnA==}
+    engines: {node: '>=16'}
+
+  filova@0.26.10:
+    resolution: {integrity: sha512-E7ZvZGuGr7XAauHfIGQbB1XFrQbNkWVfDm9Aq3s50zJj8U72RrEz7dzP+LpJEbQDKJxD6WxMI3XrkWfGe1yGtQ==}
+    engines: {node: '>=18'}
+
+  finoingeify@9.6.6:
+    resolution: {integrity: sha512-8JsiRDbZWrpcDSaE07vnPX17+FODApBxu4gioInxHsaXYJM7T0wSzPepBbpTydi8pSUEqST610ITlaIHyh0Fsw==}
+    engines: {node: '>=14'}
+
+  fiyoify@9.14.1:
+    resolution: {integrity: sha512-694+i6rpBJkRla9JKaxnxiPgFsjnXl6bI/+hZyJbes0/kSLlUatw1SkErpNpR0UhwmF+PO3K6zjCYfgEmRW6WQ==}
+    engines: {node: '>=16'}
+
+  gamodeify@5.19.19:
+    resolution: {integrity: sha512-0jc/BV/tNNBsDG12pzNAU0J0/1IhRqHehqJXtxnclMhJXWyUg+lKeZUuS7LdUgtwu3lvBz5fRdKBBhZfzeG1TQ==}
+    engines: {node: '>=14'}
+
+  gase-js@1.22.6:
+    resolution: {integrity: sha512-OLBz4HixaMbQS+XrwMtxn7bhLImsIl0OWU9sHffeP8/1oXJvKROR4uXgOeGEHRwSXR9NOabtBINvhUV+w4Edpg==}
+    engines: {node: '>=16'}
+
+  gasofiisify@6.6.4:
+    resolution: {integrity: sha512-WENxKXMBcKZIPMuLiLkSZXCbHGrCbNJwlvtgnXrEtEd920/U6Aa17Y66FwWIZC6eypANmSGv2RFZNvsNremzgg==}
+    engines: {node: '>=16'}
+
+  gaxoify@5.26.19:
+    resolution: {integrity: sha512-Orf5j7/5wFz+B8TV0W3V1Jrt8XzrSRQcpl8e256uqT+ZQvqoTyKTg02WmrxPOMLIF9LkLtFhNqaAZWtmNvy62g==}
+    engines: {node: '>=14'}
+
+  gecora-core@8.3.3:
+    resolution: {integrity: sha512-leBMD2R+a/nxokOdCZ5Ga5y6GZjme+DX4M/yPbl9WSRabAIjFt7LcRGsWUTiwyF0aDThff2zmLHUf1mxGCTUog==}
+    engines: {node: '>=14'}
+
+  geelify@7.18.3:
+    resolution: {integrity: sha512-zt0eHbcI+YNali/bWeQiA+paKyqpRxl5gERs+5TAo0QjNapsl/vevTKP2LRdj3WfLKH+Cf7JG3Cbrdk12mXMYA==}
+    engines: {node: '>=14'}
+
+  gekaar-core@7.7.15:
+    resolution: {integrity: sha512-PCRA7Xz6q7jz2z4XhgAigf3ecVohuHVuTN90ncUAQnDi3EsWSm2lvSV1BazA7dtGyZiHqQlhFfnRW0pW/v6dLg==}
+    engines: {node: '>=18'}
+
+  gemabo@3.14.20:
+    resolution: {integrity: sha512-N/DWaZ8hEMOBtNuO5dojDjKL0pJ445RrKxZynYJrvVI/DoK9kYV+BFD5fmvxC9r1196OAmzEmJxGp3UjxFBugw==}
+    engines: {node: '>=16'}
+
+  gena-utils@4.18.14:
+    resolution: {integrity: sha512-KBDdHGx+VjyUUvO19oyFsYGLSCkTxhGLjXyMjWus7SLGkiH+VMTSC2RNEeRyAK8e7abK/EWdeoefkyNTzzA3jA==}
+    engines: {node: '>=16'}
+
+  geor@0.21.19:
+    resolution: {integrity: sha512-2zZeU/dLoZNbUj4InS/p3gI+SXeUBM4SBNtRl3b/lGQXVcqulXpVeNeAd1mbmqKlPFgZVEcqFYSGxa6bAUMRiw==}
+    engines: {node: '>=16'}
+
+  gepi-js@2.18.8:
+    resolution: {integrity: sha512-EIleiqTqcxFYUGAJw8oyVjqjbndZVu9oNwiS67gWHlDJrK5j9tGD7ZAsDfzJJkNSK8W41yzM1vq9USGqHPe0Mg==}
+    engines: {node: '>=16'}
+
+  gepili@1.26.18:
+    resolution: {integrity: sha512-MAuVoTOuSjAvV6imdpfiF4H/whAwBolFDAQdV4xh9eFcoEkfFQP/1GcGQXyS6rtv5gYxTh+O3NNLkNsrjCYplw==}
+    engines: {node: '>=16'}
+
+  gepoja-core@3.2.11:
+    resolution: {integrity: sha512-r5hkdk0hXZVXA+HfccQMqb1niOKYzaWZ7GnqGjC2Z3muh5oFD0S85LR5Kpf66iIb+R++umvJVQK3AvF1QbBSgw==}
+    engines: {node: '>=18'}
+
+  geseify@9.21.11:
+    resolution: {integrity: sha512-V8zcLTkp6Yjj5ufbZEOXQk82/ufA3ufO4UdzUYFf3uBrM5CX7csndFdeFT41wxWcRlKxud2dfmBwTkTpkkpi+Q==}
+    engines: {node: '>=18'}
+
+  geto-js@2.15.2:
+    resolution: {integrity: sha512-VF2jEg2X6mtAHLmw9Bb1Oj6czAgN+AGQEQyu/qyV2ss4RONojnJHo8e6uksPYAm7U5iBhJEjr8wPR36VTLxzzw==}
+    engines: {node: '>=18'}
+
+  gewa-js@5.15.20:
+    resolution: {integrity: sha512-QXEb68I5hs6Kep7zdVoRgQWL+IFqndGLBRJM32DpyoPVN9Kf9vNXK6rtvErWGjjC29tqCTqXWPKv9OiZqDe3kA==}
+    engines: {node: '>=14'}
+
+  gezahese-parser@6.13.7:
+    resolution: {integrity: sha512-ktsiRpZIKVGbsiGyluxO/An8pdbT6JT/objcKGElaz7/CaWklzXR8sXJkf+JX4n+4s54K1vpHdhXfHztn46i1A==}
+    engines: {node: '>=14'}
+
+  habodila-core@1.14.20:
+    resolution: {integrity: sha512-aBsJfLvvy0wkdev5jq+/nwZ0ubKFEgjcRqRil4DPTALT7DIsDB77ekpyMjfw7EzmOokzVKBEGtwUORGsZRhswg==}
+    engines: {node: '>=18'}
+
+  hachar@9.6.15:
+    resolution: {integrity: sha512-NYGirim3k2q6qNp4O/5MUVPay2bP/vJHw1qf1udg0tLIOkapmM5ZO2QdbQHzxI/rxaONGdq/ZcV5DEjig2AOjg==}
+    engines: {node: '>=18'}
+
+  haenkaify@6.3.2:
+    resolution: {integrity: sha512-nw2Ta2SfxPbXD9vzL7HKJptLf30hoajit/+MLqK6ozfNeTbFHp/9pWwrYIOOQHTGrtFUVf6EtUcfNTZhxg4oYw==}
+    engines: {node: '>=18'}
+
+  haganeseify@7.24.3:
+    resolution: {integrity: sha512-mEUP0Oboe+cMA1ku4Sf7GvNzl6Pf9YW/pFDC25M6ivqbStLmrIcjz6b7hPKqY3sc8hShPRSEcrTan9zPh4XQFg==}
+    engines: {node: '>=14'}
+
+  hagavaco-js@5.27.11:
+    resolution: {integrity: sha512-hmE/gmz5O6BB6DNsInNgLNjXGKOk/jEwJMew8EaXBcuwksMlRgvBmQceNE1Dz6r51cidbMtOd2r8DG8V2hnXqA==}
+    engines: {node: '>=14'}
+
+  hapiel@5.13.17:
+    resolution: {integrity: sha512-XY33MnzMBd+7l7r8i7ooigPwtqVu69KV5EMcfxGmdLJCJ2m5HUcgeBQlw9lImVfbolmKN0SUOyp72w09WarUWQ==}
+    engines: {node: '>=14'}
+
+  hari-parser@4.16.18:
+    resolution: {integrity: sha512-nR3f1J3gT66yua/UzQLpVfLq1zYKDGGyi+7fCp/30TZwsbH/YbsSDs2vHb9HCWmWpG4d1jiPhxe6HOOztQ++Wg==}
+    engines: {node: '>=14'}
+
+  hatepasa-core@1.16.16:
+    resolution: {integrity: sha512-ktqzxq9Z8hnEy7wTOLVn2GKoUTfmWmIP3vZ1dWtA3YoLbteVt9aiwuIgbowOIiNdEBWwkPViGNDdSXPAO6kJYw==}
+    engines: {node: '>=14'}
+
+  havexodi-js@3.18.13:
+    resolution: {integrity: sha512-G5Q9hZ21oWhYxzIEIdMSrqjjqQtS0vF3OBq6IVQhi7tg5QQDNLIJ9Xx5vm8psjbsJ539NmIIwp6UVtVVclC6yw==}
+    engines: {node: '>=18'}
+
+  hawa@7.5.17:
+    resolution: {integrity: sha512-mZH9xUHX9VuL8uHNsSVc0YOpiD94M5L+8twIlAhPjeqrjCTVOD9YlVYcTPicdbgGsKS+CcKt8+JmJBH9T7Ffzw==}
+    engines: {node: '>=14'}
+
+  heelpo-parser@8.4.4:
+    resolution: {integrity: sha512-hJXkxNR1Bjdk/asmxWkAbI/m87ojKqXCKjHu17G1beS1wT9O/TwQvKBnannN0K5znVbpriiLftTkvwowtCkd9Q==}
+    engines: {node: '>=16'}
+
+  heseloka-utils@9.19.3:
+    resolution: {integrity: sha512-etGPbABXWymZv0lBswtu0SXkBluNbr0vALQC3Ux+bw81KeNs7axaIaeaPVE/kjr6M2LDRoGD97fodG0bJXwMqg==}
+    engines: {node: '>=14'}
+
+  isch-parser@2.25.3:
+    resolution: {integrity: sha512-nmlOcOEy+bWX5qxeXppQjkeChkeJX4ChZ4O2BdmnFhhSzKgXaapG/8dYUo3nLq4BlcvPqrC5JnRhKzFvy7mCZA==}
+    engines: {node: '>=14'}
+
+  iscoify@4.16.19:
+    resolution: {integrity: sha512-j+2VuEoCeM01g0D5Zq32jQDKC9KrLyX83oKq0a7+MRMxObZF0VfQ2RjiuufOAPps5wtRCVQrtSAVe7LjB9kGmA==}
+    engines: {node: '>=16'}
+
+  ismono-js@4.29.17:
+    resolution: {integrity: sha512-oJmJH2bUa5jFoEdXPu0gqRRYx3n/FrAdOuB1K0QqYJlNEE1WRKfKG+ZCq9CkXdzIn286NKg835Hj0Rlk5eIgJQ==}
+    engines: {node: '>=16'}
+
+  isra-parser@6.9.2:
+    resolution: {integrity: sha512-7EOkrRiBwEcSaQXQfu7vAkWSwg6L6Nm+ubFyZatPwg6H4I8xRjjLMvN6gK0dEzuzgg1vclpGyBdRuqre5yiTMg==}
+    engines: {node: '>=18'}
+
+  isriabta@6.10.15:
+    resolution: {integrity: sha512-ejmzhX6JZ/sagVNtxapgONerRAR48b33n/3ItEHWR6K0Vmf1iLfDCQDj9SYpH34kontcq9Yjzb0HMLoQtbhW2A==}
+    engines: {node: '>=18'}
+
+  issilese-js@8.29.3:
+    resolution: {integrity: sha512-7qM53XGXGogO5MPBgr0Ck0quNWblSuEuKFqWHn2TjcPXGr/2nU4HdLrUNm+Xw50nkpeNsaLNOY1rzoRMPz4Reg==}
+    engines: {node: '>=16'}
+
+  istidade-core@9.8.7:
+    resolution: {integrity: sha512-FFiPDwpsnLsCWiWdAXGwOalujpeXs+Utm3wvx3YKhlquxO/1O0WmRy+CraqqgxMfUsZUlr+jRYYFmp7Zu4dIIQ==}
+    engines: {node: '>=16'}
+
+  jaabbofa-utils@6.11.20:
+    resolution: {integrity: sha512-djdHdFFdBFZLJAyd/8vUJJPMhYVPvtHmwzgp3dRhd7acOLOEVsRmLWYWVnxWcpxVh4Kd1gk/bBWmswzTlnwBqg==}
+    engines: {node: '>=14'}
+
+  jaacnaal-core@0.9.16:
+    resolution: {integrity: sha512-LfA4KYRXhht5+jKpbYXr9lxGe2mDBSgizz8KYs7Lno1Z7SgeTfht+DnOXa8x9oxWpH1mP7YTlr0gi9rso/brpA==}
+    engines: {node: '>=18'}
+
+  jabole-parser@5.12.7:
+    resolution: {integrity: sha512-VhNroVPa7tk4V0MWYi/QW4EwuC9saKcACuEGJp7s2A3mFi/oIsH955EwWkQ70cg0tMHDE8LDsMgDJFUJTKSgMQ==}
+    engines: {node: '>=14'}
+
+  jaelmihe-utils@5.11.15:
+    resolution: {integrity: sha512-5DIu+4H3Y2+6FqGUZ1M4oG04DGDg2QrzGCE6xWjHS33yTbSUt8hQZ/MHU3oSYVKnOvN968ISkxO333BCRTv2kg==}
+    engines: {node: '>=18'}
+
+  jaen-core@0.11.13:
+    resolution: {integrity: sha512-Sq0l9rMK569ExBSKRRFAbFbUA93fnBrcFdazNJuqc2ix3JsX4ekj52oNtzJ1BCnrzKScQeXBKKsocKM3n5itGg==}
+    engines: {node: '>=14'}
+
+  jama-js@9.11.7:
+    resolution: {integrity: sha512-FcyhiQfxnASeVKFTkj/1UD4vcB8anFNb7cbPkJP6C9EwCUQjltB38ZNqqdxemPcIqMZfDGU9a/SI5BHubcx2Ow==}
+    engines: {node: '>=16'}
+
+  jamahewa-parser@3.19.18:
+    resolution: {integrity: sha512-6V2/OBABtTD1sXKf7molFcZuzIhchQQ6qOwKnZxxZ/7RODi0aiC6EfFh2bKoGOiLD1LMJBR3Cbf3Xl69GaOvSw==}
+    engines: {node: '>=16'}
+
+  jaorhase-utils@1.16.11:
+    resolution: {integrity: sha512-wFxBinpTBvXeK3CAEjsQtOKwA+EjMGPWvcd8mws2tpgNBw1s48mcOHcW/aqo0MNLrN4TMbtgkn6Ilj3eIywxbg==}
+    engines: {node: '>=14'}
+
+  jarika-parser@4.18.8:
+    resolution: {integrity: sha512-wEFwBArMPMabapeFNARTlBiN+aqZRlAZv0VHIklDIxuvuSn7feg9HoqQLrXyK/aQiMy02gFFB52Z/vCXvAMhvQ==}
+    engines: {node: '>=18'}
+
+  jasodisa-core@5.12.2:
+    resolution: {integrity: sha512-grwsrAK2gduZ0PhcakyFrb+InowgfzSwl/d3qrNfhJkYKefTT27hWhQSNbB6crkwpC8xZUF80X5g/rW/hPCB/Q==}
+    engines: {node: '>=14'}
+
+  jaxosaify@6.7.8:
+    resolution: {integrity: sha512-+pJMw1bVPoLxzn+QF2jLeoRvTFR27QEN8WNNk1RJIh4xS/7MsWjLXm76AIYyEB6ckS3aEWg02d7WmjnOZwUEzg==}
+    engines: {node: '>=14'}
+
+  kaan-js@2.25.9:
+    resolution: {integrity: sha512-sRruN4uGIORF7MqBrckowtRkxdf5Xr45kugTxqn93e994ir8PITUt2cM3x2pktfqXlFXTXDhq2MZQ3nYQsnNxA==}
+    engines: {node: '>=16'}
+
+  kamian-js@0.12.19:
+    resolution: {integrity: sha512-5sQMlW8FuIJ5lpiYzrCS/l1lxnjSyZcdip63SCBf+GI94DPrv228+LzeEaCsulfVx5XvYmds3KvhDMkss1iAuw==}
+    engines: {node: '>=16'}
+
+  kaorgeis-core@0.19.6:
+    resolution: {integrity: sha512-cZUy6hAZOL5ykBxiXkRE34WT+1AYpe8qC4IMsdKjZY11ewF3LmjngugzSR1a0ekqg4CilobQJbmPgMobTpowNw==}
+    engines: {node: '>=18'}
+
+  kapofa-js@7.13.10:
+    resolution: {integrity: sha512-5xdqMGlbkefVxIMNJMr1EGrWDPW+SmlaZb4KGRdbOiPinJS8f4yJkKpkn3e/a9QWXDgJ+8VldUDYi29C8tmPaA==}
+    engines: {node: '>=14'}
+
+  karalosa@1.14.4:
+    resolution: {integrity: sha512-CBr56KrAuPJuuynVIr2+RWse9ZrGNarp1zpzGQXk++eNhBetMQHykI9QaPrxLMRFKiyESsCg7XxV2YAqxYME5w==}
+    engines: {node: '>=18'}
+
+  laloisify@6.25.3:
+    resolution: {integrity: sha512-GWD89c0nG40QrHgJ/ftyWm6tY3uWYQo8wU64rkKg0X0NyQDHZM88ot6prEGV7MN5FIaF+D2i2uhaH3RFzDRj5g==}
+    engines: {node: '>=14'}
+
+  larehehe@5.21.17:
+    resolution: {integrity: sha512-6vYSTGweF38xr/2Fqo64uLwTTWni+8ZVgJvVwOYcBkFr46+78FGT8jkEM/Vn9AAQS+mdu+YpLwHtusW/bSSvbA==}
+    engines: {node: '>=16'}
+
+  lateve-core@4.22.20:
+    resolution: {integrity: sha512-gUJJH8ayQgcUuRK3PL+n4EvqKJDUXWOQjM2M8/8y3TQbDTf8fIpzh947Va7pGCNG54uJKir6HSnnTuuvP7v9xA==}
+    engines: {node: '>=14'}
+
+  lazamono@6.10.17:
+    resolution: {integrity: sha512-fKJpCf6+u9sXlf1kUuwpfsxOPmOPiu5FzM83oi6h05UKbgJrqEizdJ1LZF2Vp/iOpgSvpVxoZZSvLpmZeImCiA==}
+    engines: {node: '>=14'}
+
+  lela@4.15.13:
+    resolution: {integrity: sha512-81bgEwc1E/z64/75CT7Udz3fkVo1u8k8TlBuvGLdtxBqw+aLr3tuRS5QQIP/7gff8cq2xWCVu3pNPaKEShBfsg==}
+    engines: {node: '>=16'}
+
+  lemoga-utils@3.21.15:
+    resolution: {integrity: sha512-A63wXd/3cepg+csIkJPgJCfZzGeBi5pq5UWmfMdC/b5qJtaelXjH1jufLKGv/SfuJNGg4qcYLVJu6aVRlIybmw==}
+    engines: {node: '>=18'}
+
+  lepi-utils@7.3.17:
+    resolution: {integrity: sha512-O6Or51jHhDHsHJjgj1Hrl8QQZLCW/HuYC1CdqxvSqx0w14A7JzL9AaU6iDMYGnMqXwdM2uiZxuab700iZeyEIQ==}
+    engines: {node: '>=18'}
+
+  lesafa-parser@5.6.0:
+    resolution: {integrity: sha512-TbO6xr4xn8mxFv84ZXU+W0HntiiLk1LyPe6/flGnfyu0DAdj4kGoeHSkt3Wj4esH67zlHlnSB/0VYBhvtwJKHg==}
+    engines: {node: '>=18'}
+
+  letatase-js@5.12.18:
+    resolution: {integrity: sha512-Q6iTtpKNueEGs0P0Spt1VCE2U1jPizdgC+MnIc4J9TFRvTRIG1kcgfnyf3wXYMAlmB7iuGzPHoBXdatYWUrfWQ==}
+    engines: {node: '>=16'}
+
+  levete-parser@9.18.14:
+    resolution: {integrity: sha512-jmBUvkl7fsbHr4EAaDI2AeVh50Ah978fjgLdkUbfIp6WA8ZJsxYbVmMYE1pIxchqvCgTDUpFR1KDoS+FH1yvFA==}
+    engines: {node: '>=16'}
+
+  liabunjaify@6.10.2:
+    resolution: {integrity: sha512-tUh+Pyq/ErRPQ8QT5UutNHBj42SvYfMeQbNDdgDZDhDvHDbSURK7Y9qLRP5OZ6pw+G+VSnedVPbj/VPNxooubg==}
+    engines: {node: '>=18'}
+
+  lihaarti@4.11.13:
+    resolution: {integrity: sha512-MA2lO7iYVb2vRR2MQSdesSGBKqitUF8P3jOAZ4ellZHfXc18BjO72bgpPdCX15M+N+z8EI/fM7tptP2IxX37+w==}
+    engines: {node: '>=14'}
+
+  lima-utils@4.12.7:
+    resolution: {integrity: sha512-S7n64eIiuTHQt7UPfXoRiEQbEFeX9AJ8CBlG2wxyngpnA/SEWL4VMaHioiXWXKmlWLVKN1w6FmtbZpzMix/QGg==}
+    engines: {node: '>=18'}
+
+  limota-utils@1.17.5:
+    resolution: {integrity: sha512-bjxhDLZOXVur1e/ijn8ewian0CZK2qPB8XSjdSPa6RFui3CMHMnZuqH5+daFTk6nkWCYdXSvS1mx+8nkC2RcMA==}
+    engines: {node: '>=16'}
+
+  linesifaify@7.3.7:
+    resolution: {integrity: sha512-wWaVS0v0sg90XAqKk9qfMKzHyYo9zm/NBj3MId8KWO/NpG6oBJsNOKfA3cxgcdzgMmm0aaYKqJhX7JXBfC6IqA==}
+    engines: {node: '>=18'}
+
+  lisoesify@4.16.4:
+    resolution: {integrity: sha512-1Lv/ia1I7C32mHhZDpdDnIITihMgLQqErcST5DfBsjNpHASgpBiVPrRuIfjhGwGWfs/1brSefWdEGg2AvP9bxA==}
+    engines: {node: '>=18'}
+
+  litapiar-core@2.17.15:
+    resolution: {integrity: sha512-lzuIIhlP0wll34RnHAm42RNbUC1DPzkO51Q6Ervb+xBnzvSEQfKadTXwoa8g+gIvtY723HFpwjMdf4SrXfm2fQ==}
+    engines: {node: '>=16'}
+
+  liteja@5.25.9:
+    resolution: {integrity: sha512-BuhId4x31/pS8kLHW2o+abEqPKe+iH0biVfgSdGNBXAXlZBUrewouQ4FBjzXriAlX5VEdeIJY7Yzy/aP/EENtQ==}
+    engines: {node: '>=14'}
+
+  loarsebo-utils@3.27.17:
+    resolution: {integrity: sha512-n++aVCx7IYpLptf7b0xfEtWTIxHYi3W0NDN/Ou0qz9HUXU+eVweZH3x35V7H/FJXuqRyjg4wBPnSp5sYm73R5Q==}
+    engines: {node: '>=14'}
+
+  lobezasa-core@2.24.6:
+    resolution: {integrity: sha512-fjvFirwiv33volxvrKotwQEHZrVPJvhE1jKTyIjQV4J1G1wDb8cdKGSma0wTT4BXgl2Pf/uxFGxIM5UO6410LA==}
+    engines: {node: '>=18'}
+
+  lochzaon-parser@5.11.3:
+    resolution: {integrity: sha512-wgYzk872tpe0mfRswJiixLX3MXKwcjH+31HdP0sAC/xvuTayUJX0JM2m9Q62m/lOSx+PQVktMGqHCLHEIKIacw==}
+    engines: {node: '>=18'}
+
+  logetesi@4.3.7:
+    resolution: {integrity: sha512-GOTqCzfcMArPmuGYDER9cqusey0dxdw+dviDOvqR8Nc7GUusDTJX3wrSiNgFe1sgDLuDynk4zAwAmNm84NzaDQ==}
+    engines: {node: '>=18'}
+
+  loissa-utils@4.21.9:
+    resolution: {integrity: sha512-r+aLAgxxvUlf5ezgkmjmIR9xroZQWdVYx/2sqPmp7suYcOK9jVuBMdM2+fTZHoQ2sI5rVkJzeBQRhfz7lfsKcg==}
+    engines: {node: '>=16'}
+
+  lolawaza-parser@7.2.8:
+    resolution: {integrity: sha512-CapLJgvLJJHQzHZ64xRnfA4Sk5FUVNG7d4H9hY+gMROpVKR+afdacr61fRrorpvJaWcQwZ5Bnjqen1ch4xBfOA==}
+    engines: {node: '>=18'}
+
+  lolemi-utils@2.27.12:
+    resolution: {integrity: sha512-ya5l1IhElsjfSN7hUmezr04HZHSjhkjHGdBtgtJmqOlFtAVcAq3r5Mgc23yZUP69MZAHWpbQaZI5qEPgdN40WQ==}
+    engines: {node: '>=18'}
+
+  loliloti-core@1.17.5:
+    resolution: {integrity: sha512-Na6WxHATHY2zN2/L5XQWTiNIhWM+LDcdDqbYkMc/Dbq2f25Hr4+uNRQOcvKtLVwE2+CRjmvmKoasxqv0PV8NpA==}
+    engines: {node: '>=16'}
+
+  lopori@0.13.11:
+    resolution: {integrity: sha512-99z5zC3df1r8WZbFtEw95zHwAiq1Hc7nUAz8S3O0ctdODoWfHN9tfqZGRbt3nurB0rVvIC517Jmw1d5Vtkyqhg==}
+    engines: {node: '>=16'}
+
+  maarify@7.21.11:
+    resolution: {integrity: sha512-Dce2eVUx+Q82LCPm5jsXnF/ZamMqI87x9er95Tny7Bh48XDgrttn4qw55e1DNqSt1PiwKSPonwjfCvraMeXe8w==}
+    engines: {node: '>=18'}
+
+  mabo@8.8.18:
+    resolution: {integrity: sha512-KHx544V3TirPwT9Psq27P7MtX9W0tLBelE+KyvqiKstdKfjMK52/UYlfiuDhd8mJJ01/9OmOy/B/YJ4wRJ0Hqg==}
+    engines: {node: '>=14'}
+
+  maesgano@8.3.18:
+    resolution: {integrity: sha512-6f63AYEU0qxFM/e4o9x3SxcqGEra6gGfI6KRJD4+ht6WuDA/DrYwozDzXkx52GMZh+3ESUga3/1EcYcIqwyjhg==}
+    engines: {node: '>=16'}
+
+  mageify@0.3.18:
+    resolution: {integrity: sha512-dj2P3kJN+x3LOD9QRUZw7W4mqiFi2jhCFW8lVyJQ9KskCc/9rtq50Cgx0E+pgBU+8USJe923wJwOz47ubuU2jA==}
+    engines: {node: '>=16'}
+
+  maormien-parser@4.11.4:
+    resolution: {integrity: sha512-ZCUMGinrctFAUv+7Xx0Lh6xXs+2z69X9iYE00m0nyO+kJ+3rCA7hVjw6mYo32rAeW1hXxhwVjTQfO0B8OXPdQg==}
+    engines: {node: '>=14'}
+
+  mapifi-core@0.13.18:
+    resolution: {integrity: sha512-UxmOzh26yGkNoTYZIncAzyA0hhTlXQwDxEOioQ+3jqBxXbuY5sUdnDgTIagTg/WpHOZYHO1/YocwMnUWYr05/g==}
+    engines: {node: '>=16'}
+
+  mare@8.21.5:
+    resolution: {integrity: sha512-Nbz3mwR9aDdiija37uaPZPaRZ78Moic40Sh9Bn3H3gtjhSlD+/SYEwfSS1la27YDx0K1AnPa+pVZj0IEzTFUNg==}
+    engines: {node: '>=18'}
+
+  meabpo@7.29.6:
+    resolution: {integrity: sha512-MiOMOHyJt3VlXZ9AQImy2E0WK8SqsLChLmSsfeG77A/0E9ur+HPPLCvKP8+i2MD59tAGgRlT8M7sfTEMbEEc4A==}
+    engines: {node: '>=16'}
+
+  medayoti-utils@2.15.6:
+    resolution: {integrity: sha512-RBc9daVdrexQ2CRfEIfYGcxPU9SPKTqNZE18khDLSK8kl+YqTmB0k7fFgmGUG9a1Gkg6cq7hVZCjdSW1zcmyIg==}
+    engines: {node: '>=14'}
+
+  meme-core@8.30.17:
+    resolution: {integrity: sha512-QCtZLnnCcH9XeeaEczB34bMaStOytdLG1YmbUyNzkkZ9nFPZSDpJKghZSEvx0MBNFRKVgPjP4Zw8HesoAzm9vg==}
+    engines: {node: '>=16'}
+
+  mese-core@5.7.8:
+    resolution: {integrity: sha512-ohfGcBt9LacQx4GvKnQ2e8V4CmlcDGmrXSYOYu0PH+CKc0Cb0i84GnN7TScGDOsuzLh3iR6w5ExXZQIJ2aRTsQ==}
+    engines: {node: '>=16'}
+
+  mesi-core@0.19.15:
+    resolution: {integrity: sha512-y5maeWzdv/jRewzHR8KBcH5JoHnCNM18BlQ7ZBAJvds71YR9t19A2euljYLT4iZ3iyJ5Ih1Wb8zdcEDWcc+Yqg==}
+    engines: {node: '>=14'}
+
+  mevaka-utils@1.24.16:
+    resolution: {integrity: sha512-lYZfLjvrPiPQRqfjLA4FqGyaff8WXHRaI5+/IlEwv8cbmtn3XgAdqF+quChQopiTYeP4XXO1WMYUF3ydqSvI5Q==}
+    engines: {node: '>=14'}
+
+  mibeal-parser@1.9.9:
+    resolution: {integrity: sha512-82TySy9NLLGtV49E4otL1JC+r9gg0s8pOmmm0Bm/2fzlFaF5l7+7ydUG8TGYWzdlEi70pRVl4i+TNdXSk44A9A==}
+    engines: {node: '>=16'}
+
+  midiro-js@0.4.5:
+    resolution: {integrity: sha512-fI53Bs23mr2m4BiWKDXfDizTop0KG9tgzWCg/QPBwKBBI/jjWU5t0WiqlisozSV+fbZ0nXipOzv/AJeud9gD3g==}
+    engines: {node: '>=14'}
+
+  miga@5.2.6:
+    resolution: {integrity: sha512-7TTcM8omZCBnOgOmJEaQteyivpOjGI5pYtbDCohZcgsQ8nLZmZvCUc9YGsetm6cmwC3kWxu/bo5BbRYwCjuBUQ==}
+    engines: {node: '>=16'}
+
+  mirati-js@5.10.7:
+    resolution: {integrity: sha512-/94tmBNW0DeBrIaHxRxsjGajB+DKbpqVM3xwI/OGH37AGCU2GUhRRykOBBdJA++FozveSXnwLbucMCHKtg1UZw==}
+    engines: {node: '>=14'}
+
+  miso@4.1.18:
+    resolution: {integrity: sha512-bfK1MeGfdFgrnotDnSA0J1DJsVT/73xmol6C6mH2fu3u48IQWfw7cpUjPnl023SmyZPOy+Fnm2O19jUOdY9gsQ==}
+    engines: {node: '>=18'}
+
+  mitoon-js@5.14.20:
+    resolution: {integrity: sha512-Y3xxdLQhWtb9DQJge3q6NE5+9RadIyNxHskzr7nh4NHgS+coYZOXWHR76IFYm1pCJb0EltA/uft8xg7PzibXVA==}
+    engines: {node: '>=14'}
+
+  miun-parser@3.4.6:
+    resolution: {integrity: sha512-HFJ8cluGUqAxyXaXLbjo4h3e+j/ZEMtOjYNZpyeVJyhoHYsl4PtkIkRO39y+s15eNcN+zhTFU2Ph/IZjQkQVhQ==}
+    engines: {node: '>=14'}
+
+  mive-utils@5.5.7:
+    resolution: {integrity: sha512-TV6LalLLXk3Bp2rC+W2uWsrSiLS8hmRYpfGzNL6pZdvjXAzkN/gZX+UJDqVZQnGXmZZh6SQMGGoqHIkXQ9B0SA==}
+    engines: {node: '>=18'}
+
+  moacfahe-js@8.18.8:
+    resolution: {integrity: sha512-iHzsM9Yp+m4UrPcoJ4ghbl1wH16jKOVLDRs6DFqYE6LrM7zHYsjzt+/h+7MUzjWRKSk+hwSRgvU0EmC2j5ZxIA==}
+    engines: {node: '>=14'}
+
+  moboify@4.7.2:
+    resolution: {integrity: sha512-17V2vuDtzxBoZQ9VZEK+UYw0OGMepeImJozmE5KlD63++F0FV7aBbCWnX61x/e2vg+sh6QmD+oGwua1/+S2YgQ==}
+    engines: {node: '>=18'}
+
+  mochfa-js@3.21.1:
+    resolution: {integrity: sha512-lC/4WLHjDRKzVMNWZk6DH3hpoo61CCyJr157WkvXkYMDgVJ9b+jBAHP1IyO7YJxmmcXo8MOSAqgFGn1kcVGgkg==}
+    engines: {node: '>=14'}
+
+  mococa-utils@8.7.14:
+    resolution: {integrity: sha512-XC5VuOwHwkOgdJnT2S2j3dyubVjIZRsj/egOypWyMzsZxak94+oxsXW8oh5t/CVq3CIgfYw9kTTHGuxY0y83kw==}
+    engines: {node: '>=18'}
+
+  moda-utils@2.11.11:
+    resolution: {integrity: sha512-2vsQhksPGQOPn1Az/Fg+x9M+Mo4szDFIockYxqxeDPvBuJxRcGqfZ0Z/zap3L0JlJPU9pnJw9tabrUPmsnbYGg==}
+    engines: {node: '>=16'}
+
+  mofinome-js@2.13.7:
+    resolution: {integrity: sha512-jtBdHry6SqKK8kbmeZUpI9G5kD1H9sHliiFq0nCHx2biVhg77qmRnSJZPwwjvnTq/EiB6RC5pA9fy9b+QPMkdg==}
+    engines: {node: '>=16'}
+
+  moga-core@4.17.18:
+    resolution: {integrity: sha512-ELkfzo0CMjAV8/S0DXi9U6eW2csD6yMJG0s8stOrPL+q9Oi2iigUMz/j3sqwApvN+AQ1iQU424u5zJJsLefcmA==}
+    engines: {node: '>=16'}
+
+  momerahaify@0.1.15:
+    resolution: {integrity: sha512-cAF3wweRQRlzPGIlmJyevjuqDV9bJ4Knlzf7ROMM3vsvKOp5RYSnuPcNPw6CGtl9iCsLmvirmFtB0qGeJDwVsg==}
+    engines: {node: '>=16'}
+
+  momole-parser@2.4.2:
+    resolution: {integrity: sha512-sJjumCeJmUGca6jUky7eg9ZLfXC6l5FxFR+sB2lvp372NeqIB31FY2wCebOxnkxK8ETRfNrjCDwfdP7BNC6n1g==}
+    engines: {node: '>=14'}
+
+  monaan-js@5.10.4:
+    resolution: {integrity: sha512-4IFrnMqeIILrcbWHwnp27iQiAct+xHd9HONJAmCfInrD1+8xMCIZq/XUGQAFLo4IIolaKxUmohgsI3YXEeFf4A==}
+    engines: {node: '>=18'}
+
+  monegaify@5.30.1:
+    resolution: {integrity: sha512-9CoDZIdRgI14qx8pPG6kxYGCijvCZSlcX5HCUXSOXDfHgi2PrarJyknB+cPsZd5//XZl2YM0yP7KOYaeaRbjeA==}
+    engines: {node: '>=18'}
+
+  mose-core@3.28.14:
+    resolution: {integrity: sha512-ixIPod5t3rahbizV8QaefK2cMdfPcDcpY+Ggw0ZNcE173dMcJPhPlx5KbYQv0tjIkaAkmVOuma4Z17kWRH7zxw==}
+    engines: {node: '>=16'}
+
+  moso-js@2.30.2:
+    resolution: {integrity: sha512-No8AHiyXiOFiOV8dyS+cBe6LZby4MzyumQgyv3RchGGOhVGbPMmlK3LCX/WdPQdFWCG/rmLfVK0vOCwiGAYrDQ==}
+    engines: {node: '>=18'}
+
+  mowa@0.3.9:
+    resolution: {integrity: sha512-W8G7DwGXPAj9WdEoycBFI57qscSu0hsqOcohu+v8KT9LGwmQBhL+4/4bB3qm7Twf+OKTJK38MHqvkyZ8NQ/sBw==}
+    engines: {node: '>=16'}
+
+  nacami@8.16.17:
+    resolution: {integrity: sha512-S/SyPLhzFoA4j6h5vrKK2aOImrD4Z2S8Ww+fnHyZ0mbwrsdXAgSFIP3MKjg/TWekPt/T2ElTBSm9NN9uA9sVQQ==}
+    engines: {node: '>=18'}
+
+  nada-core@4.30.2:
+    resolution: {integrity: sha512-cXdJ4wsji7+oHROe3fi2iRD1xG6I4n3tGWSck9LYqrGYkItvnQKzkWJSH5qJzNUFBbdt/NTGdcRckkTXDgLErg==}
+    engines: {node: '>=14'}
+
+  nafi@1.29.9:
+    resolution: {integrity: sha512-TtQ4/bHwu4CUFwCYSvV4LQvWumKurQAR1sT7QkdJfWSE23at1BaV1doH3Jqn3CmwhH5K5G9GfDdh40vOJcxf8w==}
+    engines: {node: '>=14'}
+
+  naissa@5.20.18:
+    resolution: {integrity: sha512-rQyiAB9aXTZIM5tT+GjW4OymSO8Ve5UUCeCN2TpBL/9AUjTrii+/wkIjwam6xYiaEcEOjOevUu+B0yFbizzN4A==}
+    engines: {node: '>=18'}
+
+  nanearne-utils@7.11.19:
+    resolution: {integrity: sha512-vJ4EuqBB5R0VIPU+ShBuBbCB7IrBw8Q/FpEU9pClvF7gbrVPP2Ql8+yFlGbw3ignuIpopfACrVmfVV8k1U1VPw==}
+    engines: {node: '>=16'}
+
+  naonsoro-js@0.6.4:
+    resolution: {integrity: sha512-rLRH/3iJcs4qxOh23CPVFnmIHVBgN9LGQGEU8Beb1uj5sB7PNnz+tQcvZkQt1u528O05ly9gbuaQQ2uz5eJq3w==}
+    engines: {node: '>=16'}
+
+  napaor@9.12.17:
+    resolution: {integrity: sha512-f/MRl4Dm5/X5KZUs9Kmmw86GyrS3yruX2D4SZ37Ys3veUxcBnIdz61BaFbL/C1HfBCouZx/RZ/+HWhYypFUpNg==}
+    engines: {node: '>=14'}
+
+  nareyo-core@2.12.6:
+    resolution: {integrity: sha512-U4k1a4wFKyE9wEPL0lHJQ/Gurnwfxmd6M+gHv2X7yDoNnf2Dymk/t7w+XqqQtS7JVhKKeX+9o2xFZMPRf+kMsA==}
+    engines: {node: '>=14'}
+
+  natano@6.25.15:
+    resolution: {integrity: sha512-NmZb8eYp1lofDphQWY62jvQ7zNZGQ5sqmLWQpbbtrzirGOf7NsXck861WOvcFenRZcJleH4LFWBligbqy4KZlg==}
+    engines: {node: '>=16'}
+
+  nelasi-utils@0.5.10:
+    resolution: {integrity: sha512-ku1LhSj8u6xwCTGrQ1+iv7rcwZ4zxj376EVwrXscSmexrwA/wLxXPhb8Zooa3X54HBg+kIKsNArPQ1o892lWhw==}
+    engines: {node: '>=14'}
+
+  nesizabe-parser@5.8.19:
+    resolution: {integrity: sha512-fsyZlGXNjJQI9eYtgiZzwrScmGFV7QxSaiYXfefA7lT4/UwIkGnPAcHP+Q7e7tHbfUELoOaF3IMh4Lu1DgIfiA==}
+    engines: {node: '>=16'}
+
+  neyotene-parser@9.23.10:
+    resolution: {integrity: sha512-i7Z+kul06NC2f5w6Sv4o0mRJoci6+g3RuusVgrGVqUHdj5/yOyU3US88LZekIuvdrcT9kZz5O3FYE/0EZFlglw==}
+    engines: {node: '>=18'}
+
+  noacca-core@9.19.13:
+    resolution: {integrity: sha512-rY6b2LWmpsSWp+Jmx5iiK/+CIFUqfwgIbf6KvNDETu5Lbkug4l9fJxaotWmOWp7IpUd9VwjTK9RLjK6+lw2Fag==}
+    engines: {node: '>=16'}
+
+  nodedebe-parser@5.30.15:
+    resolution: {integrity: sha512-NyadTvDieicE4wug8w3KCrs6cTsXJ0nuSZByADIwVzJpdEGznT3O9nu50oQIAwox8yn2xydf+CPqmFLWfdtxiA==}
+    engines: {node: '>=16'}
+
+  noka-js@8.17.9:
+    resolution: {integrity: sha512-i4Kh3GCrLXeZuvq5+0UnU1zpABGHhGTA7kHMxDmO/Os/aMJtdE7+7h0j1fe7zOwNU4rdc/thsXAFuBiyJDLTew==}
+    engines: {node: '>=14'}
+
+  nomaroify@8.18.12:
+    resolution: {integrity: sha512-54AaYkifKVezVCJJR6fDJb6H/Ow9PTG39F/uX+1P8hZ7kiXE3l07y3B3ZRVS/zdjNLNXmEuyK0K2lV+Gj43kmw==}
+    engines: {node: '>=16'}
+
+  nope-js@1.20.0:
+    resolution: {integrity: sha512-fmfN6hsURd4kJpeCncad0UUILQ+t5kPAtpwkEJWNQxf4OXx0UIKPws3gef2duVf/ePM0zldqbR1/DuBIYVclfw==}
+    engines: {node: '>=16'}
+
+  nori-js@8.20.12:
+    resolution: {integrity: sha512-qRFazQin+LBEU4Bpeuha1qCF4EQFORqYzowuxmq4BcS0r1CbHmgYvgEbGR73WeXgWVe0U28phk1VyX9+RdVM5A==}
+    engines: {node: '>=16'}
+
+  noselase-utils@4.15.18:
+    resolution: {integrity: sha512-2qNVNnvG1gqCTyW5SV97++Xq74tJj3WtmUQnO+SNEGmoTkqkeCimwoMijNvnizl2tQFs8RKcjTcS2fPODKowLg==}
+    engines: {node: '>=14'}
+
+  nosi@1.10.15:
+    resolution: {integrity: sha512-fDP5hdwH9A6lw8r4saz3FXkJik5qUKSw4e8X/9IXZAQQJ5MY87muQNcKxdxZIAQHR4yrACnveqWB4FhpAjpvuA==}
+    engines: {node: '>=18'}
+
+  notada-js@2.0.8:
+    resolution: {integrity: sha512-AmH5LPH7hGgD0SHEgrFTwVmPSYyeNuNBU/GFzbZv1+lAUmMdZw+rRZ2MLuT1OkxX4IZGsnblFZABY2s6epUPaQ==}
+    engines: {node: '>=14'}
+
+  onan-js@4.25.1:
+    resolution: {integrity: sha512-hf+kIcP3v/VsPHIBR3LnuKO+ZiOzJEG4/Cq1urnx52glEBBxKhT8jFFrMnmUncqKcjPEWapdXKOWW8p+envm6w==}
+    engines: {node: '>=14'}
+
+  ones-core@4.6.20:
+    resolution: {integrity: sha512-P65tE8n++XZtL9xHxcpReF4VLurC7HzYV8jY+EQKEug3UxI66I1EJGQD3RyjssBinnMZm8wfXzHIkwtNUJ69+Q==}
+    engines: {node: '>=16'}
+
+  onhetase-utils@8.1.2:
+    resolution: {integrity: sha512-obc6GZngPHiGEG00On7FUJVx9LN2WFgcpJrDizts72o9olm2bVY8PNBsSLj8kEpQgiNXnjT28qkgQFBaPfojKQ==}
+    engines: {node: '>=14'}
+
+  onma@4.10.16:
+    resolution: {integrity: sha512-KSWeE6m01hTU631UWXKWg4XGh8z2lCluLwXoRTslZuUfWjQLMLfEdyQaJjxpYNhaLyE/A2XkzvzlhfrjT8opmQ==}
+    engines: {node: '>=18'}
+
+  onna-utils@3.22.14:
+    resolution: {integrity: sha512-/ljeyZmcQhWHcqL6dYW7PDeFyIQO1zNH11i6IRX/63J1Qo4/+Xzr6k4EA6WUxK2Ol13CRYUqEif5T/Qo5jUiWQ==}
+    engines: {node: '>=18'}
+
+  ontochenify@3.25.8:
+    resolution: {integrity: sha512-k3D3pqbTySQU1IcN1Yjv8JZz9qPZ9Tu+Hp8R6x6Dm7foY0D6Mk9cC8icorPpSbXbvBZBGLOW0hevrVieLftCHg==}
+    engines: {node: '>=14'}
+
+  orbela@7.9.7:
+    resolution: {integrity: sha512-VC1JnpQK6XWeScQFXRAwpxHqpWHgeDFp+Y1XrS4WoakesdPt0ZUC1sApN9vIFZaVFqbkjRB+3Wy5+udfS7UDzw==}
+    engines: {node: '>=18'}
+
+  orle-js@5.15.20:
+    resolution: {integrity: sha512-5UkGpe9Eo3vW/dXuJxsp5sNf+95OCQvpAnRyv5HB93u4kkjARlmjkQLssmQqjnR3pem/dk2Gcf++L/vwTl/30A==}
+    engines: {node: '>=18'}
+
+  ormefaal-js@1.21.5:
+    resolution: {integrity: sha512-UU2gg8alsnFCGMWZS2UPuPvHy5pd3Ljbb/DlJjRja2Lg7/nIetS+Q9VVV94x9qWbWyoCFy4JMR6t61Z+SMJ2gg==}
+    engines: {node: '>=16'}
+
+  oron-utils@4.8.5:
+    resolution: {integrity: sha512-qzgZgDZaenYd5k/HKu+DGtNf3gXqGyN36SmgqKqta/h0PrXgxcrSlVTa2jeEpgRg5l8RvpSk/b/PTMmRHwlTRw==}
+    engines: {node: '>=18'}
+
+  orsi-js@9.20.4:
+    resolution: {integrity: sha512-pOgP8FXHKQBavWnnDSpsoLJqRfZveIoN5aiwdHLcs8SaaxdYjgEpmZ4bFt25xU5rwLDDM2B0RrGxduwsMd+s1A==}
+    engines: {node: '>=16'}
+
+  orunda-parser@6.24.12:
+    resolution: {integrity: sha512-ngVJhxPIhm9jVq4Z6sy8hNkkgilkSWo1HLXL7+dtLNtWMRIUwKQvrCjw3xbdzGdpxcpufWNpiLs3qjZpTC7wzQ==}
+    engines: {node: '>=18'}
+
+  orwaveyoify@4.30.15:
+    resolution: {integrity: sha512-7nWHBUC63Gu86uuSOEKuF5vqGSO/2rimwlN39r+KHaSpKx3gw3Sf9wBFx6PY3qMyauaPU2OTWUNu3ETMDDIJaA==}
+    engines: {node: '>=14'}
+
+  paal@6.22.11:
+    resolution: {integrity: sha512-mF8zKzvSnsquXBU4RwgCzgzzmnLxc/k3zn4A25PUcpBr7ka4dEVmK5t2e4jCAPO5N2xyASL9ywjPjQeWoeXzJQ==}
+    engines: {node: '>=16'}
+
+  padanaelify@3.7.20:
+    resolution: {integrity: sha512-pT5FMPzEqjSQxFknUrVEmqC02Kmk8iUq5hXWbULKdaDPnWlN6HfYCQSloNRJFs3LIj3dwLpo8bkjiPunvNn04w==}
+    engines: {node: '>=18'}
+
+  palo-core@2.16.13:
+    resolution: {integrity: sha512-0hIQwFbeVg6BwqxXhXSr1+VxZx/bgx+VmEMyN+tV7gDirt5jKvLGnR4KC0Au6PXa1+P81VSne1mBzGzWDlt+ng==}
+    engines: {node: '>=18'}
+
+  pari-js@2.0.20:
+    resolution: {integrity: sha512-rOfydyYGqEhaXAV3/vpEGfiuJXR59tgf8pod9vJtK5IFQb68ebpO85K72m8PnYehX18L3a32bXJ2Qs8sHOgI/g==}
+    engines: {node: '>=16'}
+
+  pasedakaify@5.29.1:
+    resolution: {integrity: sha512-1WLlXtyos1KutNFMpCsZ2XHIQux3JAp2+ars0tHBCsawA0r6RkYyKCV5y0Tu1BiO17dZVEZP2Xw8bk64kW5+Yw==}
+    engines: {node: '>=18'}
+
+  pasodebo-parser@9.19.9:
+    resolution: {integrity: sha512-aWbKweWvxoKxjpzJbqSt4hRfn8C00ic249+JoBUYuMfAtbab2uY+bEmjxvBvMLWuUYw9K5QGNHKME2x2pX2alw==}
+    engines: {node: '>=16'}
+
+  patoinfi-utils@1.8.6:
+    resolution: {integrity: sha512-VYPkhQ9Dss0cJufYGKNQH6Z737994j5kIFAcaby1ZtA1W/+awO0q3nS6c3TdcF9ZjVbqr4mZ5eBoDxSLC2sWRQ==}
+    engines: {node: '>=14'}
+
+  pedamomi-core@0.3.17:
+    resolution: {integrity: sha512-a8I6qaURTHvt22L6w87Ca99rlrBORE/1BlbYWFloiw95WMgXWx8NsqT4/bUtoH3Kjk2MnTj5C3FWSeCkOFml4A==}
+    engines: {node: '>=16'}
+
+  peelmoel-core@3.29.18:
+    resolution: {integrity: sha512-HbqFnyRWGrVRlwo5r0reb4MqbSVA4q72KRhoeXQzdsXfZ3kPjPHHQV0Vzu8k4g0FvsJntIgR8xj/jMtrK5D/IQ==}
+    engines: {node: '>=16'}
+
+  pefi-js@6.2.10:
+    resolution: {integrity: sha512-FzfAscb+nB0irUgBwvFxKb9i7k4g+OE0dQA4rzPgzrcGxTOYaewO9jn3bwS43v+nIckEJJT/ROpLTYLa1U5iFQ==}
+    engines: {node: '>=16'}
+
+  pejaxo-core@8.27.20:
+    resolution: {integrity: sha512-ArN/8MF1wsIUOPTk1v3zzE6+rh27UHhG9GiVw0BFonhFck6IsjEAs5rFX3DYd4Swc+pLdJcI5DsQ7zFCnDspGQ==}
+    engines: {node: '>=16'}
+
+  pepi-js@3.25.15:
+    resolution: {integrity: sha512-JRHguZ6JtsOjT4K5J1/aqJtJZN0CeT4b+tcX1EOmz/DdzKn9phJcMtHIi/NOZlOUQ8gfvxdGd95Eu1chPIIOXA==}
+    engines: {node: '>=14'}
+
+  pesa-core@6.13.15:
+    resolution: {integrity: sha512-iWZsfvqs0Br5bgDWedhhLIh9bu7kxuWk+lfwKhZciKM1yYcjozPrHZ+h6iR4FgBg8I8U5kj5X9RdA6Jgct0+Aw==}
+    engines: {node: '>=18'}
+
+  petaisza@8.13.0:
+    resolution: {integrity: sha512-nwRpbU4DFG+KHTq33z+wtPyWz+3kTn+DQ0WYrP9OmBcbSrquXRW6flK8oW0LQ/538U/cHh75nSjKcHabjkKQYw==}
+    engines: {node: '>=14'}
+
+  pevepa@0.19.4:
+    resolution: {integrity: sha512-bnyI4R+fzGibs8/qmMRJGIiZqBIZzNAVvG4+nh55AANLiIDmhSO4MurIopdbiLWy2tO/RExIh3XMpIR4YvwBsA==}
+    engines: {node: '>=18'}
+
+  pibo-utils@9.23.10:
+    resolution: {integrity: sha512-SPDhErJ2NWJmux4NdSXkydLnGqmBDlLpxf1jn8bGGvRlXGJplnAMu/jIwLIbBHmUV69+RDP0zD1i9Kyh67rZWA==}
+    engines: {node: '>=18'}
+
+  piel-js@0.14.1:
+    resolution: {integrity: sha512-oUkMRHXuerjZ0G5+MXp60fkHEPmmVGH5KS7q/OXydmt9gYspabbtYUXUdzoFw3JH3hLfO9G5i0B66OqcuMGcsw==}
+    engines: {node: '>=16'}
+
+  pielre@3.30.8:
+    resolution: {integrity: sha512-GixzzbO7Cvdx8HggvG4N8IxzHv8EIk4UjqH8oXGjBa+nfRIzd8ftsNQZsStJe6Yrx16qF+fgPy8Sylx8b8a4gg==}
+    engines: {node: '>=18'}
+
+  pifila-core@1.0.8:
+    resolution: {integrity: sha512-j6rtdhFv+aKRvaF9Bn6z91wR6hrWPNgx5wwDIyWPpU8g1dR5kjGzKFETNgQ3NkV/Z5hBIlhUUcvLg7V0RU0B4Q==}
+    engines: {node: '>=14'}
+
+  pijaca-parser@6.15.18:
+    resolution: {integrity: sha512-H4EmLzXS4PyRRDYrNNkUlW0aoMknTVxuyxklmKKmcAEbEcdMSgUAT26M+ftuvX8Us0aRCg7Lhf6FizxYwyOA0Q==}
+    engines: {node: '>=16'}
+
+  pitopapa@3.21.19:
+    resolution: {integrity: sha512-bcV/iJo+JUfMAiE9g2HGeNyvfIUCuGb5yR7KQWrvKmUd2QSmAsaLEZSC1I4bqh39VP4ncdGTkE0292eyJf2MVQ==}
+    engines: {node: '>=18'}
+
+  pivamiso-utils@9.4.7:
+    resolution: {integrity: sha512-+v+D6NN7MzLz7o0pzEsoI8NJr+VeegjN1kOb1ZP0aRwbrEAFnvemqoF94o5iRi4y8VYbCzuM6QW1FPoQmAIdOw==}
+    engines: {node: '>=16'}
+
+  pobefadi-js@0.12.2:
+    resolution: {integrity: sha512-k4lAb+kh/FueONPT4NsPDR23H532YJWeDzny905wxUXhEovXoDX66DFJpERNl2tM2nJf/ONIvsZ5XuqlDmFvKQ==}
+    engines: {node: '>=18'}
+
+  porisa-utils@1.6.7:
+    resolution: {integrity: sha512-yMQRYI5FmAhdUxSQLUHdQyGduF3ocKxifq0k1YtltkI3fd/k/ZR+5eZlW62UqzY8wMrV6+ztBPbmwe3gUc9NpA==}
+    engines: {node: '>=18'}
+
+  poroha-utils@5.29.20:
+    resolution: {integrity: sha512-7V5Ct3d8jWO9Ddcfq1ttmyvmt2ofWc11zSrKZg11FRhT/jx3N732pttaJ1fjaDSW/UbZS0/mEjbDk93XiTNCfQ==}
+    engines: {node: '>=14'}
+
+  porore-core@3.26.16:
+    resolution: {integrity: sha512-LuvkKIftnfpQEEY/8Tv2dTNswQzV/+sLLWwbZFETe3p6aHGBK55WcEngkNiPhcmvX4pTTiq5u0vmCGST6SlTTg==}
+    engines: {node: '>=14'}
+
+  posezaal-parser@4.1.2:
+    resolution: {integrity: sha512-+EYecL5oj2JI6yQeFeEvuirI5aIVMg3+a7aDOn9vOnDBx4CcH31XfXjj+STV9RW0f0jZJHlXcSUbV0TNW5jTnw==}
+    engines: {node: '>=14'}
+
+  posocoka-parser@5.21.13:
+    resolution: {integrity: sha512-RMyYK4e/RpGi0HA1i9tCxiY1inoFD63DwVaVKFjsAZEf6fKlflCgMVWcvJ1/qpHO8Vj8bTmaICRSO3gomJBwMg==}
+    engines: {node: '>=16'}
+
+  radaha-js@3.19.0:
+    resolution: {integrity: sha512-v4onDOaJNygCR2/nVMgomKs238yhExQgr52JUaHGxM1VN8Bp24rX6PnTV2WbT4RxwIw4DBwGVTM7XbqVl8cWQA==}
+    engines: {node: '>=18'}
+
+  rainwate-utils@1.14.15:
+    resolution: {integrity: sha512-rsOJXW9E31Atxb1fTZlXh3ZbfmRGZQ7QR0aQipGLA4WNVT3U8d8PBDHPTLu9HV1Y/tu7UgbMQmzT3cFEbgsTJg==}
+    engines: {node: '>=18'}
+
+  ramosayo-core@6.21.16:
+    resolution: {integrity: sha512-tsLBF2Dd1OZJ2Qa660nWpsy+9Sw+r7DYCceoAdmAWoIq28I3pOChx26+YbdJw8DKU3dbzS7j1IXFhZeKxNjaHQ==}
+    engines: {node: '>=18'}
+
+  rane-js@1.23.7:
+    resolution: {integrity: sha512-ozi2KziLH0uCWvI93dtjMZgwTtfdOE+nVSN2VjWluGJcLcUw8nWVNR7A44gPZbUCuB3EEnRHVGkZRNbyzGVCyQ==}
+    engines: {node: '>=16'}
+
+  rapeify@3.20.9:
+    resolution: {integrity: sha512-3JrlviVA2Da/8ATryUm0S+5pF6Nnn1Ij2YgfHQuzXDOrBzsg+kMEo99yI8tNmKyteJwNhWQcVesTkc4bSaQjAQ==}
+    engines: {node: '>=18'}
+
+  raronore-core@9.23.10:
+    resolution: {integrity: sha512-uCdFfPXyw+lpcA6gIL7BG/kETSlmWm2CWBAlDBZ3lP6u3x1fBcq01FN7Ct3uSgZpmAG/JVcY6v9LylkQEcrPJA==}
+    engines: {node: '>=14'}
+
+  rasowa-js@6.11.13:
+    resolution: {integrity: sha512-ElhfsGL5fvo+0nxmwmD/0XJx4AtJh+mkXG2tkUh2XNZa3Ny53jWriClmnauh8b1H1p3xKMz4j8VFOIqXCex9LA==}
+    engines: {node: '>=14'}
+
+  rataacbo-js@6.9.6:
+    resolution: {integrity: sha512-ReFPhNIct7BNfzLTmI2SGR4XEa4DOBaygs0A/8lnWs3IPzI0FHKDi/ZMzNOJXLLHS0j26pswcoUokF14e9K+gA==}
+    engines: {node: '>=14'}
+
+  raveis-js@7.18.1:
+    resolution: {integrity: sha512-VyGOzWEYkxDUssNrkV1CBtsqq5VJS5FyqhIhtu7vRAijfs7r8C+ztxOHxEaET8Sh4oiEWO+7Wq/dUayupq0kCA==}
+    engines: {node: '>=14'}
+
+  realtodi-js@9.22.10:
+    resolution: {integrity: sha512-e6f7GBBfkDQc+xazkZlKPltgO1aYC6uUhESgH+HkNjQfhsEWMOltl7adv1bi4/oNcET9fwCwsaGNrBM5lmSd1A==}
+    engines: {node: '>=16'}
+
+  riab-parser@4.22.17:
+    resolution: {integrity: sha512-99gkdOy2pcUXodll5F5sLbXeiGXfFTZb5UpDpwBVg+ZYc/wrzVuhL1D56BkyzBGAZKbm1LRbQDrdR1cx1o97WA==}
+    engines: {node: '>=14'}
+
+  rialdeen-utils@2.24.18:
+    resolution: {integrity: sha512-EIwHBZ6ZZ4EyF/BPtYqc8jP/+cvNe23qfe514+YhL9W2VX4hkozpohdKsxxRE30FnVE+WrgYiT9El6ggUngOVA==}
+    engines: {node: '>=16'}
+
+  riannoli-js@9.10.16:
+    resolution: {integrity: sha512-52hQFTcrzMay3NCUKLsClftyo18bEEN4hLbuc60hxyq9cJYBngRb+j2vPXjnbw9iMthELm4akgHc2dqhPjO0aQ==}
+    engines: {node: '>=14'}
+
+  ricaanpa-parser@7.21.15:
+    resolution: {integrity: sha512-K/3W7B2ik9OkJGOntSpwSFLVAzexPOgK5h64ejsPEPCI4UFH+c0kSSciiZ+91uGTNmbILBphBmulftOqwPzKmA==}
+    engines: {node: '>=18'}
+
+  ridire-core@2.3.19:
+    resolution: {integrity: sha512-H4qGHSqxlm77MkktCLwEMFUzrEjHMUOpQh5indSYVKd5qvq5XcK3O7vIs1v0DSDzkCtluAMe3+9/FaFzCB5DAw==}
+    engines: {node: '>=18'}
+
+  rifa-utils@8.14.18:
+    resolution: {integrity: sha512-NmEE6ePclRTmCClXkptX6cK48162PHMdM2z3QjZllux1oQcMLv1DKAfuXIYHsTUi5isN5LzRCkMM5C8bKxMMpA==}
+    engines: {node: '>=16'}
+
+  rimiify@6.24.1:
+    resolution: {integrity: sha512-wge98uB6p86gi+LlYTAgvUlQulH+cROcAl8ocmUSBL+BGTzX+cGIhASUIZz0lWzL4zK+/9pKXRUi/Txn8yY+7g==}
+    engines: {node: '>=18'}
+
+  rimobova-parser@2.22.11:
+    resolution: {integrity: sha512-/q5eEa/KX9UDho/jOURrteKntxAzIQkY7epTJ6vWhSCWbWnF4xS29cjEG8zEvj5f1nAsPtLKOc5I+fcrQiIJIg==}
+    engines: {node: '>=18'}
+
+  rire-js@4.4.11:
+    resolution: {integrity: sha512-DTIClaUJgKBX9GrqAMrBdUwezZgwx0RvM22M2Qu85hahrh4+S9iydyzxiZUF9BChuBjap9waynqEaIV3APTXIA==}
+    engines: {node: '>=18'}
+
+  riritixo-js@5.12.12:
+    resolution: {integrity: sha512-+68EQp2du8xM0wiclWGvbb+yCwmGejKmYqiRVwXoaETdb/AmS8SmTebpVJBWlYdnRb/2Ht5S23ONOQfdLZAMCw==}
+    engines: {node: '>=18'}
+
+  rivach-utils@9.7.6:
+    resolution: {integrity: sha512-BB3//4weIG/Y1aQLT+qUG2oi5L7fFV3ywHEPurRjq1LhaDRR32vthE7GX2ZREOC1BIFgI1kglG7kKqohe3pkvg==}
+    engines: {node: '>=14'}
+
+  riza@0.23.6:
+    resolution: {integrity: sha512-DrRC45ChZ8qOhpvpBSr9JFA+fYqKcdclH/u8ulFrCv+Dh505ak3hfctR5RxRCTZP/9v6ftfuEXa7rvsLhKgHbg==}
+    engines: {node: '>=14'}
+
+  rocahe-utils@9.0.9:
+    resolution: {integrity: sha512-cFyrHOqORkhMp2mF5JOTetEDvGBpOAR0AXxJyr1u7cfCUSMM15gOtHbBpYvhy0f/V8hHP/YFiNho1T1k5Gm7Sw==}
+    engines: {node: '>=18'}
+
+  roches-core@5.22.10:
+    resolution: {integrity: sha512-eZQlUwe5duLmrhC15IVr5+7AUcLHJi2eEQk3cfn4wV2SCF8UT2QCZ+RR78CcDB83AMWlzoVqVqFcpb7MPyIYeQ==}
+    engines: {node: '>=16'}
+
+  roches-parser@5.0.14:
+    resolution: {integrity: sha512-mXlbt5qJ36ITOIsKyC+yzSZAIUUtI0NeG1wr4eRtlFN6ePdbjK57x/Os2nFYINaicVebr6GBUQwGwxCyee3CtA==}
+    engines: {node: '>=18'}
+
+  roines-core@8.11.7:
+    resolution: {integrity: sha512-wZWYAP01/j0Lr7wda/8JXaoBRGfgekQXCIrbh9sie6GfdvAOvctPqftU94jJwYy5crr+oNpQUDTuS7PbfWm/Bg==}
+    engines: {node: '>=14'}
+
+  romafa-js@5.25.14:
+    resolution: {integrity: sha512-BHO1UUR9D53kyDOiqKLDyWFEGCEd86CXbV8zEMP4DRFBFGVcA+a15Nyn8XD2R2KgcRIHTzRiV221vAiJxfok/A==}
+    engines: {node: '>=14'}
+
+  ropave-parser@9.21.5:
+    resolution: {integrity: sha512-Epn5XFjGE8SvrfAymnafGETcLid/PeDtKi4JHB/crfn0cv1vEQgB+PKiD0L/E/7jo9Jz0ssNIW8P3XmoVoPNYg==}
+    engines: {node: '>=14'}
+
+  saalabes-parser@5.27.7:
+    resolution: {integrity: sha512-2Qy6xXOwTWik0DJlWLseCN0STMJHtc0ZjMc1i4uItN3nRblUF1F3Ga+wsyS23rigJEu8Px+IWL16rRbk8yQ2Fw==}
+    engines: {node: '>=14'}
+
+  sadaify@7.22.1:
+    resolution: {integrity: sha512-7JEI0fSJAM0tWrkndG5LvTbODzaoTtKWUSO5v7VdDySilGbuGgd2yamKeoAPcav9BDc8m2BhRs6fklYaul+LIg==}
+    engines: {node: '>=18'}
+
+  saes-utils@8.30.18:
+    resolution: {integrity: sha512-49qfYaa23Vbh9SVZkB80lJyehT+oCHlVMt16ihoWUprCmQWrTNtHBBYdfBgnlEufEWu8cJSYfRYcn662YSZXRA==}
+    engines: {node: '>=14'}
+
+  salanoca@9.11.15:
+    resolution: {integrity: sha512-vptygoEWuP9jRnUdssnlGLXJXOEiQKTT6Glk4b8VMUaL80XsjT/5cHxH7lVaWUdoPTVUKcAiQif9t6647GX64g==}
+    engines: {node: '>=14'}
+
+  sapapida-core@1.13.0:
+    resolution: {integrity: sha512-eNU1F7QXzcT13wswrgRV6sR9jvIYOuDQiEl+5ngKYomdrRY2c88vJwaYwhprU9ppL/NLhDXmdJf9swWbn6P7Kg==}
+    engines: {node: '>=18'}
+
+  sarichso-utils@4.1.4:
+    resolution: {integrity: sha512-h6d8P4v82pi7aA2mNx3B4xwzDnAXPHMv8egYYN74VRurTrZPcbuzOdKx+EAo4oEhrdtlEini2gQlUf+fEvaZrQ==}
+    engines: {node: '>=14'}
+
+  sateify@7.24.9:
+    resolution: {integrity: sha512-A2FFMOuYVFRW8Xg0Y6fy1XgVxWGkibnQnxaouS2JGHDNzfCDMm85zL0CHh23T1L3a7eoIBuJWbQ6HjL2HQnw3w==}
+    engines: {node: '>=16'}
+
+  sene-core@3.11.0:
+    resolution: {integrity: sha512-QsMkt0RZJhNksQ1XfEAAD+r52F5Zr2Yr+kOHCsVj5VMCgLGTJWYODfhdzYL1uTQUwwybVSxC3pROpk0ZtSpW6g==}
+    engines: {node: '>=16'}
+
+  seonme@4.0.0:
+    resolution: {integrity: sha512-+s+k0HMDHyQ+i26X6FktJgg6wWlSii7WhqCWLMBFO0c+LLnGFtA0VeO6zLwLS4ju0KiSAwjVvDELVqO4n1i15g==}
+    engines: {node: '>=18'}
+
+  setepo-utils@2.8.5:
+    resolution: {integrity: sha512-54kg637krYQtmst/+wWdaVYIuxTKAeyUVbci2rpjOWxS0F1N2XfHyXuGpIXY8bvfucylDZPXJFqCmjCTwFJYRw==}
+    engines: {node: '>=16'}
+
+  siabtoify@8.6.9:
+    resolution: {integrity: sha512-b3FPS2809BicVynENcCJeuk7jCJTpiu4eLG1zbqPqARQ13k0aAb19euRdUfF6nsh9ZJZNhh9QUqAeLuU+I5rDw==}
+    engines: {node: '>=18'}
+
+  siacaldi-js@8.7.13:
+    resolution: {integrity: sha512-TLvg4s7jSU0qhsj5NwvFnaGYbJk8Vkv97WWMkYH1+YOP0pt8vzl8AkhO3imqK+YFsfLGkhcdZPKNVIcDgDJVSw==}
+    engines: {node: '>=18'}
+
+  sico@4.14.14:
+    resolution: {integrity: sha512-lSfbVkP8GL7ajeaf6RGeT7aWvPuRNtGlQLXe+Jc79iIuqh5aGZdNp5lotcM3h4GKVTtqixgMImW5M+6HaIDywA==}
+    engines: {node: '>=16'}
+
+  sideabel-js@0.9.9:
+    resolution: {integrity: sha512-VLpqjiEuCLGht7mHtmE3T7fhwrO/q+htjQAC8GJ/1Toh0YlKrec0wdbwxdfP0bd30Ug+BCVMuSAJ+nIKfAcBFA==}
+    engines: {node: '>=18'}
+
+  siha-js@7.9.16:
+    resolution: {integrity: sha512-X6BhIpUhEpXxFDIbAs203fKj9z84sVY0fU3M7Agvsgt5qm5TUjGFd+gVH94H1zjmpnY0dkrpWYn4Ccs0QPEF7Q==}
+    engines: {node: '>=18'}
+
+  sinave-utils@5.23.14:
+    resolution: {integrity: sha512-eHI9ld9U/xni211ODgoJpLbWlYwNxSP0O4+nam9/l22SNHDtfysbCEncloX62H+oxzy0uf+4Y0OUe43CiCaXvg==}
+    engines: {node: '>=18'}
+
+  sisamo-js@3.2.3:
+    resolution: {integrity: sha512-EqwMSdYn4bEJ9Celr9ecIrkkv/L2e2wjJuWppd5y2bSSpcmtGjhu7u4h4gZadZTKPPx/PcXWUNFYIJwqKttLcQ==}
+    engines: {node: '>=18'}
+
+  somosifi@6.16.17:
+    resolution: {integrity: sha512-FziE6tMZChg1VGKW+tWU6XSHVF/Ykz9Sbu9o0mWry0cQ25aL4SdU4qRN3QC3bJsmmF9WqlvJ/JpMpt5bu7BH6g==}
+    engines: {node: '>=18'}
+
+  sorichdi-parser@5.30.2:
+    resolution: {integrity: sha512-2vDScrej0d5eW519g5jEwVAl9u//bqdNbZkrwI+Cxgp3LwCKLAUZZ/zYH+yS5Uz2IUsKJ6dQB5vYVg1XCS1mkA==}
+    engines: {node: '>=14'}
+
+  sosoesify@2.25.12:
+    resolution: {integrity: sha512-RcbO7AVaBdwhpM6EmHQf6nm/f7k4Us1KW+gvf8HaIBTmf0ZTKplYGvJ/BGRbHQzJEYkHY5w6L3QSh5QwerO3Iw==}
+    engines: {node: '>=16'}
+
+  soxoify@8.30.13:
+    resolution: {integrity: sha512-wek0iq5H7A2+BXfLKs6XcDNAZRDM+A6zs6S+1zoNZWbiV7DhpNfCVxIRtzEW1yHs5ItOnFoS/XyXIlS7jX51oA==}
+    engines: {node: '>=18'}
+
+  taacen-core@2.2.14:
+    resolution: {integrity: sha512-wj+hHpw0/1uVDOpFnGXAO0t9qUZwCVsV7yA2p42gz2Saf2yDrdPppxiUN/Qg2KXG/BvaGZL8y0BmPDGe70sxtQ==}
+    engines: {node: '>=18'}
+
+  taalde-core@7.6.14:
+    resolution: {integrity: sha512-2i+2PeKFeQ4O1PVt9HWRJ/c+C5JXEIMdTv+elF/laa+zFtu8PA2R4nbqaD9VVWtyhuJXCXC44/KJ4D0kgmP0Tg==}
+    engines: {node: '>=18'}
+
+  taarloal-parser@9.0.0:
+    resolution: {integrity: sha512-mGI+ryn7TFfQAtPuJsfT3oIc4GXftFwH3mgE3gl9npncRaEd5T2Msu9NzxEt2OBTSTYol9liy4tWTihvxfhL8Q==}
+    engines: {node: '>=18'}
+
+  tainvede-utils@1.7.9:
+    resolution: {integrity: sha512-JYubAWVaX291wPkicBNMoDRsNPa94mKQZxTNk5/dEvbfMwSUCCpp8sQnREqjdurhezKJCuLVlComq94UE4Mq4Q==}
+    engines: {node: '>=18'}
+
+  taja@2.8.6:
+    resolution: {integrity: sha512-/U5PWLOlc3pe2e0iDkQQwICTyYBAg8FuSTdXK34tqzAert+RyNeXB4yungxSLApBiUXzEpQ9AnBnQOeiD2wuPA==}
+    engines: {node: '>=14'}
+
+  tajana-js@0.11.1:
+    resolution: {integrity: sha512-T3kiEeW0WuIcJLykmml+h7vATg5EU11sIqx+TsukV2Aklws+6YnnQGqtAGtj8d+2YINwKUmzwa7AhOfQ64VWbg==}
+    engines: {node: '>=14'}
+
+  talemi-parser@0.23.5:
+    resolution: {integrity: sha512-0Dgakv35NR+6axG4s5ajHP97AxFWi1z+9bhN5+3yKU3U3Kco2hDWxFpTVVie6rbBxnuPeXn8uHqOmBu5pYhMEw==}
+    engines: {node: '>=16'}
+
+  tami-parser@2.10.20:
+    resolution: {integrity: sha512-Khk05smIbGcBk9y6bDEpAAIXkVVCbR7tK6pXWToP3L5LRSihTGE/VbqqnDaJE1cei5cWkth+Uu6YBES8Kr6Crg==}
+    engines: {node: '>=18'}
+
+  tata-parser@0.27.18:
+    resolution: {integrity: sha512-C6tXU6BrgVIRtUJxnIjLmPtP2N4apO9cefrkpexGIg/FowC1IkPt0bHSzyV99g3W7ymGba/NSj6QBNpKubJiQA==}
+    engines: {node: '>=16'}
+
+  tatepa-js@2.13.15:
+    resolution: {integrity: sha512-fCjD4B/PXAwzMuu9p7ivBpuqh7N5HP9Ug9mdvMZugvI5na0s8szLV463EKVg36U/LeRnL7GsFoQPA2vcO1/KGg==}
+    engines: {node: '>=14'}
+
+  tave-js@9.8.8:
+    resolution: {integrity: sha512-DtBlVtO13dHecGWWjaF59SlLqzKl+2o9B0tkSeyDCikNdaS/eaKpMCTaGFKsur1XjvSmfDFX1Os/jxl2rY30CQ==}
+    engines: {node: '>=14'}
+
+  tazaheify@4.5.7:
+    resolution: {integrity: sha512-NLO5ZBhtOFetx1r3Bg8uq2I1UBpHB+QncAmfHagFTQWtLgOPm4XDS/L4sSgZL+it7YmZYlrvaalQDXwGmEsrbw==}
+    engines: {node: '>=18'}
+
+  tehazave-utils@6.29.10:
+    resolution: {integrity: sha512-HYowXKK4OsftgHUQENzj0LF6EhnHBNMlUqXXuUwZuGOc4lCvh5Q0rGd8vnsOZNRJJ6CXHo9WuT8D5yZ12+jwrQ==}
+    engines: {node: '>=16'}
+
+  teleca-core@7.18.12:
+    resolution: {integrity: sha512-tzJKIeHds5P25JU14LnEm27aElFIM9q1c0z6y1DBRcXapnZqCayb5Ez0SNoJZSRf6Y8M5NjrtzI/yibm+3047Q==}
+    engines: {node: '>=14'}
+
+  temidaja-utils@1.0.11:
+    resolution: {integrity: sha512-jUuFVqRZ4TD2vrZ6yOzyeXUp+Kqahvs2lu7NjdombE0271hDDF9CWeb/R39d88RFZdVrrp+KQbqWsBVypmi6sQ==}
+    engines: {node: '>=18'}
+
+  texo-parser@5.12.4:
+    resolution: {integrity: sha512-kAcYJskrswMegfILrT0LCVxtUHEoqcRwiXHZhg7f6+PdQkVkKl98VrFzUqWQ7iHtPH4W3r/XTDaUeDA6N1v7Ew==}
+    engines: {node: '>=14'}
+
+  tidimoenify@8.0.15:
+    resolution: {integrity: sha512-XfquQ0zDZB0joChW4vejVwy0mvudNXQhuDaTZC/o/V1QcHpwG8ZWSctzu1Im8NNyei1TIS4Z/6vZncrtUgAUXQ==}
+    engines: {node: '>=16'}
+
+  tigaja@3.15.1:
+    resolution: {integrity: sha512-I86xQRNq27ZFXlONMNzlaZaSGId/DuwISrnSutlO6B8NQwA6xu2EYdaiyj6iZamFtcWEaa5xPwIvnHYziw2kuQ==}
+    engines: {node: '>=14'}
+
+  tila-parser@3.12.14:
+    resolution: {integrity: sha512-vCQE32XJABheXQT4szisNAK7glzKS6dFQ/c2dFOoQNBcViBZpt0tMMQ4LiJkXrwW5z9avYX2SBLLOnzemKlVwQ==}
+    engines: {node: '>=18'}
+
+  tilo-core@6.23.5:
+    resolution: {integrity: sha512-0re2CFWrrqirGU2w/U+L0xdbJ+tlPBJfSsqK2PzNJQq5c15M0X3giLIUa3RirYY+QHv3y0rAuEhMnj1mCKX3wA==}
+    engines: {node: '>=16'}
+
+  timo@1.4.8:
+    resolution: {integrity: sha512-TNFCxQ4plwkNJWV5HDqniwQJauwHBdCdZ3If3FAzk/M9oUbojtU2UoVReaYSMkO8yN7leHaK9/GIfw9CrI4S4g==}
+    engines: {node: '>=14'}
+
+  tiorsolo@3.28.20:
+    resolution: {integrity: sha512-N55C2ys5SKxjTESXxTZEv1Tu/jKO6P51UUf+Nm2JJ4VAuEJlWmYiTs2s/ruEpgVcNTcfk11zKCnmZJeb+LzmbQ==}
+    engines: {node: '>=18'}
+
+  tirareli-parser@0.4.10:
+    resolution: {integrity: sha512-/5Zp0+shINs80cAOHfqnuWFxk3nZ3a3a4KRZVQtgTVH5tvpMJZFB4B4h28L0byeF1gVxisrXtPoS8+swu4bZPw==}
+    engines: {node: '>=18'}
+
+  tiveto@1.7.9:
+    resolution: {integrity: sha512-7fffUsIWhBwGZYpfJj40LTIqbqivqkKm8zFX8BJorgUv61o2XqX5T6NY56cx3b2wo8zQgkHCeTvPoj5sjNCoXg==}
+    engines: {node: '>=14'}
+
+  tomi-core@6.6.2:
+    resolution: {integrity: sha512-IKi72F8BXjSVTd6F3+CK6f1wyj6zWjeSMngi8h9d3fdswzGCG7lMdNyR7wY/mss8cMxVt8YbhkSStBvy3oasSw==}
+    engines: {node: '>=14'}
+
+  tomigeac-js@2.26.17:
+    resolution: {integrity: sha512-2fx2uu7l15gCP9Gcww1SPaxCPY207c0S596NYphHYVbOSsrF4Wp2rA52Vep0AT2qbydbHaDuiDuNGklviIxLNQ==}
+    engines: {node: '>=14'}
+
+  toorpi-core@6.18.16:
+    resolution: {integrity: sha512-sQc3bwHmJYNbs/8yBTk+bCwS25WqEMELavqDGXT5xtqdh6SFraQaYJo7qPdtU21H+jtHgQdRn/VPAXAZ5kJ3jw==}
+    engines: {node: '>=16'}
+
+  unneto-parser@4.1.19:
+    resolution: {integrity: sha512-bw8Y8sSwWeP0VwXPLdJ7gt0Lo9QurFbazoauDvuIMayTi3JrNIT/L+WMnmY2DDtMA1Lg8QVr16p8a2mcBlO5pg==}
+    engines: {node: '>=14'}
+
+  unoralify@6.28.18:
+    resolution: {integrity: sha512-9YShKUfygb9PK4mgndLuzIsgpms0jhVFMJJQrZbBEur7Ya/0TlfS5tWxp5n1L1/zJ5fMoPlObnLZg/VmfEviqA==}
+    engines: {node: '>=18'}
+
+  untetapiify@4.30.4:
+    resolution: {integrity: sha512-8UKryyGRiZV8N2mTSgL+IuF0KLp+oPjTwhT8vXZ0/a9as8MeL7VieQlFZu4dYK52c7qnLo+6BpmzdGHQXnh38Q==}
+    engines: {node: '>=18'}
+
+  vaacel-js@1.29.20:
+    resolution: {integrity: sha512-6Gs1219eiMT1XwF0PgVPjsOHxGARDvwWKYRMBFJamQbLncH+zTah+V08P76VKhxXeO1ijswnsyHc3Q+Uzv/FpA==}
+    engines: {node: '>=16'}
+
+  vaaresca-parser@4.7.3:
+    resolution: {integrity: sha512-xH2QH7VbsUi98DLH+GtSg8qf3u3Dpiu0abirazpYILKgEgR6hsCzxiCXgBldde0bVkSWY2KmdkjLNSbCMU3HYA==}
+    engines: {node: '>=18'}
+
+  vabo-js@6.27.10:
+    resolution: {integrity: sha512-MYqUmjPvK8F0cwWGCtGJgryBMXBZoC9UtKAkNZyjFa4t58dVkWtVYWRzAZVcan3ZpE/Zim6b9EvcfNp+9VGfSw==}
+    engines: {node: '>=18'}
+
+  vacaonmo-js@1.23.13:
+    resolution: {integrity: sha512-eoyB4szpChH/JxfEOCPu2EIeojg39OFe1tUiIojVUBcpCGyHqUGeIvMZ7a6STuOVsA0jCe8cpOQEPu5/cZKnSg==}
+    engines: {node: '>=18'}
+
+  valotiify@9.21.18:
+    resolution: {integrity: sha512-hhkNacW6n9BH3rWWSvk0f9tFTptHp6A0qCdJcPnhSwkT1MZiUPZetsnEo+lYPB6sIrqhgyJSMd+Q4GOcyKNXHA==}
+    engines: {node: '>=14'}
+
+  vana-core@7.20.8:
+    resolution: {integrity: sha512-YK3Ehn8twz3j0Crg+RDqzfXIRXrG/ga9GuDUPYuXzNBtRyRhljEVB55DNTL5MobbkDz9djQ42u5xRz8Go7zhGg==}
+    engines: {node: '>=16'}
+
+  vawaabja-core@6.15.18:
+    resolution: {integrity: sha512-kITqEO96MObbrmr16tfmAVa18hbBJnFOQI9l70sR6Fr5jK96AJlzkidKpJA7ClshN4hHlOtlDulzn1lYz9T6jg==}
+    engines: {node: '>=16'}
+
+  vebetaify@9.8.6:
+    resolution: {integrity: sha512-Xtu7JTzCA5r4TgrVQbcj3jsozWPrp8NbTL/HLastC/lNvgBTHazxDR0evbwa04Xu8+GAfiRdgdTsSnuIFPMj8Q==}
+    engines: {node: '>=14'}
+
+  vefi-parser@4.14.0:
+    resolution: {integrity: sha512-k4RGKS0oRHxRkRpi3Y38tGqYVuHnbrp11oAhK1AlDzJJ9Mb+zc12Azwn2ujlKANY9iB9LEOOqxWhLSyCzxem1A==}
+    engines: {node: '>=18'}
+
+  veha@9.6.17:
+    resolution: {integrity: sha512-T24ov6uoMs9c5Y9zuNkMpjReAuth956aggR1jeh9ktnGkn/+9hbsy08we8q8OHgvT6F4wMeFzhr1PJfgNBO1TQ==}
+    engines: {node: '>=16'}
+
+  vehage-utils@8.19.10:
+    resolution: {integrity: sha512-1KmJpvVHvO6mL3e/gZrlGBqiEXSzhrB3MEfENf9DJBMkAQ2EoprsNpVE7mLHy26IW2UCxsBS9tFYAZAFPQJxSw==}
+    engines: {node: '>=14'}
+
+  vehe-core@0.20.10:
+    resolution: {integrity: sha512-9x/hnh2SrMtbJa1AK5//K8vSkFgICUxiSVtAmOe4qC28vUyBe4QsMSMEV1B62Tx+kTgFteGwM0DlI4f0KE6P/A==}
+    engines: {node: '>=18'}
+
+  vehene-core@0.2.13:
+    resolution: {integrity: sha512-44p1zvnIZtmkH+ejWnwOHnprpOYD6fVfb2G5uI5HoMLtlqLjCpJQ2Wn6VjAkMSSId/XsN9203lQw5MSj84TQSg==}
+    engines: {node: '>=16'}
+
+  velite-core@2.23.14:
+    resolution: {integrity: sha512-v+NgaYdx6wV8Aaim3ry+liQawZklO+ejIcxei/+7treZTUKx50qYedtHDUdtND3+xCK04oI6f+qxU/MtSqjNeA==}
+    engines: {node: '>=16'}
+
+  venomaco-js@5.17.12:
+    resolution: {integrity: sha512-Aa7fXpeI/ugEyzGYjz5I279hX3Nl3sE43q4/IPUdS5JyGA52mj3yo+wCbG3F1+af4C93S+SRJczU3NjvdqfsCQ==}
+    engines: {node: '>=18'}
+
+  vepa-js@9.4.20:
+    resolution: {integrity: sha512-nMnqWFkdEQF/Pfgch1gm739G499GwqRJH0sqMFbm6gdULJ20wffEKgOZVmqDtn7wOI9JqspFkh3LMVn9w4GWsQ==}
+    engines: {node: '>=14'}
+
+  vexodeify@9.19.5:
+    resolution: {integrity: sha512-I2JkbzSEWBjM7jZAQVzwSAmxQBc/MzvrM4IzGHVsWxdpY0LvI1rXNx2zFU005C2mIFR8e7N7MMuKzKVouV8B3Q==}
+    engines: {node: '>=16'}
+
+  veyo-core@2.17.6:
+    resolution: {integrity: sha512-HQg1q9bj2K+VotJz/obTAySo1PkBdMVL7NAGijJn4ksp7VTpBGtHQsTpKsxxGKrlK4OUaBKdM1Ri5LBSF75QGg==}
+    engines: {node: '>=18'}
+
+  waacel@0.11.3:
+    resolution: {integrity: sha512-jPX1Ts6rVoSal1L5Qp20hWxI3zeNjc77lkfu96gMhONMRs+LKKJpJ1dH2eKBCXNcP5g1TZEcEnnF8O0Um1W10w==}
+    engines: {node: '>=16'}
+
+  waan-parser@4.21.8:
+    resolution: {integrity: sha512-HpHm3zLZ1+ubeuFbm21lRPKmXbpmcl8aDUvhPgPULdhrntC8YOlrHWttlvnt8J1xRWDMC9Vx4V9jj4Ym6d+fpQ==}
+    engines: {node: '>=14'}
+
+  wacasaify@0.20.20:
+    resolution: {integrity: sha512-uCMnZblm8OwhPe4I90FfkNkrU5jVH1tGaGRX0/Lv/khlx2+6MqimrtfoqmaE8FRfStmeuAqWBJLO8uuaqzfezA==}
+    engines: {node: '>=14'}
+
+  wade-core@0.18.5:
+    resolution: {integrity: sha512-nqGAfxsaCXY/uo0L23n03LfLt/CeA3y2RDWpO9mmPO7tlmbpWBlwKXsVNHmlX5vkjBZ3/mLuFn3KATEctK8Wcg==}
+    engines: {node: '>=18'}
+
+  wadior-js@5.4.2:
+    resolution: {integrity: sha512-wgc//WuAK0Mr4ia2SmtTKeFU8DN3As2jdlBMJSUDy5Y+dMl1NgRHk2YIL6oSyWRB2ITW8w13m52a89UxiY862Q==}
+    engines: {node: '>=14'}
+
+  wadivara@5.21.20:
+    resolution: {integrity: sha512-X5LCCPIPZnPYAFSWUJEa7WWG+97JcAofj8K/VCOyEU2D5FePkOy/TI7o5MajVx4Ql+TVknjBFZ+zid/1UrP8dw==}
+    engines: {node: '>=18'}
+
+  waesnageify@9.7.1:
+    resolution: {integrity: sha512-/u//zx8vt7UU3yleubHIRtZbDhMtnesW7E9t4TtjJ6pXdj84W5R+U+VGofNzBW4rYsgp8oHQB1ZK+nJuEEmepA==}
+    engines: {node: '>=16'}
+
+  wainre-utils@7.24.9:
+    resolution: {integrity: sha512-QQxAHZBExPeATEBZHdNqGOlRYK+AaS0VB9HcIRbTU2srcXw+qnWaVx1e/0Geokyd505y/IPhM04UpYLvDK4AKg==}
+    engines: {node: '>=14'}
+
+  waishapo-parser@0.14.15:
+    resolution: {integrity: sha512-pS9plcYM1eMyRA7vPKKrw9/cWCSUhx3YkXxjhbYjdiNFvQIopzKHhK4Fa7yUXZWHSm/a7bp/vnktY2QZ3fOUAw==}
+    engines: {node: '>=18'}
+
+  wajapaonify@8.5.16:
+    resolution: {integrity: sha512-SQhD/dKblFmrNFeR8XH4QnMYRoHfHr7nCCSQ0oYZW1kTD2Af40bz/miHnSrCcHxyr56ftLaGvMLinCh+JiDVrA==}
+    engines: {node: '>=16'}
+
+  wamefave@9.11.3:
+    resolution: {integrity: sha512-qtbbEiSWlCtqD0HJcqXUMm96F4pZPGQ65nIuyVuAmi5F5JtR9lxZ5Uj4MMx1eGWi0jmzHfnVsAQfyw0RbRYkWA==}
+    engines: {node: '>=14'}
+
+  wara-js@7.19.16:
+    resolution: {integrity: sha512-CiE0V+9B/7e+DJ8gpK78bYKaKdPJl5GqTsuAWhZqXtcDRxt1o75q4hmpWxmFcQg2PnCZf5ISUyKoQv9G/YR92Q==}
+    engines: {node: '>=16'}
+
+  warito@7.29.12:
+    resolution: {integrity: sha512-gz91KemLuFzOxHwLmY+nPTy+iym7J1v9Dub1Uaw60Q0vM6hKusJfb/kasobIT/wnxLYuzHPo3lTvlxv+JLxlRA==}
+    engines: {node: '>=14'}
+
+  wasa-utils@1.1.12:
+    resolution: {integrity: sha512-tZC8X9G9YtLml5I6Bk2Y82NsPJjf+rLtJsjoN6R7TgJTIMNaSc9FVE5UUF1+uIGOzSg9ldXYi4OLNbXGwH6qnA==}
+    engines: {node: '>=16'}
+
+  wase-utils@2.18.13:
+    resolution: {integrity: sha512-anRXee6RcQQYHyVFDIgXSLBnOb+A8It8alwhr9IW2KQuS3cn7fyLtmM+xKrJBw1bbQne+O1SVHZ9yXhuJ9ehhQ==}
+    engines: {node: '>=14'}
+
+  watele-core@7.20.9:
+    resolution: {integrity: sha512-o3xCo/zKjAsQgMEuUnZF71MYSon4dZ2iDj36rvoXNkrdc0CAH/yp7Nkn4V67ilS/7rjJF6Qy0n3vADSNopv7nw==}
+    engines: {node: '>=14'}
+
+  waunta-core@0.0.5:
+    resolution: {integrity: sha512-l9dw3XSWNTNlPgB3+y1k6KzQi4oW+5bh9ehOC4ysZ6h2zEQV9I/efoSlg/oLdISn/47N7hYsT8Cn0JgUd6aS/A==}
+    engines: {node: '>=14'}
+
+  xoesveab-parser@2.3.2:
+    resolution: {integrity: sha512-UbbomMDXc8h17YiiLaG9Bj2PASL6cKjaMSvtenQfjGGUu3h33FPfuuCiOpC/ByY1bBFNVFQyC60VHS78XDFBMw==}
+    engines: {node: '>=14'}
+
+  xofa-js@5.14.5:
+    resolution: {integrity: sha512-qr9pzv5u0ii3Q4APj089v1oydLOFskxNlgQOlnnJu04/sTzmlcXo0kZx5o6rXmMg2YoJmK8SaeEJmDUNlEV16w==}
+    engines: {node: '>=16'}
+
+  xoheanpi@0.10.4:
+    resolution: {integrity: sha512-bTEhxhO51CVyAjINzMqyXqyjDg6d/Jbdflj2WoPGWHf4i8iHJBHyIDXuu5S/bNNXgma0of91hVgCO7yC1iBM2Q==}
+    engines: {node: '>=14'}
+
+  xolawa-js@8.1.20:
+    resolution: {integrity: sha512-Sl86DU4yS3RqUZPKjezcfrmo06jQpCWpF5t/8ChpNdcOzGLJ+8XX5lmRlArp/X3S3sWtWKPLruhIIEYq4Hvi9w==}
+    engines: {node: '>=14'}
+
+  xolimeve-js@0.29.19:
+    resolution: {integrity: sha512-rrtCCDXFGVYhkQ2apZ/OyTPrK1pYLLo+lZS1Qup9BPkFTj40GWsYFNGJiCBv5tDLrGyi1QVDGm+odaer2FQ0UA==}
+    engines: {node: '>=16'}
+
+  yoacpepo-js@4.29.13:
+    resolution: {integrity: sha512-hRCBFDPn4ZOhLf1w1MuIxuasasswythQLIhzUzzrrHUl5GjYmBpKuFz8Bjpg87VKudvYhM7UgZUaRmStjtqirw==}
+    engines: {node: '>=16'}
+
+  yochonal@2.30.14:
+    resolution: {integrity: sha512-uw/W0n6wcl1y9XKUuhADgW+0ZvHmUZwW1Y35tmoZtAjl4sSiSJapq1LJLTH2AF1wSBCUuAUBKPmazamooiqjpw==}
+    engines: {node: '>=14'}
+
+  yoes-core@6.28.1:
+    resolution: {integrity: sha512-IwLnHMNEb/Lw/KR0aqcBu6Gz+tyzgUFg45ciJCFapKk42CwxYWTc8JS/bWPe82krXJavKBJN01i0jnc93WCWoQ==}
+    engines: {node: '>=14'}
+
+  yoesva@8.16.17:
+    resolution: {integrity: sha512-k4BjqQB8/gY36Yct84uCXcwu8oUE9jJKgoNZRDqdDmh1GFwEVDnYNuPPBTxvce63msV6Rc/Fs2LxTN20mgBPQQ==}
+    engines: {node: '>=14'}
+
+  yokanoor-js@8.16.10:
+    resolution: {integrity: sha512-yKnHL9HtnTa9q178J+RGCLYF9xdl8SsB6GxBRrrhBGA+tkuW9Skd8o0Avx9EcR8UFRUnMQU2yLDwvcIPEtD6sg==}
+    engines: {node: '>=14'}
+
+  yomela-utils@5.21.13:
+    resolution: {integrity: sha512-GNK+GV2+aGyEzB8secOhlIyt6V5YfnfQLbAay4MLsvBtATQlxUtSkN5gU6qZb3H1eH+BACsqE0i9BqdjocqNqA==}
+    engines: {node: '>=16'}
+
+  yonedira-parser@1.3.16:
+    resolution: {integrity: sha512-A3iFasjhWNybg7oT+3WMY2o2rwXt0IxmMXS4W91Qa+Ru8kPG020duYDj16PNOJKuInd+BdgGd6E9YT+tdVumZA==}
+    engines: {node: '>=14'}
+
+  yorebese-js@6.15.20:
+    resolution: {integrity: sha512-qkXB9Uw9WCHs/fcoyzo2OjJDRfy45a/Jlo7+m7X2+mJc1eWTreBLfHH2JEOTa91MqrnaUfu/PHcaH4BYsI3vIw==}
+    engines: {node: '>=16'}
+
+  yosoac-parser@1.5.7:
+    resolution: {integrity: sha512-D84bw6UQ4yy5G1H2WjZVMqpLJtibP0dH8UjNYsMR3CSmBts67fm2SVw5qGKDM5Q55ILaIafq7UpiPtRgtuK0xQ==}
+    engines: {node: '>=14'}
+
+  zaacify@1.22.16:
+    resolution: {integrity: sha512-veEpSiKTGG3rjT7PWv6Pg2aNj77cAgwD07K/evy9J9qADxza44sJWV1PBTLBctLEVKPoyEsJLlGTNzKUfp8yNw==}
+    engines: {node: '>=16'}
+
+  zaacpi-parser@3.20.11:
+    resolution: {integrity: sha512-lZa8qlm0mSNhuCgJD3vRuoE+JiWpVQyi0ESSc91rR0EmXga015MCTrFTpV05bNyltjw9Ipzowdl1dvRLza+5Mg==}
+    engines: {node: '>=14'}
+
+  zala@4.11.14:
+    resolution: {integrity: sha512-h1CaHNL7t2Dy5f+q2yp5YvSR+JuLWYm7QwpSUcf3Arv1ftZn/Vn0E3G9Crwz0GVTCn7ngd/TQ3rNpbFG1elExg==}
+    engines: {node: '>=18'}
+
+  zanape@2.26.9:
+    resolution: {integrity: sha512-X910sFvJjr4zDx3Pb3dzxLzV0aTOuLJd34rX5fw+zyZqOs0IMsm4+VybrmJDNs+oJAgKpjUQ3lNIBPrZDuGgZA==}
+    engines: {node: '>=16'}
+
+  zaunpois-core@6.10.18:
+    resolution: {integrity: sha512-Iej0WyBj1k7IhLHx7KLMyK1GzRYnx3zViWqQW9q848eyM4K0cxr/mJCVOhu6qGImEiNYw10Ti9I+d+Z+dFaK1A==}
+    engines: {node: '>=16'}
+
+  zayosili-parser@9.12.20:
+    resolution: {integrity: sha512-cBoFefPK99odtUd8mVErWu+UfwXdublbcAO8E94Zbx1gAHtaUZRfeGyTWjSd3Y+4awIEEPk3kfGIBsS2iuyaQw==}
+    engines: {node: '>=18'}
