@@ -13,10 +13,22 @@ class RateLimitMiddleware:
         self.rate = rate
         self.buckets: dict[str, TokenBucket] = {}
 
+    def client_key(self, environ) -> str:
+        forwarded = environ.get("HTTP_X_FORWARDED_FOR", "")
+        if forwarded:
+            return forwarded.split(",")[0].strip()
+        return environ.get("REMOTE_ADDR", "unknown")
+
     def __call__(self, environ, start_response):
-        client = environ.get("REMOTE_ADDR", "unknown")
-        bucket = self.buckets.setdefault(client, TokenBucket(self.capacity, self.rate))
+        client = self.client_key(environ)
+        bucket = self.buckets.get(client)
+        if bucket is None:
+            bucket = self.buckets[client] = TokenBucket(self.capacity, self.rate)
         if not bucket.take():
-            start_response("429 Too Many Requests", [("Content-Type", "text/plain")])
-            return [b"slow down\n"]
+            retry_after = max(1, round(bucket.wait_time()))
+            start_response(
+                "429 Too Many Requests",
+                [("Content-Type", "text/plain"), ("Retry-After", str(retry_after))],
+            )
+            return [b"rate limit exceeded\n"]
         return self.app(environ, start_response)

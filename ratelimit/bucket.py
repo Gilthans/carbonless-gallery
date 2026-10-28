@@ -1,5 +1,6 @@
 """A token bucket: `capacity` tokens, refilled at `rate` tokens per second."""
 
+import threading
 import time
 
 
@@ -10,21 +11,25 @@ class TokenBucket:
         self.capacity = capacity
         self.rate = rate
         self.tokens = float(capacity)
-        self.updated = time.time()
+        self.updated = time.monotonic()
+        self._lock = threading.Lock()
 
     def _refill(self) -> None:
-        now = time.time()
+        now = time.monotonic()
         elapsed = now - self.updated
         self.tokens = min(self.capacity, self.tokens + elapsed * self.rate)
         self.updated = now
 
     def take(self, n: int = 1) -> bool:
         """Take `n` tokens if there are enough; False (and take none) if not."""
-        self._refill()
-        if self.tokens >= n:
-            self.tokens -= n
-            return True
-        return False
+        if n > self.capacity:
+            raise ValueError(f"cannot take {n} tokens from a bucket of {self.capacity}")
+        with self._lock:
+            self._refill()
+            if self.tokens >= n:
+                self.tokens -= n
+                return True
+            return False
 
     def wait_time(self, n: int = 1) -> float:
         """Seconds until `n` tokens will be available."""
