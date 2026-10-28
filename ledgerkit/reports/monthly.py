@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from decimal import Decimal
 from typing import Iterable
 
-from ledgerkit.parsers.csv_reader import Transaction
+from ledgerkit.io.readers.csv_reader import Transaction
 
 
 @dataclass

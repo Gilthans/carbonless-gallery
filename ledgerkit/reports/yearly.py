@@ -4,7 +4,7 @@ from datetime import date
 from decimal import Decimal
 from typing import Iterable
 
-from ledgerkit.parsers.csv_reader import Transaction
+from ledgerkit.io.readers.csv_reader import Transaction
 
 
 def fiscal_year(posted: date, start_month: int) -> int:

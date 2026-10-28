@@ -5,7 +5,7 @@ from decimal import Decimal
 from pathlib import Path
 from typing import Iterable
 
-from ledgerkit.parsers.csv_reader import Transaction
+from ledgerkit.io.readers.csv_reader import Transaction
 
 
 def _encode(value: object) -> object:
