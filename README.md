@@ -16,3 +16,4 @@ Each case has its own base branch (`base/<case>`) and head branch (`case/<case>`
 | history-merge | #8 | The base moves on and is merged into the PR branch (with a conflict), then a later commit. |
 | history-force-push | #9 | A first version, a review on it, then a rebase onto a moved base with edits and a force-push. |
 | threads | #10 | Single-line, multi-line, deleted-line and file-level review threads, replies with Markdown, one resolved, one outdated. |
+| merged-left | #11 | A review started in carbonless, then the PR merged by a merge commit: GitHub still puts LEFT lines on the PR's own diff, while the base branch now holds the head. |
