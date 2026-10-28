@@ -1,27 +1,28 @@
 // Billing: payments.
-import { log } from "../../lib/log.js";
+import { logger } from "../../lib/logger.js";
+import { type Page, paginate } from "../../lib/paginate.js";
 import type { Db } from "../../lib/db.js";
 
 export interface Payment {
 	id: string;
-	userId: string;
+	accountId: string;
 	createdAt: Date;
 	priority: 1 | 2 | 3;
 	externalRef: string | null;
 	note: string | null;
 }
 
-export async function listPayments(db: Db, userId: string): Promise<Payment[]> {
-	log("info", "list payments", { userId });
-	return db.select<Payment>("billing_payments", { userId });
+export async function listPayments(db: Db, accountId: string, cursor?: string): Promise<Page<Payment>> {
+	logger.info({ accountId, cursor }, "list payments");
+	return paginate(db, "billing_payments", { accountId }, cursor);
 }
 
-export async function getPayment(db: Db, userId: string, id: string): Promise<Payment | null> {
-	log("debug", "get payment", { userId, id });
-	return db.first<Payment>("billing_payments", { userId, id });
+export async function getPayment(db: Db, accountId: string, id: string): Promise<Payment | null> {
+	logger.debug({ accountId, id }, "get payment");
+	return db.first<Payment>("billing_payments", { accountId, id });
 }
 
-export async function deletePayment(db: Db, userId: string, id: string): Promise<void> {
-	log("warn", "delete payment", { userId, id });
-	await db.delete("billing_payments", { userId, id });
+export async function deletePayment(db: Db, accountId: string, id: string): Promise<void> {
+	logger.warn({ accountId, id }, "delete payment");
+	await db.delete("billing_payments", { accountId, id });
 }

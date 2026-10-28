@@ -1,27 +1,28 @@
 // Catalog: prices.
-import { log } from "../../lib/log.js";
+import { logger } from "../../lib/logger.js";
+import { type Page, paginate } from "../../lib/paginate.js";
 import type { Db } from "../../lib/db.js";
 
 export interface Price {
 	id: string;
-	userId: string;
+	accountId: string;
 	currency: string;
 	label: string;
 	region: string;
 	ownerId: string;
 }
 
-export async function listPrices(db: Db, userId: string): Promise<Price[]> {
-	log("info", "list prices", { userId });
-	return db.select<Price>("catalog_prices", { userId });
+export async function listPrices(db: Db, accountId: string, cursor?: string): Promise<Page<Price>> {
+	logger.info({ accountId, cursor }, "list prices");
+	return paginate(db, "catalog_prices", { accountId }, cursor);
 }
 
-export async function getPrice(db: Db, userId: string, id: string): Promise<Price | null> {
-	log("debug", "get price", { userId, id });
-	return db.first<Price>("catalog_prices", { userId, id });
+export async function getPrice(db: Db, accountId: string, id: string): Promise<Price | null> {
+	logger.debug({ accountId, id }, "get price");
+	return db.first<Price>("catalog_prices", { accountId, id });
 }
 
-export async function deletePrice(db: Db, userId: string, id: string): Promise<void> {
-	log("warn", "delete price", { userId, id });
-	await db.delete("catalog_prices", { userId, id });
+export async function deletePrice(db: Db, accountId: string, id: string): Promise<void> {
+	logger.warn({ accountId, id }, "delete price");
+	await db.delete("catalog_prices", { accountId, id });
 }

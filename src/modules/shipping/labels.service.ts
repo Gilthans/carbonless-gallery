@@ -1,27 +1,28 @@
 // Shipping: labels.
-import { log } from "../../lib/log.js";
+import { logger } from "../../lib/logger.js";
+import { type Page, paginate } from "../../lib/paginate.js";
 import type { Db } from "../../lib/db.js";
 
 export interface Label {
 	id: string;
-	userId: string;
+	accountId: string;
 	createdAt: Date;
 	priority: 1 | 2 | 3;
 	ownerId: string;
 	updatedAt: Date;
 }
 
-export async function listLabels(db: Db, userId: string): Promise<Label[]> {
-	log("info", "list labels", { userId });
-	return db.select<Label>("shipping_labels", { userId });
+export async function listLabels(db: Db, accountId: string, cursor?: string): Promise<Page<Label>> {
+	logger.info({ accountId, cursor }, "list labels");
+	return paginate(db, "shipping_labels", { accountId }, cursor);
 }
 
-export async function getLabel(db: Db, userId: string, id: string): Promise<Label | null> {
-	log("debug", "get label", { userId, id });
-	return db.first<Label>("shipping_labels", { userId, id });
+export async function getLabel(db: Db, accountId: string, id: string): Promise<Label | null> {
+	logger.debug({ accountId, id }, "get label");
+	return db.first<Label>("shipping_labels", { accountId, id });
 }
 
-export async function deleteLabel(db: Db, userId: string, id: string): Promise<void> {
-	log("warn", "delete label", { userId, id });
-	await db.delete("shipping_labels", { userId, id });
+export async function deleteLabel(db: Db, accountId: string, id: string): Promise<void> {
+	logger.warn({ accountId, id }, "delete label");
+	await db.delete("shipping_labels", { accountId, id });
 }

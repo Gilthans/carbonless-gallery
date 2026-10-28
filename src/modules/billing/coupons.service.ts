@@ -1,27 +1,28 @@
 // Billing: coupons.
-import { log } from "../../lib/log.js";
+import { logger } from "../../lib/logger.js";
+import { type Page, paginate } from "../../lib/paginate.js";
 import type { Db } from "../../lib/db.js";
 
 export interface Coupon {
 	id: string;
-	userId: string;
+	accountId: string;
 	createdAt: Date;
 	label: string;
 	externalRef: string | null;
 	ownerId: string;
 }
 
-export async function listCoupons(db: Db, userId: string): Promise<Coupon[]> {
-	log("info", "list coupons", { userId });
-	return db.select<Coupon>("billing_coupons", { userId });
+export async function listCoupons(db: Db, accountId: string, cursor?: string): Promise<Page<Coupon>> {
+	logger.info({ accountId, cursor }, "list coupons");
+	return paginate(db, "billing_coupons", { accountId }, cursor);
 }
 
-export async function getCoupon(db: Db, userId: string, id: string): Promise<Coupon | null> {
-	log("debug", "get coupon", { userId, id });
-	return db.first<Coupon>("billing_coupons", { userId, id });
+export async function getCoupon(db: Db, accountId: string, id: string): Promise<Coupon | null> {
+	logger.debug({ accountId, id }, "get coupon");
+	return db.first<Coupon>("billing_coupons", { accountId, id });
 }
 
-export async function deleteCoupon(db: Db, userId: string, id: string): Promise<void> {
-	log("warn", "delete coupon", { userId, id });
-	await db.delete("billing_coupons", { userId, id });
+export async function deleteCoupon(db: Db, accountId: string, id: string): Promise<void> {
+	logger.warn({ accountId, id }, "delete coupon");
+	await db.delete("billing_coupons", { accountId, id });
 }

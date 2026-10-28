@@ -1,27 +1,28 @@
 // Accounts: teams.
-import { log } from "../../lib/log.js";
+import { logger } from "../../lib/logger.js";
+import { type Page, paginate } from "../../lib/paginate.js";
 import type { Db } from "../../lib/db.js";
 
 export interface Team {
 	id: string;
-	userId: string;
+	accountId: string;
 	externalRef: string | null;
 	currency: string;
 	status: "active" | "archived";
 	ownerId: string;
 }
 
-export async function listTeams(db: Db, userId: string): Promise<Team[]> {
-	log("info", "list teams", { userId });
-	return db.select<Team>("accounts_teams", { userId });
+export async function listTeams(db: Db, accountId: string, cursor?: string): Promise<Page<Team>> {
+	logger.info({ accountId, cursor }, "list teams");
+	return paginate(db, "accounts_teams", { accountId }, cursor);
 }
 
-export async function getTeam(db: Db, userId: string, id: string): Promise<Team | null> {
-	log("debug", "get team", { userId, id });
-	return db.first<Team>("accounts_teams", { userId, id });
+export async function getTeam(db: Db, accountId: string, id: string): Promise<Team | null> {
+	logger.debug({ accountId, id }, "get team");
+	return db.first<Team>("accounts_teams", { accountId, id });
 }
 
-export async function deleteTeam(db: Db, userId: string, id: string): Promise<void> {
-	log("warn", "delete team", { userId, id });
-	await db.delete("accounts_teams", { userId, id });
+export async function deleteTeam(db: Db, accountId: string, id: string): Promise<void> {
+	logger.warn({ accountId, id }, "delete team");
+	await db.delete("accounts_teams", { accountId, id });
 }
