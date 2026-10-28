@@ -26,4 +26,15 @@ describe("buildInvoice", () => {
 			"1 × T-shirt",
 		]);
 	});
+
+	it("applies a discount before tax", () => {
+		const invoice = buildInvoice(order, {
+			currency: "EUR",
+			taxRate: 0.2,
+			discount: { code: "TENOFF", kind: "percent", percent: 10 },
+		});
+		expect(invoice.discount.minor).toBe(490);
+		expect(invoice.tax.minor).toBe(882);
+		expect(invoice.total.minor).toBe(5292);
+	});
 });
