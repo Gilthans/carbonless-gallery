@@ -1,8 +1,14 @@
 import { verifySignature } from "./verify.js";
 
+export interface Target {
+	url: string;
+	/** Extra headers for this target, e.g. its own auth token. */
+	headers?: Record<string, string>;
+}
+
 export interface RelayConfig {
 	secret: string;
-	targets: string[];
+	targets: Target[];
 }
 
 export interface Delivery {
@@ -21,12 +27,12 @@ export async function relay(
 	}
 	const deliveries: Delivery[] = [];
 	for (const target of config.targets) {
-		const response = await fetch(target, {
+		const response = await fetch(target.url, {
 			method: "POST",
-			headers: { "content-type": "application/json" },
+			headers: { ...target.headers, "content-type": "application/json" },
 			body,
 		});
-		deliveries.push({ target, status: response.status });
+		deliveries.push({ target: target.url, status: response.status });
 	}
 	return deliveries;
 }
