@@ -3,7 +3,7 @@
 export interface paths {
 	"/billing/invoices": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listInvoices"];
@@ -18,7 +18,7 @@ export interface paths {
 	};
 	"/billing/payments": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listPayments"];
@@ -33,7 +33,7 @@ export interface paths {
 	};
 	"/billing/refunds": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listRefunds"];
@@ -48,7 +48,7 @@ export interface paths {
 	};
 	"/billing/plans": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listPlans"];
@@ -63,7 +63,7 @@ export interface paths {
 	};
 	"/billing/coupons": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listCoupons"];
@@ -78,7 +78,7 @@ export interface paths {
 	};
 	"/accounts/users": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listUsers"];
@@ -93,7 +93,7 @@ export interface paths {
 	};
 	"/accounts/teams": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listTeams"];
@@ -108,7 +108,7 @@ export interface paths {
 	};
 	"/accounts/invites": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listInvites"];
@@ -123,7 +123,7 @@ export interface paths {
 	};
 	"/accounts/sessions": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listSessions"];
@@ -138,7 +138,7 @@ export interface paths {
 	};
 	"/accounts/roles": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listRoles"];
@@ -153,7 +153,7 @@ export interface paths {
 	};
 	"/catalog/products": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listProducts"];
@@ -168,7 +168,7 @@ export interface paths {
 	};
 	"/catalog/categories": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listCategories"];
@@ -183,7 +183,7 @@ export interface paths {
 	};
 	"/catalog/prices": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listPrices"];
@@ -198,7 +198,7 @@ export interface paths {
 	};
 	"/catalog/inventory": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listInventory"];
@@ -213,7 +213,7 @@ export interface paths {
 	};
 	"/catalog/reviews": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listReviews"];
@@ -228,7 +228,7 @@ export interface paths {
 	};
 	"/shipping/orders": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listOrders"];
@@ -243,7 +243,7 @@ export interface paths {
 	};
 	"/shipping/carriers": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listCarriers"];
@@ -258,7 +258,7 @@ export interface paths {
 	};
 	"/shipping/labels": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listLabels"];
@@ -273,7 +273,7 @@ export interface paths {
 	};
 	"/shipping/returns": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listReturns"];
@@ -288,7 +288,7 @@ export interface paths {
 	};
 	"/shipping/tracking": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listTracking"];
@@ -303,7 +303,7 @@ export interface paths {
 	};
 	"/support/tickets": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listTickets"];
@@ -318,7 +318,7 @@ export interface paths {
 	};
 	"/support/macros": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listMacros"];
@@ -333,7 +333,7 @@ export interface paths {
 	};
 	"/support/satisfaction": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listSatisfaction"];
@@ -348,7 +348,7 @@ export interface paths {
 	};
 	"/support/escalations": {
 		parameters: {
-			query?: never;
+			query?: { cursor?: string };
 			path?: never;
 		};
 		get: operations["listEscalations"];
@@ -367,171 +367,267 @@ export interface components {
 	schemas: {
 		Invoice: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		InvoicePage: {
+			items: components["schemas"]["Invoice"][];
+			next: string | null;
 		};
 		Payment: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		PaymentPage: {
+			items: components["schemas"]["Payment"][];
+			next: string | null;
 		};
 		Refund: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		RefundPage: {
+			items: components["schemas"]["Refund"][];
+			next: string | null;
 		};
 		Plan: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		PlanPage: {
+			items: components["schemas"]["Plan"][];
+			next: string | null;
 		};
 		Coupon: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		CouponPage: {
+			items: components["schemas"]["Coupon"][];
+			next: string | null;
 		};
 		User: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		UserPage: {
+			items: components["schemas"]["User"][];
+			next: string | null;
 		};
 		Team: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		TeamPage: {
+			items: components["schemas"]["Team"][];
+			next: string | null;
 		};
 		Invite: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		InvitePage: {
+			items: components["schemas"]["Invite"][];
+			next: string | null;
 		};
 		Session: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		SessionPage: {
+			items: components["schemas"]["Session"][];
+			next: string | null;
 		};
 		Role: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		RolePage: {
+			items: components["schemas"]["Role"][];
+			next: string | null;
 		};
 		Product: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		ProductPage: {
+			items: components["schemas"]["Product"][];
+			next: string | null;
 		};
 		Categorie: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		CategoriePage: {
+			items: components["schemas"]["Categorie"][];
+			next: string | null;
 		};
 		Price: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		PricePage: {
+			items: components["schemas"]["Price"][];
+			next: string | null;
 		};
 		Inventory: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		InventoryPage: {
+			items: components["schemas"]["Inventory"][];
+			next: string | null;
 		};
 		Review: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		ReviewPage: {
+			items: components["schemas"]["Review"][];
+			next: string | null;
 		};
 		Order: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		OrderPage: {
+			items: components["schemas"]["Order"][];
+			next: string | null;
 		};
 		Carrier: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		CarrierPage: {
+			items: components["schemas"]["Carrier"][];
+			next: string | null;
 		};
 		Label: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		LabelPage: {
+			items: components["schemas"]["Label"][];
+			next: string | null;
 		};
 		Return: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		ReturnPage: {
+			items: components["schemas"]["Return"][];
+			next: string | null;
 		};
 		Tracking: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		TrackingPage: {
+			items: components["schemas"]["Tracking"][];
+			next: string | null;
 		};
 		Ticket: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		TicketPage: {
+			items: components["schemas"]["Ticket"][];
+			next: string | null;
 		};
 		Macro: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		MacroPage: {
+			items: components["schemas"]["Macro"][];
+			next: string | null;
 		};
 		Satisfaction: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
 		};
+		SatisfactionPage: {
+			items: components["schemas"]["Satisfaction"][];
+			next: string | null;
+		};
 		Escalation: {
 			id: string;
-			userId: string;
+			accountId: string;
 			createdAt: string;
 			updatedAt: string;
 			status: string;
+		};
+		EscalationPage: {
+			items: components["schemas"]["Escalation"][];
+			next: string | null;
 		};
 	};
 }
@@ -539,7 +635,7 @@ export interface components {
 export interface operations {
 	listInvoices: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Invoice"][] } };
+			200: { content: { "application/json": components["schemas"]["InvoicePage"] } };
 			401: { content?: never };
 		};
 	};
@@ -557,7 +653,7 @@ export interface operations {
 	};
 	listPayments: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Payment"][] } };
+			200: { content: { "application/json": components["schemas"]["PaymentPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -575,7 +671,7 @@ export interface operations {
 	};
 	listRefunds: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Refund"][] } };
+			200: { content: { "application/json": components["schemas"]["RefundPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -593,7 +689,7 @@ export interface operations {
 	};
 	listPlans: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Plan"][] } };
+			200: { content: { "application/json": components["schemas"]["PlanPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -611,7 +707,7 @@ export interface operations {
 	};
 	listCoupons: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Coupon"][] } };
+			200: { content: { "application/json": components["schemas"]["CouponPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -629,7 +725,7 @@ export interface operations {
 	};
 	listUsers: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["User"][] } };
+			200: { content: { "application/json": components["schemas"]["UserPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -647,7 +743,7 @@ export interface operations {
 	};
 	listTeams: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Team"][] } };
+			200: { content: { "application/json": components["schemas"]["TeamPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -665,7 +761,7 @@ export interface operations {
 	};
 	listInvites: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Invite"][] } };
+			200: { content: { "application/json": components["schemas"]["InvitePage"] } };
 			401: { content?: never };
 		};
 	};
@@ -683,7 +779,7 @@ export interface operations {
 	};
 	listSessions: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Session"][] } };
+			200: { content: { "application/json": components["schemas"]["SessionPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -701,7 +797,7 @@ export interface operations {
 	};
 	listRoles: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Role"][] } };
+			200: { content: { "application/json": components["schemas"]["RolePage"] } };
 			401: { content?: never };
 		};
 	};
@@ -719,7 +815,7 @@ export interface operations {
 	};
 	listProducts: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Product"][] } };
+			200: { content: { "application/json": components["schemas"]["ProductPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -737,7 +833,7 @@ export interface operations {
 	};
 	listCategories: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Categorie"][] } };
+			200: { content: { "application/json": components["schemas"]["CategoriePage"] } };
 			401: { content?: never };
 		};
 	};
@@ -755,7 +851,7 @@ export interface operations {
 	};
 	listPrices: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Price"][] } };
+			200: { content: { "application/json": components["schemas"]["PricePage"] } };
 			401: { content?: never };
 		};
 	};
@@ -773,7 +869,7 @@ export interface operations {
 	};
 	listInventory: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Inventory"][] } };
+			200: { content: { "application/json": components["schemas"]["InventoryPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -791,7 +887,7 @@ export interface operations {
 	};
 	listReviews: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Review"][] } };
+			200: { content: { "application/json": components["schemas"]["ReviewPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -809,7 +905,7 @@ export interface operations {
 	};
 	listOrders: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Order"][] } };
+			200: { content: { "application/json": components["schemas"]["OrderPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -827,7 +923,7 @@ export interface operations {
 	};
 	listCarriers: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Carrier"][] } };
+			200: { content: { "application/json": components["schemas"]["CarrierPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -845,7 +941,7 @@ export interface operations {
 	};
 	listLabels: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Label"][] } };
+			200: { content: { "application/json": components["schemas"]["LabelPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -863,7 +959,7 @@ export interface operations {
 	};
 	listReturns: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Return"][] } };
+			200: { content: { "application/json": components["schemas"]["ReturnPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -881,7 +977,7 @@ export interface operations {
 	};
 	listTracking: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Tracking"][] } };
+			200: { content: { "application/json": components["schemas"]["TrackingPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -899,7 +995,7 @@ export interface operations {
 	};
 	listTickets: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Ticket"][] } };
+			200: { content: { "application/json": components["schemas"]["TicketPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -917,7 +1013,7 @@ export interface operations {
 	};
 	listMacros: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Macro"][] } };
+			200: { content: { "application/json": components["schemas"]["MacroPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -935,7 +1031,7 @@ export interface operations {
 	};
 	listSatisfaction: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Satisfaction"][] } };
+			200: { content: { "application/json": components["schemas"]["SatisfactionPage"] } };
 			401: { content?: never };
 		};
 	};
@@ -953,7 +1049,7 @@ export interface operations {
 	};
 	listEscalations: {
 		responses: {
-			200: { content: { "application/json": components["schemas"]["Escalation"][] } };
+			200: { content: { "application/json": components["schemas"]["EscalationPage"] } };
 			401: { content?: never };
 		};
 	};
