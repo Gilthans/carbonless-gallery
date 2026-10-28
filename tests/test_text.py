@@ -1,4 +1,4 @@
-from ledgerkit.utils.strings import normalise_payee, slugify, truncate
+from ledgerkit.utils.text import normalise_payee, slugify, truncate
 
 
 def test_normalise_payee_folds_accents_and_space():
