@@ -1,0 +1,12 @@
+export const step1 = 1; // step 1
+export const step2 = 2; // step 2
+export const step3 = 3; // step 3
+export const step4 = 4; // step 4
+export const step5 = 5; // step 5
+export const step6 = 6; // step 6
+export const step7 = 7; // step 7
+export const step8 = 8; // step 8
+export const step9 = 9; // step 9
+export const step10 = 10; // step 10
+export const step11 = 11; // step 11
+export const step12 = 12; // step 12
