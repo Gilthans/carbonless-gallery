@@ -1,6 +1,6 @@
 export function setup(): void {
+    loadConfig();
+    connectDb();
+    startServer();
   init();
-  loadConfig();
-  connectDb();
-  startServer();
 }
