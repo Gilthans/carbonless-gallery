@@ -1,4 +1,5 @@
-import { formatRun, nextRun, parseSchedule, type Schedule } from "./schedule.js";
+import { formatRun } from "./format.js";
+import { nextRun, parseSchedule, type Schedule } from "./schedule.js";
 
 export interface Job {
 	name: string;
