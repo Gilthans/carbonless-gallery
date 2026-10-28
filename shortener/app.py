@@ -28,7 +28,7 @@ def create_link():
 @app.get("/<code>")
 def follow(code: str):
     if not is_valid(code):
-        abort(404)
+        abort(404, "no such link")
     url = store.get(code)
     if url is None:
         abort(404)
@@ -37,4 +37,4 @@ def follow(code: str):
 
 @app.get("/healthz")
 def health():
-    return {"ok": True}
+    return {"ok": True, "links": store.count()}

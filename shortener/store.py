@@ -22,3 +22,6 @@ class Store:
         expires_at = None if ttl_seconds is None else time.time() + ttl_seconds
         with self._lock:
             self._links[code] = (url, expires_at)
+
+    def count(self) -> int:
+        return len(self._links)
