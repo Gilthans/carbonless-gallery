@@ -1,13 +1,13 @@
 /**
  * A small in-memory cache: each entry lives `ttlMs` after it was set.
- * Expired entries are dropped when they are read.
+ * Expired entries are dropped when they are read, or by prune().
  */
 export class Cache<T> {
-	private entries = new Map<string, { value: T; at: number }>();
+	private entries = new Map<string, Entry<T>>();
 	private hits = 0;
 	private misses = 0;
 
-	constructor(private ttlMs = 30_000) {}
+	constructor(private ttlMs = 60_000) {}
 
 	/** The value under `key`, unless it expired. */
 	get(key: string): T | undefined {
@@ -16,7 +16,7 @@ export class Cache<T> {
 			this.misses++;
 			return undefined;
 		}
-		if (Date.now() - entry.at > this.ttlMs) {
+		if (expired(entry, this.ttlMs)) {
 			this.entries.delete(key);
 			this.misses++;
 			return undefined;
@@ -47,7 +47,27 @@ export class Cache<T> {
 		return { hits: this.hits, misses: this.misses };
 	}
 
+	/** Drops every expired entry; how many it dropped. */
+	prune(): number {
+		let dropped = 0;
+		for (const [key, entry] of this.entries) {
+			if (expired(entry, this.ttlMs)) {
+				this.entries.delete(key);
+				dropped++;
+			}
+		}
+		return dropped;
+	}
+
 	clear(): void {
 		this.entries.clear();
 	}
 }
+
+interface Entry<T> {
+	value: T;
+	at: number;
+}
+
+const expired = (e: Entry<unknown>, ttlMs: number) =>
+	Date.now() - e.at >= ttlMs;
