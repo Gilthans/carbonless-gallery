@@ -9,7 +9,8 @@ A small client for the widget store API.
 | `WIDGET_URL` | `https://api.example.com` | The API's base URL |
 | `WIDGET_TOKEN` | none | A bearer token |
 | `WIDGET_CURRENCY` | `USD` | How prices are shown |
+| `WIDGET_TIMEOUT_MS` | `10000` | How long one request may take |
 
-## Old servers
+## Retries
 
-Servers before 2.0 answer XML: pass `legacyXml: true`.
+5xx answers are retried up to 5 times, with exponential backoff.
