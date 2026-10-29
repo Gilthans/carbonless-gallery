@@ -1,0 +1,1 @@
+export const BANNER = "Widget client: caches widget metadata for a minute, retries 5xx with exponential backoff, renders prices in the store's currency, and reads its settings from WIDGET_* environment variables. See README.md for the options and docs/usage.md for examples of each.";
