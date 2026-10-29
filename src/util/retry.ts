@@ -6,6 +6,7 @@ export class RetryableError extends Error {
 }
 
 export const MAX_ATTEMPTS = 5;
+const MAX_DELAY_MS = 30_000;
 
 /** Calls `f` until it succeeds, waiting longer each time it throws RetryableError. */
 export async function retry<T>(f: () => Promise<T>): Promise<T> {
@@ -14,7 +15,7 @@ export async function retry<T>(f: () => Promise<T>): Promise<T> {
 			return await f();
 		} catch (e) {
 			if (!(e instanceof RetryableError) || attempt >= MAX_ATTEMPTS) throw e;
-			const delay = 2 ** attempt * 100;
+			const delay = Math.random() * Math.min(MAX_DELAY_MS, 2 ** attempt * 100);
 			await new Promise((r) => setTimeout(r, delay));
 		}
 	}
