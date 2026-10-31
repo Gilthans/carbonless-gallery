@@ -1,4 +1,3 @@
-const limit = clampLimit(request.limit, 100);
 step(1);
 step(2);
 step(3);
@@ -7,3 +6,4 @@ step(5);
 step(6);
 step(7);
 step(8);
+const limit = clampLimit(request.limit, 250);
