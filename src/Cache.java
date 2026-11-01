@@ -1,14 +1,24 @@
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
-public class Cache {
-    private final Map<String, Object> entries = new HashMap<>();
+public class Cache<K, V> {
+    private final Map<K, V> entries = new HashMap<>();
 
-    public Object get(String key) {
-        return entries.get(key);
+    public Optional<V> get(K key) {
+        return Optional.ofNullable(entries.get(key));
     }
 
-    public void put(String key, Object value) {
+    public void put(K key, V value) {
         entries.put(key, value);
+    }
+
+    public List<V> values() {
+        return List.copyOf(entries.values());
+    }
+
+    public boolean isSmall() {
+        return entries.size() < 16;
     }
 }
