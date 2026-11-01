@@ -1,0 +1,24 @@
+# The `verdict` gallery case: checks in every state for the Final Verdict tab.
+name: verdict-case
+on:
+  pull_request:
+    branches: [base/verdict]
+permissions:
+  contents: read
+jobs:
+  # Fails on purpose: a failing check.
+  tax-rules:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Tax rules for EU countries are out of date" && exit 1
+  # Runs for a while: a check still running (re-run it to see one again).
+  slow-e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - run: sleep 300
+  # Passes.
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "lint ok"

@@ -19,6 +19,15 @@ export function scale(a: Money, factor: number): Money {
 	return money(Math.round(a.minor * factor), a.currency);
 }
 
+/** `a` split into `parts` amounts that sum to it, the remainder on the first ones. */
+export function split(a: Money, parts: number): Money[] {
+	const each = Math.floor(a.minor / parts);
+	const rest = a.minor - each * parts;
+	return Array.from({ length: parts }, (_, i) =>
+		money(each + (i < rest ? 1 : 0), a.currency),
+	);
+}
+
 export function format(a: Money): string {
 	return new Intl.NumberFormat("en-US", {
 		style: "currency",
