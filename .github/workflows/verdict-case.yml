@@ -22,3 +22,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "lint ok"
+  # A second reviewer (the case's only other account): requests changes once.
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          done=$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR/reviews" --jq '[.[] | select(.user.login == "github-actions[bot]")] | length')
+          if [ "$done" = "0" ]; then
+            gh api -X POST "repos/$GITHUB_REPOSITORY/pulls/$PR/reviews" \
+              -f event=REQUEST_CHANGES \
+              -f body="split() puts the remainder on the first parts; invoices want it on the last one."
+          fi
