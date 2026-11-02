@@ -8,7 +8,7 @@ Each case has its own base branch (`base/<case>`) and head branch (`case/<case>`
 |---|---|---|
 | whitespace | #1 | Re-indents, CRLF, trailing spaces and a moved block next to real changes (Settings → Ignore whitespace). |
 | regular | #2 | An ordinary feature PR with tests: the control case. |
-| renames | #3 | Pure, edited, moved and copied files, and renames either side of git's 50% similarity threshold. |
+| renames | #3 | Pure, edited, moved and copied files, and renames either side of git's 50% similarity threshold. In the Files tree each rename also shows at its old path (faded, reversed red icon, opens the same diff), and a folder left with only old paths (`ledgerkit/io`, `ledgerkit/exporters`…) is a faded ghost with no numbers. |
 | file-kinds | #4 | Binary and image files, empty files, a symlink, a mode change, a deleted file and a submodule bump. |
 | moved-code | #5 | A function moved within a file, one moved to another file, and one moved and edited. |
 | invisibles | #6 | Zero-width and no-break spaces, tabs vs spaces, a BOM, a missing final newline, RTL text, emoji and a 401-character line. |
