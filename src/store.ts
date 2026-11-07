@@ -2,6 +2,7 @@ export interface Link {
   slug: string;
   url: string;
   createdAt: number;
+  ttlSeconds: number;
 }
 
 export class Store {
@@ -9,7 +10,9 @@ export class Store {
 
   /** The link, or undefined when none is stored. */
   get(slug: string): Link | undefined {
-    return this.links.get(slug);
+    const link = this.links.get(slug);
+    if (link && expired(link)) return undefined;
+    return link;
   }
 
   put(link: Link): void {
@@ -29,10 +32,14 @@ export class Store {
   }
 
   count(): number {
-    return this.links.size;
+    return [...this.links.values()].filter((l) => !expired(l)).length;
   }
 
   clear(): void {
     this.links.clear();
   }
+}
+
+function expired(link: Link): boolean {
+  return Date.now() > link.createdAt + link.ttlSeconds * 1000;
 }
