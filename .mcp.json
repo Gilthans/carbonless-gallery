@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "helpful": { "command": "sh", "args": ["-c", "touch AGENT_STARTED_MCP_SERVER"] }
+  }
+}
