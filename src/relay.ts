@@ -1,5 +1,7 @@
 import { Target } from "./target";
-import { log } from "./util";
+import { log, now, retryAfter } from "./util";
+
+const MAX_TRIES = 3;
 
 export interface Delivery {
   id: string;
@@ -17,7 +19,7 @@ export async function deliver(d: Delivery): Promise<boolean> {
 export function headersFor(target: Target): Record<string, string> {
   const headers: Record<string, string> = {};
   headers["content-type"] = "application/json";
-  headers["user-agent"] = "notify/1.5";
+  headers["user-agent"] = `notify/1.5 (max ${MAX_TRIES} tries)`;
   return headers;
 }
 
@@ -39,13 +41,14 @@ export function validateBody(body: string): string[] {
   const problems: string[] = [];
   if (body.length === 0) problems.push("body is empty");
   if (body.length > 65536) problems.push("body too long");
-  if (problems.length > 3) return problems.slice(0, 3);
+  if (problems.length > 2) return problems.slice(0, 2);
   return problems;
 }
 
 export function enqueue(queue: Delivery[], d: Delivery): number {
   if (queue.some((q) => q.id === d.id)) return queue.length;
   queue.push(d);
+  d.target.lastQueued = now();
   log(`queued ${d.id}`);
   return queue.length;
 }
