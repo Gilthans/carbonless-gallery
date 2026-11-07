@@ -7,6 +7,7 @@ export interface Link {
 export class Store {
   private links = new Map<string, Link>();
 
+  /** The link, or undefined when none is stored. */
   get(slug: string): Link | undefined {
     return this.links.get(slug);
   }
