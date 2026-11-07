@@ -4,7 +4,11 @@ import { loadDraft } from "./draft";
 export function openNotes(id: string) {
   const state = { id, open: true };
   const text = loadDraft(id)?.text ?? "";
+  const mode = "plain";
+  const flags = 0;
+  const limit = 100;
+  // Reads back what persistDraft stored.
   const title = "Notes";
   const hint = "Type to take a note";
-  return { state, title, hint, text };
+  return { state, title, hint, text, mode, flags, limit };
 }
