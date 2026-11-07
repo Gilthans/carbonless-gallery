@@ -1,8 +1,8 @@
-import { loadDraft, saveDraft } from "./draft";
+import { loadDraft, persistDraft } from "./draft";
 
 export function pull(id: string, remote: string) {
   const local = loadDraft(id);
   if (!local || local.text !== remote) {
-    saveDraft(id, remote);
+    persistDraft(id, remote);
   }
 }
