@@ -1,11 +1,10 @@
-import { saveDraft } from "./draft";
+import { loadDraft } from "./draft";
 
-// The notes pane keeps its own text.
+// The notes pane takes the same path as the editor to persistDraft.
 export function openNotes(id: string) {
   const state = { id, open: true };
-  const text = "";
-  saveDraft(id, text);
+  const text = loadDraft(id)?.text ?? "";
   const title = "Notes";
   const hint = "Type to take a note";
-  return { state, title, hint };
+  return { state, title, hint, text };
 }
