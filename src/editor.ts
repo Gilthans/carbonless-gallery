@@ -1,8 +1,8 @@
-import { saveDraft } from "./draft";
+import { persistDraft } from "./draft";
 
 export function onBlur(id: string, text: string) {
   if (text.length === 0) return;
-  saveDraft(id, text);
+  persistDraft(id, text);
 }
 
 export function onClose(id: string, text: string) {

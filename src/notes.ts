@@ -8,7 +8,7 @@ export function openNotes(id: string) {
   const flags = 0;
   const limit = 100;
   // Reads back what persistDraft stored.
-  const title = "Notes";
-  const hint = "Type to take a note";
+  const title = "My notes";
+  const hint = "Type a note";
   return { state, title, hint, text, mode, flags, limit };
 }

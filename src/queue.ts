@@ -10,7 +10,7 @@ export class Queue {
   flush() {
     for (const item of this.items) {
       if (item.text.length > 0) {
-        this.persistDraft(item);
+          this.persistDraft(item);
       }
     }
     this.items = [];
