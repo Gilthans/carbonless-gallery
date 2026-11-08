@@ -1,4 +1,4 @@
-import { slugify } from "./names";
+import { slugify } from "../naming";
 
 export interface Widget {
   id: string;
@@ -9,13 +9,6 @@ export interface Widget {
 
 export function create(title: string): Widget {
   return { id: slugify(title), title, items: [], open: true };
-}
-
-export function render(w: Widget): string {
-  const head = `<h2 id="${w.id}">${w.title}</h2>`;
-  const rows = w.items.map((i) => `<li>${escape(i)}</li>`).join("");
-  const body = w.open ? `<ul>${rows}</ul>` : "";
-  return `<section>${head}${body}</section>`;
 }
 
 export function toggle(w: Widget): Widget {
