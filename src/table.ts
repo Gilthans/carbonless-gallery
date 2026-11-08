@@ -7,12 +7,14 @@ export interface Row {
 export function render(rows: Row[]): string[] {
   const out: string[] = [];
   for (const r of rows) {
-    const name = r.name.trim();
-    const cents = Math.round(r.price * 100);
-    const price = (cents / 100).toFixed(2) + " EUR";
+    const [name, price] = [r.name.trim(), formatPrice(r.price)];
     out.push(`${r.id}\t${name}\t${price}`);
   }
   return out;
+}
+
+function formatPrice(price: number): string {
+  return `${(Math.round(price * 100) / 100).toFixed(2)} EUR`;
 }
 
 export function total(rows: Row[]): number {
