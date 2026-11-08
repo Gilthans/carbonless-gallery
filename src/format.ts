@@ -1,5 +1,5 @@
-export function formatPrice(amount: number): string {
-  return `$${amount.toFixed(2)}`;
+export function formatPrice(amount: number, currency = "USD"): string {
+  return new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
 }
 
 export function formatQty(qty: number): string {
