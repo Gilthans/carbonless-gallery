@@ -1,3 +1,3 @@
 export function legacyRender(rows: string[]): string {
-  return rows.join("\n");
+  return rows.join("\r\n");
 }
