@@ -1,2 +1,2 @@
-export const greeting = "hello";
+﻿export const greeting = "hello";
 export const target = "world";
