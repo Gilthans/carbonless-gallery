@@ -6,5 +6,5 @@ export function slugify(title: string): string {
 }
 
 export function initials(name: string): string {
-  return name.split(" ").map((p) => p[0]).join("");
+  return name.trim().split(" ").map((p) => p[0]).join("");
 }
