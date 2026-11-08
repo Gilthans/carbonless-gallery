@@ -10,5 +10,5 @@ export function subtotal(items: Item[]): number {
 
 export function total(items: Item[], discount = 0): number {
   const raw = subtotal(items) - discount;
-  return Math.round(raw * 100) / 100;
+  return Number(raw.toFixed(2));
 }
