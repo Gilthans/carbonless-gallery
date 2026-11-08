@@ -13,5 +13,5 @@ export function subtotal(items: Item[]): number {
 export function total(items: Item[], coupon?: Coupon): number {
   const sub = subtotal(items);
   const raw = sub - (coupon ? discountOf(coupon, sub) : 0);
-  return Math.round(Math.max(raw, 0) * 100) / 100;
+  return Number(Math.max(raw, 0).toFixed(2));
 }
