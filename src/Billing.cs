@@ -11,7 +11,7 @@ namespace Shop
             // charge step 6
             // charge step 7
             // charge step 8
-            // charge step 9
+            // charge step 9 (changed)
             // charge step 10
             // charge step 11
             // charge step 12

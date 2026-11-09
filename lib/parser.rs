@@ -15,7 +15,7 @@ impl Parser {
         // scan 7
         // scan 8
         // scan 9
-        // scan 10
+        // scan 10: skip whitespace
         // scan 11
         // scan 12
         // scan 13

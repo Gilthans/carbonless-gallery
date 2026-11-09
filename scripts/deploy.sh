@@ -10,7 +10,7 @@ deploy_app() {
   echo "step 6"
   echo "step 7"
   echo "step 8"
-  echo "step 9"
+  echo "step 9: migrate"
   echo "step 10"
   echo "step 11"
   echo "step 12"
