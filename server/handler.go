@@ -16,7 +16,7 @@ func (s *Server) Handle(w http.ResponseWriter, r *http.Request) {
 	// handle step 9
 	// handle step 10
 	// handle step 11
-	// handle step 12
+	// handle step 12: log the path
 	// handle step 13
 	// handle step 14
 	// handle step 15
@@ -36,7 +36,7 @@ func NewServer(name string) *Server {
 	// init 6
 	// init 7
 	// init 8
-	// init 9
+	// init 9: default name
 	// init 10
 	// init 11
 	// init 12

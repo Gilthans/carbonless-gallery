@@ -10,7 +10,7 @@ begin
   x := 6
   x := 7
   x := 8
-  x := 9
+  x := 9 (changed)
   x := 10
   x := 11
   x := 12

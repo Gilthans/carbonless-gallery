@@ -18,7 +18,7 @@ export class Cart {
     this.check12(item);
     this.check13(item);
     this.check14(item);
-    this.check15(item);
+    this.check15(item, { strict: true });
     this.check16(item);
     this.check17(item);
     this.check18(item);
@@ -52,7 +52,7 @@ export class Cart {
     const t17 = this.items.length * 17;
     const t18 = this.items.length * 18;
     const t19 = this.items.length * 19;
-    const t20 = this.items.length * 20;
+    const t20 = this.items.length * 20 + 1;
     const t21 = this.items.length * 21;
     const t22 = this.items.length * 22;
     const t23 = this.items.length * 23;
@@ -70,7 +70,7 @@ export function emptyCart(): Cart {
   // setup 4
   // setup 5
   // setup 6
-  // setup 7
+  // setup 7, revised
   // setup 8
   // setup 9
   // setup 10

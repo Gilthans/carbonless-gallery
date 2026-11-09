@@ -8,7 +8,7 @@ impl Lexer {
         // advance step 6
         // advance step 7
         // advance step 8
-        // advance step 9
+        // advance step 9 (changed)
         // advance step 10
         // advance step 11
         // advance step 12

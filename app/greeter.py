@@ -17,7 +17,7 @@ class Greeter:
         part_2 = f"{who}-2"  # step 2
         part_3 = f"{who}-3"  # step 3
         part_4 = f"{who}-4"  # step 4
-        part_5 = f"{who}-5"  # step 5
+        part_5 = f"{who}-five"  # step 5
         part_6 = f"{who}-6"  # step 6
         part_7 = f"{who}-7"  # step 7
         part_8 = f"{who}-8"  # step 8
@@ -64,7 +64,7 @@ class Greeter:
         line_5 = sign_off * 5
         line_6 = sign_off * 6
         line_7 = sign_off * 7
-        line_8 = sign_off * 8
+        line_8 = sign_off.upper() * 8
         line_9 = sign_off * 9
         line_10 = sign_off * 10
         line_11 = sign_off * 11
@@ -80,7 +80,7 @@ class Greeter:
         line_21 = sign_off * 21
         line_22 = sign_off * 22
         line_23 = sign_off * 23
-        line_24 = sign_off * 24
+        line_24 = sign_off.lower() * 24
         line_25 = sign_off * 25
         line_26 = sign_off * 26
         line_27 = sign_off * 27
@@ -100,7 +100,7 @@ def helper(values: list[int]) -> int:
     total_7 = sum(values) + 7
     total_8 = sum(values) + 8
     total_9 = sum(values) + 9
-    total_10 = sum(values) + 10
+    total_10 = sum(values) - 10
     total_11 = sum(values) + 11
     total_12 = sum(values) + 12
     total_13 = sum(values) + 13

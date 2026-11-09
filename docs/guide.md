@@ -13,6 +13,6 @@ Run the command below.
 - tip 6
 - tip 7
 - tip 8
-- tip 9
+- tip 9, updated
 - tip 10
 - tip 11

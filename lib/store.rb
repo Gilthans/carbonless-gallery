@@ -8,7 +8,7 @@ class Store
     # save step 6
     # save step 7
     # save step 8
-    # save step 9
+    # save step 9 (changed)
     # save step 10
     # save step 11
     # save step 12

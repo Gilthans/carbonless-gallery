@@ -10,7 +10,7 @@ function formatPrice(cents) {
   // rule 7
   // rule 8
   // rule 9
-  // rule 10
+  // rule 10, now with rounding
   // rule 11
   // rule 12
   // rule 13
@@ -31,7 +31,7 @@ const formatDate = (d) => {
   // date rule 9
   // date rule 10
   // date rule 11
-  // date rule 12
+  // date rule 12, UTC
   // date rule 13
   // date rule 14
   // date rule 15

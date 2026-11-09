@@ -10,7 +10,7 @@ public class Main {
         // boot 6
         // boot 7
         // boot 8
-        // boot 9
+        // boot 9: read config
         // boot 10
         // boot 11
         // boot 12

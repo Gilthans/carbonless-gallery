@@ -23,7 +23,7 @@ def by_attribute(x):
     # body 5
     # body 6
     # body 7
-    # body 8
+    # body 8: checked
     # body 9
     # body 10
     # body 11

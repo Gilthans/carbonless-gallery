@@ -9,7 +9,7 @@
     // layout step 6
     // layout step 7
     // layout step 8
-    // layout step 9
+    // layout step 9 (changed)
     // layout step 10
     // layout step 11
     // layout step 12

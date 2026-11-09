@@ -11,7 +11,7 @@ int buf_grow(struct buf *b, size_t need)
 	/* grow 5 */
 	/* grow 6 */
 	/* grow 7 */
-	/* grow 8 */
+	/* grow 8: double it */
 	/* grow 9 */
 	/* grow 10 */
 	/* grow 11 */

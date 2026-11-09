@@ -1,5 +1,5 @@
 """App package."""
-VERSION = "1.0"
+VERSION = "1.1"
 
 from .greeter import Greeter
 # note 1
