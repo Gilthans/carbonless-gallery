@@ -1,0 +1,19 @@
+package Cart;
+sub total {
+    return 0;
+}
+my $count = 0;
+    $count += 1
+    $count += 2
+    $count += 3
+    $count += 4
+    $count += 5
+    $count += 6
+    $count += 7
+    $count += 8
+    $count += 9
+    $count += 10
+    $count += 11
+    $count += 12
+    $count += 13
+    $count += 14
