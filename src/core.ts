@@ -1,3 +1,8 @@
+top 1
+top 2
+top 3
+top 4
+top 5
 core 1
 core 2
 core 3
@@ -17,7 +22,7 @@ core 16
 core 17
 core 18
 core 19
-core 20
+earlyTerm 20
 core 21
 core 22
 core 23
