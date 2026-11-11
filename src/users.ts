@@ -13,3 +13,10 @@ const users = new Map<string, User>([
 export function findUser(id: string): User | undefined {
 	return users.get(id);
 }
+
+/** The user with this id; an unknown id is an error that names it. */
+export function requireUser(id: string): User {
+	const user = users.get(id);
+	if (!user) throw new Error(`No user with id ${JSON.stringify(id)}`);
+	return user;
+}
