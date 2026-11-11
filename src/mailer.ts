@@ -1,4 +1,4 @@
-import { findUser } from "./users.js";
+import { requireUser } from "./users.js";
 
 export interface Mail {
 	to: string;
@@ -8,7 +8,7 @@ export interface Mail {
 
 /** The welcome mail for a new user. */
 export function welcomeMail(id: string): Mail {
-	const user = findUser(id)!;
+	const user = requireUser(id);
 	return {
 		to: user.email,
 		subject: "Welcome!",
