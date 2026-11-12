@@ -8,7 +8,8 @@ export interface Options {
 
 const base = "https://example.test";
 
-const timeout = 30;
+// seconds before a request gives up
+const timeout = 60;
 
 export function get(path: string) {
 	return request(base + path, { timeout });

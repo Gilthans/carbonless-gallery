@@ -1,3 +1,4 @@
 export function onSignup(user: User) {
-	sendEmail(user);
+	queue.push(job);
+	metrics.inc('jobs');
 }
