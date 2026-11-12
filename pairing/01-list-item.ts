@@ -1,4 +1,5 @@
 export const letters = [
   'alpha',
-  'beta'
+  'beta',
+  'gamma'
 ];
