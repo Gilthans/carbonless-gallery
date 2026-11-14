@@ -7,7 +7,7 @@ export interface Session {
 const SESSION_TTL_MS = 30 * 60 * 1000;
 
 export function isExpired(session: Session, now: number): boolean {
-  return now - session.issuedAt > SESSION_TTL_MS;
+  return now - session.lastSeenAt > SESSION_TTL_MS;
 }
 
 export function touch(session: Session, now: number): Session {
