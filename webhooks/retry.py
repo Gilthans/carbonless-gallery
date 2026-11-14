@@ -60,12 +60,12 @@ class RetryPolicy:
         return attempt.status in self.retry_on
 
     def delay_for(self, attempt_number: int) -> float:
-        # Exponential backoff: 1s, 2s, 4s, 8s, ... capped at max_delay.
-        delay = self.base_delay * (2 ** attempt_number)
+        # Exponential backoff: 0.5s, 1s, 2s, 4s, ... capped at max_delay.
+        delay = self.base_delay * (2 ** (attempt_number - 1))
         delay = min(delay, self.max_delay)
         if self.jitter:
-            # Equal jitter: never less than half the backoff.
-            delay = delay / 2 + random.uniform(0, delay / 2)
+            # Full jitter spreads retries from many senders over the window.
+            delay = random.uniform(0, delay)
         return delay
 
     def delays(self) -> Iterable[float]:
@@ -142,5 +142,7 @@ def deliver_with_retries(
 
 
 def describe(policy: RetryPolicy) -> str:
+    if policy.max_attempts <= 1:
+        return "a single attempt, no retries"
     steps = ", ".join(f"{d:.1f}s" for d in policy.delays())
     return f"up to {policy.max_attempts} attempts, waits of at most {steps}"
