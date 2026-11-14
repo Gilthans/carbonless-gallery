@@ -43,3 +43,4 @@ Each case has its own base branch (`base/<case>`) and head branch (`case/<case>`
 | rename-long-path-file-comment | #41 | A file renamed from a 116-character path, with a 257-character line and a file-level comment: the "Renamed from …" label and the file's comment bubble never cover each other, on a phone too and with the diff scrolled sideways. |
 | comment-in-hidden-lines | #42 | Three threads (two RIGHT, one LEFT) on lines behind a "N hidden lines" row: tapping its bubble opens them under the row and the lines stay hidden; showing the lines opens each on its own line. |
 | carried-thread-rewritten-line | #43 | A thread on a line a later push rewrote and moved down two lines: on its current line, the thread's card shows the code it was written on, not the rewritten line. |
+| file-deleted-since-last-review | #44 | A file added in PS1 and deleted in PS2: after PS1 is reviewed, the since view lists it as deleted, and the ✓ and ⊘ in its header mark the whole file. |
