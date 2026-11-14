@@ -9,7 +9,7 @@ from typing import Callable, Iterable
 
 DEFAULT_MAX_ATTEMPTS = 5
 DEFAULT_BASE_DELAY = 0.5
-DEFAULT_MAX_DELAY = 30.0
+DEFAULT_MAX_DELAY = 60.0
 
 RETRYABLE_STATUS = {408, 425, 429, 500, 502, 503, 504}
 
@@ -60,12 +60,12 @@ class RetryPolicy:
         return attempt.status in self.retry_on
 
     def delay_for(self, attempt_number: int) -> float:
-        # Exponential backoff: 0.5s, 1s, 2s, 4s, ... capped at max_delay.
-        delay = self.base_delay * (2 ** (attempt_number - 1))
+        # Exponential backoff: 1s, 2s, 4s, 8s, ... capped at max_delay.
+        delay = self.base_delay * (2 ** attempt_number)
         delay = min(delay, self.max_delay)
         if self.jitter:
-            # Full jitter spreads retries from many senders over the window.
-            delay = random.uniform(0, delay)
+            # Equal jitter: never less than half the backoff.
+            delay = delay / 2 + random.uniform(0, delay / 2)
         return delay
 
     def delays(self) -> Iterable[float]:
