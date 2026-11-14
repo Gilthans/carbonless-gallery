@@ -9,7 +9,7 @@ from typing import Callable, Iterable
 
 DEFAULT_MAX_ATTEMPTS = 5
 DEFAULT_BASE_DELAY = 0.5
-DEFAULT_MAX_DELAY = 30.0
+DEFAULT_MAX_DELAY = 60.0
 
 RETRYABLE_STATUS = {408, 425, 429, 500, 502, 503, 504}
 
@@ -142,5 +142,7 @@ def deliver_with_retries(
 
 
 def describe(policy: RetryPolicy) -> str:
+    if policy.max_attempts <= 1:
+        return "a single attempt, no retries"
     steps = ", ".join(f"{d:.1f}s" for d in policy.delays())
     return f"up to {policy.max_attempts} attempts, waits of at most {steps}"
