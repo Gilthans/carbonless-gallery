@@ -50,3 +50,4 @@ Each case has its own base branch (`base/<case>`) and head branch (`case/<case>`
 | image-svg | #48 | SVGs open as text and can be shown as images; one tick covers all changed lines; a line thread lists under the header in Image view; Find steps to a line switch to Text for the view; an SVG with only a viewBox. |
 | image-undecodable | #49 | A TIFF, bytes that aren't a PNG, and a Git LFS pointer: binary fallback with byte sizes, no blank stage, an LFS icon. |
 | image-second-push | #50 | A chart changed in PS1 and again in PS2: the since view compares PS1's image with the head's. |
+| ws-split | #51 | Whitespace-only runs as clusters of their own: change / re-indent / change in one hunk is three clusters, each with its own box; a function only re-indented; a loop re-indented with a line moved across it (two hunks, both changes). With Ignore whitespace on, whitespace-only clusters are one `~` row and left out of progress, with a `~` on the bar saying how many. |
