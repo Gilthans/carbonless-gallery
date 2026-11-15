@@ -44,3 +44,9 @@ Each case has its own base branch (`base/<case>`) and head branch (`case/<case>`
 | comment-in-hidden-lines | #42 | Three threads (two RIGHT, one LEFT) on lines behind a "N hidden lines" row: tapping its bubble opens them under the row and the lines stay hidden; showing the lines opens each on its own line. |
 | carried-thread-rewritten-line | #43 | A thread on a line a later push rewrote and moved down two lines: on its current line, the thread's card shows the code it was written on, not the rewritten line. |
 | file-deleted-since-last-review | #44 | A file added in PS1 and deleted in PS2: after PS1 is reviewed, the since view lists it as deleted, and the ✓ and ⊘ in its header mark the whole file. |
+| image-bmp | #45 | Installer artwork changed (the case behind the image renderer): three BMPs drawn before/after with a slider or fade, side by side in Settings, a 10 MB splash that waits for a tap, "Show as" to switch a file to binary. |
+| image-resized | #46 | Images whose size changed: the stage takes the larger of each dimension, each image pinned top left over a checkerboard; a 2400px strip fits by default and scrolls at 1:1, on a phone too. |
+| image-added-deleted | #47 | An added and a deleted image (alone, labeled), a renamed and edited BMP (old side read at its old path) and a pure rename. |
+| image-svg | #48 | SVGs open as text and can be shown as images; one tick covers all changed lines; a line thread lists under the header in Image view; Find steps to a line switch to Text for the view; an SVG with only a viewBox. |
+| image-undecodable | #49 | A TIFF, bytes that aren't a PNG, and a Git LFS pointer: binary fallback with byte sizes, no blank stage, an LFS icon. |
+| image-second-push | #50 | A chart changed in PS1 and again in PS2: the since view compares PS1's image with the head's. |
