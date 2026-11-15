@@ -3,8 +3,8 @@ export interface Job {
 }
 
 export function drain(queue: Job[], log: (s: string) => void): void {
+    for (const job of queue) {
+        job.run();
+    }
   log("draining");
-  for (const job of queue) {
-    job.run();
-  }
 }
