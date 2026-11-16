@@ -1,0 +1,15 @@
+# CAR-191 probe (temporary): fails on its first attempt, passes on a rerun.
+name: CRB191 gate
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  release-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          ATTEMPT: ${{ github.run_attempt }}
+        run: |
+          echo "attempt $ATTEMPT"
+          [ "$ATTEMPT" -gt 1 ]
