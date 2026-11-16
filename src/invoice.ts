@@ -1,5 +1,6 @@
 import type { Customer } from "./customers.js";
 import { type Discount, lookupDiscount } from "./discounts.js";
+import { formatMoney } from "./format.js";
 import { type Order, orderAmount } from "./orders.js";
 
 export interface Invoice {
@@ -14,8 +15,9 @@ export interface Invoice {
   total: string;
 }
 
-export function buildInvoice(order: Order, customer: Customer, discounts: Map<string, Discount>): Invoice {
-  const lines = order.lines.map((l) => `${l.quantity} × ${l.description}  ${(l.quantity * l.unitPrice).toFixed(2)}`);
+export function buildInvoice(order: Order, customer: Customer | undefined, discounts: Map<string, Discount>): Invoice {
+  if (!customer) throw new Error(`Order ${order.id}: unknown customer ${order.customerId}`);
+  const lines = order.lines.map((l) => `${l.quantity} × ${l.description}  ${formatMoney(l.quantity * l.unitPrice)}`);
   const subtotal = orderAmount(order);
   const found = order.discountCode ? lookupDiscount(discounts, order.discountCode) : undefined;
   const discount = found ? (subtotal * found.percent) / 100 : 0;
@@ -24,11 +26,11 @@ export function buildInvoice(order: Order, customer: Customer, discounts: Map<st
     orderId: order.id,
     customerName: customer.name,
     country: customer.address!.country,
-    date: order.placedAt.toLocaleDateString(),
+    date: order.placedAt.toISOString().slice(0, 10),
     lines,
-    subtotal: subtotal.toFixed(2),
-    discount: discount.toFixed(2),
-    tax: tax.toFixed(2),
-    total: (subtotal - discount + tax).toFixed(2),
+    subtotal: formatMoney(subtotal),
+    discount: formatMoney(discount),
+    tax: formatMoney(tax),
+    total: formatMoney(subtotal - discount + tax),
   };
 }
