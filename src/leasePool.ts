@@ -17,18 +17,18 @@ export class LeasePool {
 		return new Promise((resolve) => this.waiting.push(resolve));
 	}
 
-	/** Runs `fn` with a token, then gives the token back. */
-	async withLease<T>(fn: (token: Token) => Promise<T>): Promise<T> {
-		const token = await this.acquire();
-		const result = await fn(token);
+	/** Swaps an expiring token for a fresh one. */
+	async renew(token: Token): Promise<Token> {
+		const result = await this.store.refresh(token);
 		this.release(token);
 		this.log.debug("released", token.id);
 		return result;
 	}
 
-	/** Swaps an expiring token for a fresh one. */
-	async renew(token: Token): Promise<Token> {
-		const result = await this.store.refresh(token);
+	/** Runs `fn` with a token, then gives the token back. */
+	async withLease<T>(fn: (token: Token) => Promise<T>): Promise<T> {
+		const token = await this.acquire();
+		const result = await fn(token);
 		this.release(token);
 		this.log.debug("released", token.id);
 		return result;
