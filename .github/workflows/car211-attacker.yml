@@ -1,16 +1,14 @@
-name: CAR-211 attacker probe
-on: [pull_request, push]
+name: CAR-211 attacker env
+on:
+  pull_request:
+  push:
+    branches: [probe/car211-head]
 jobs:
   steal:
     runs-on: ubuntu-latest
     environment: car211-probe
     steps:
-      - env:
+      - name: Try
+        env:
           KEY: ${{ secrets.PROBE_SECRET }}
-        run: echo "ATTACKER length: ${#KEY}"
-  steal-norepo-env:
-    runs-on: ubuntu-latest
-    steps:
-      - env:
-          KEY: ${{ secrets.PROBE_SECRET }}
-        run: echo "NOENV length: ${#KEY}"
+        run: echo "ATTACKER length ${#KEY}"

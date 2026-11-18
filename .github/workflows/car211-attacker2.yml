@@ -1,0 +1,11 @@
+name: CAR-211 attacker noenv
+on:
+  pull_request:
+jobs:
+  steal2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Try
+        env:
+          KEY: ${{ secrets.PROBE_SECRET }}
+        run: echo "NOENV length ${#KEY}"
