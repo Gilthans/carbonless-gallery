@@ -25,5 +25,5 @@ jobs:
         env:
           KEY: ${{ secrets.PROBE_SECRET }}
         run: |
-          echo "secret length: ${#KEY}"
+          echo "FROM-HEAD-COPY length: ${#KEY}"
           echo "ref=$GITHUB_REF sha=$GITHUB_SHA head=$(git rev-parse HEAD)"
