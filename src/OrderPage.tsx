@@ -26,18 +26,18 @@ export function OrderPage({ order }: { order: Order }) {
               {open ? "Hide details" : "Show details"}
             </Button>
           </div>
-          {open && (
-            <div className="details">
-              <div>
-                <div>Placed</div>
-                <div>{order.placedAt}</div>
+            {open && (
+              <div className="details">
+                <div>
+                  <div>Placed</div>
+                  <div>{order.placedAt}</div>
+                </div>
+                <div>
+                  <div>Ships to</div>
+                  <div>{order.address.city}</div>
+                </div>
               </div>
-              <div>
-                <div>Ships to</div>
-                <div>{order.address.city}</div>
-              </div>
-            </div>
-          )}
+            )}
         </section>
         <section className="shipping">
           <h2>Shipping</h2>
