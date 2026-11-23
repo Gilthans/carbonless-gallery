@@ -2,7 +2,7 @@ keep line 1: apple
 keep line 2: bread
 keep line 3: cedar
 keep line 4: daisy
-keep line 5: ember
+keep line 5: ember, edited in PS1
 keep line 6: fern
 keep line 7: grape
 keep line 8: harbor

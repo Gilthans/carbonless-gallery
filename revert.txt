@@ -5,8 +5,8 @@ revert line 4: daisy
 revert line 5: ember
 revert line 6: fern
 revert line 7: grape
-revert line 8: harbor
-revert line 9: iris
+revert line 8: harbor, edited in PS1
+revert line 9: iris, edited in PS1
 revert line 10: juniper
 revert line 11: kettle
 revert line 12: lantern
@@ -17,7 +17,7 @@ revert line 16: pepper
 revert line 17: quartz
 revert line 18: river
 revert line 19: sage
-revert line 20: thistle
+revert line 20: thistle, edited in PS1
 revert line 21: umber
 revert line 22: violet
 revert line 23: willow
