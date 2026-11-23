@@ -6,7 +6,7 @@ Every release of Tidewater gets a short announcement on the blog and in the app.
 
 Most readers are harbour masters and ferry operators who open the app once a day, between sailings. They skim. They want to know whether anything they rely on has moved, and whether they need to tell their crews.
 
-A smaller group reads every word: the integration partners who sync timetables into their own booking sites. They read the announcement next to the changelog, line by line, and test every example. For them a renamed field is a lost weekend of bookings.
+A smaller group reads every word: the integration partners who sync timetables into their own booking sites. They read the announcement next to the changelog, line by line, and test every example. For them a renamed field is a lost weekend of revenue.
 
 ## Tone
 
@@ -48,4 +48,6 @@ Announcements go out the morning after a release, local time in Bergen. Never on
 
 Past announcements live in the blog archive. Link the previous one at the bottom so readers can follow the thread.
 
-The archive is also where we look when a partner asks "when did this change?". Date **every** announcement.
+The archive is also where we look when a partner asks "when did this change?". Date every announcement.
+
+Review the final announcement on a phone before it goes out.

@@ -2,7 +2,7 @@
 
 The [departures API](https://example.com/api/v1) serves every departure as JSON. See the [field reference][fields] for what each field means.
 
-Partners who sync bookings should read the [integration guide](https://example.com/docs/integration-v2).
+Partners who sync bookings should read the [integration guide](https://example.com/docs/integration-v3).
 
 Questions go to <support@example.com> or <https://example.com/support>.
 

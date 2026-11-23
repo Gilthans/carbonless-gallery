@@ -7,6 +7,7 @@ New deckhands and pursers start with this list. The shift lead goes through it w
 - Collect the uniform from the depot at Strandkaien
 - Sign the safety briefing form
 - Set up a Tidewater account with the deckhand or purser role
+- Pick up a hi-vis vest from the depot
 - Find your locker on the car deck
 
 ## Accounts
@@ -28,13 +29,13 @@ New deckhands and pursers start with this list. The shift lead goes through it w
 - First-aid kit, in the red locker
 - Mooring lines
   - Bow line
-  - Spring lines
+  - Spring lines (fore and aft)
   - Heaving line
 
 ## First week
 
-- [x] Shadow a purser for two crossings
-- [ ] Run one lifejacket drill with the shift lead watching
+- [ ] Shadow a purser for two crossings
+- [x] Run one lifejacket drill with the shift lead watching
 - [ ] Do a full ticket check on your own
 - [ ] Close out a shift report
 

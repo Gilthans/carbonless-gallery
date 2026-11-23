@@ -22,6 +22,6 @@ The old booking flow is kept for partners on the 2023 contract.
 
 Partners can embed a live departure board on their own site. A badge some partners pasted, <img src="/&#9;/evil.example/p.png" alt="Partner badge">, is not ours and never loads by itself.
 
-![Timetable export dialog](img/timetable-export.png)
+![Timetable export dialog](img/departures.png)
 
 The export dialog is new in this release.

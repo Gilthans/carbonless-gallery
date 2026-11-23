@@ -33,7 +33,7 @@ Call the bridge first. The bridge calls the coast radio.
 
 The shift lead checks the forecast every two hours.
 
-### Fog
+#### Fog
 
 In fog, the bridge sounds the horn every two minutes and the purser keeps passengers off the open deck.
 
@@ -52,10 +52,6 @@ Lost property goes to the purser's desk, then to the office at the end of the da
 ## Overnight berth
 
 Vessels berth overnight at Nordnes.
-
-## Winter timetable
-
-From the last Sunday of October the route runs the winter timetable. The shift lead checks the app for the first winter day.
 
 ## Closing the route
 

@@ -7,10 +7,11 @@ Tables used in the operator handbook. Times are local.
 | Route | First | Last | Every |
 |-------|-------|------|-------|
 | Strandkaien – Askøy | 06:10 | 23:40 | 30 min |
-| Strandkaien – Nordnes | 06:30 | 22:00 | 15 min |
+| Strandkaien – Nordnes | 06:30 | 22:00 | 10 min |
 | Nordnes – Askøy | 07:00 | 21:00 | 60 min |
 | Askøy – Kleppestø | 06:45 | 22:15 | 45 min |
 | Nordnes – Kleppestø | 07:30 | 20:30 | 60 min |
+| Askøy – Herdla | 08:00 | 19:00 | 90 min |
 
 ## Weekend departures
 
@@ -24,10 +25,10 @@ Tables used in the operator handbook. Times are local.
 
 Christmas Eve, New Year's Eve and Constitution Day run a reduced timetable.
 
-| Route | First | Last | Every |
-|-------|-------|------|-------|
-| Strandkaien – Askøy | 08:10 | 16:40 | 60 min |
-| Strandkaien – Nordnes | 09:00 | 15:00 | 60 min |
+| Route | First | Last |
+|-------|-------|------|
+| Strandkaien – Askøy | 08:10 | 16:40 |
+| Strandkaien – Nordnes | 09:00 | 15:00 |
 
 ## Fares
 

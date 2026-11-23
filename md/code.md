@@ -26,8 +26,8 @@ The defaults live in `config/defaults.js`:
 export const defaults = {
   port: 8080,
   timezone: "Europe/Oslo",
-  pageSize: 75,
-  locale: "nb-NO",
+  pageSize: 100,
+  locale: "nn-NO",
 };
 ```
 
@@ -43,6 +43,12 @@ npm run dev
 ```
 
 The app listens on port 8080. Open `/departures/today` to check it works.
+
+To use another port:
+
+```sh
+PORT=9090 npm run dev
+```
 
 ## Tests
 
