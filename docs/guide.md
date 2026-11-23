@@ -39,7 +39,7 @@ you rarely need to name it.
   and merging two accounts keeps both.
 - Use `--since` to skip rows older than a date, which helps with overlapping
     exports.
-- Use `--dry-run` to preview what would be imported without writing anything.
+- Use `--dry-run` to preview exactly what would be imported without writing anything.
 
 The importer is careful with duplicates. Rows that match an earlier import on
 date, amount and description are skipped, and the count is printed at the end.
@@ -73,7 +73,7 @@ Matching never changes the imported rows. It only adds a link between the two.
 Reports are written as plain text or as HTML. Choose with `--format`, and use
 `--out` to write to a file instead of the terminal.
 
-The monthly report groups rows by category and shows each category's total. The
+The monthly report groups rows by category and shows the total of each. The
 yearly report adds a comparison with the previous year, so a missing month is
 easy to spot. Both reports sort categories by size, biggest first.
 
@@ -113,6 +113,8 @@ If amounts look wrong by a factor of a hundred, the export probably uses a
 comma for decimals. Set `parser.decimal = ","` in the configuration file.
 
 ## Getting help
+
+Check the troubleshooting section first; most reports are answered there.
 
 Open an issue (see the [guide](https://example.com/b)) with the command you ran and
 the first lines of the file, with account numbers removed. Please never attach a full statement.
