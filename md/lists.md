@@ -6,7 +6,6 @@ New deckhands and pursers start with this list. The shift lead goes through it w
 
 - Collect the uniform from the depot at Strandkaien
 - Sign the safety briefing form
-- Book a seat on the next fire-safety course
 - Set up a Tidewater account with the deckhand or purser role
 - Find your locker on the car deck
 

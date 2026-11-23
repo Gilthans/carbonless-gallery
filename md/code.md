@@ -26,7 +26,8 @@ The defaults live in `config/defaults.js`:
 export const defaults = {
   port: 8080,
   timezone: "Europe/Oslo",
-  pageSize: 100,
+  pageSize: 75,
+  locale: "nb-NO",
 };
 ```
 

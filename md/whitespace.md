@@ -5,7 +5,7 @@ Fill in the shift report at the end of every shift.
 - Crossings run
 - Passengers carried
 
-  Count from the scanner, not by hand. The scanner total
+    Count from the scanner, not by hand. The scanner total
     includes children and bicycles.
 
 - Delays and their reasons

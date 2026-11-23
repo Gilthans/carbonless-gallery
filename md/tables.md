@@ -10,6 +10,7 @@ Tables used in the operator handbook. Times are local.
 | Strandkaien – Nordnes | 06:30 | 22:00 | 15 min |
 | Nordnes – Askøy | 07:00 | 21:00 | 60 min |
 | Askøy – Kleppestø | 06:45 | 22:15 | 45 min |
+| Nordnes – Kleppestø | 07:30 | 20:30 | 60 min |
 
 ## Weekend departures
 

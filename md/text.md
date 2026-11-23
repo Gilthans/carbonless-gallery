@@ -4,13 +4,13 @@ Every release of Tidewater gets a short announcement on the blog and in the app.
 
 ## Who reads it
 
-Most readers are harbour masters and ferry operators who open the app twice a day, between sailings. They skim. They want to know whether anything they rely on has moved, and whether they need to tell their crews.
+Most readers are harbour masters and ferry operators who open the app once a day, between sailings. They skim. They want to know whether anything they rely on has moved, and whether they need to tell their crews.
 
-A second group reads every word: the integration partners who sync timetables into their own booking sites. They read the announcement next to the changelog, line by line, and test every example. For them a renamed field is a lost weekend of bookings.
+A smaller group reads every word: the integration partners who sync timetables into their own booking sites. They read the announcement next to the changelog, line by line, and test every example. For them a renamed field is a lost weekend of bookings.
 
 ## Tone
 
-Write plainly. Say what changed, then why, then what the reader should do. Lead with the reader's task, not our team's work. Avoid "exciting" and "powerful"; let the change speak.
+Write plainly. Say what changed, then why, then what the reader should do. Lead with the reader's task, not the work we did. Avoid "exciting" and "powerful"; let the change speak.
 
 Use the second person. "You can now export a week of sailings" beats "Users are now able to export sailings for a week".
 
