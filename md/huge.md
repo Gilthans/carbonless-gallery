@@ -3603,7 +3603,7 @@ Every departure of the year, exported from the vessel logs. Generated; do not ed
 | 3597 | 2025-07-12 | 21:39 | Nordnes – Kleppestø | MF Sølvberg | 149 | 39 | on time |
 | 3598 | 2025-07-12 | 22:46 | Askøy – Strandkaien | MF Kvitsund | 186 | 50 | on time |
 | 3599 | 2025-07-12 | 23:53 | Kleppestø – Nordnes | MF Lyngøy | 223 | 61 | on time |
-| 3600 | 2025-07-13 | 06:00 | Strandkaien – Nordnes | MF Sølvberg | 260 | 0 | on time |
+| 3600 | 2025-07-13 | 06:00 | Strandkaien – Nordnes | MF Sølvberg | 260 | 0 | delayed (fog at Nordnes, 25 min) |
 | 3601 | 2025-07-13 | 07:07 | Nordnes – Askøy | MF Kvitsund | 297 | 11 | delayed |
 | 3602 | 2025-07-13 | 08:14 | Askøy – Kleppestø | MF Lyngøy | 334 | 22 | on time |
 | 3603 | 2025-07-13 | 09:21 | Kleppestø – Strandkaien | MF Sølvberg | 31 | 33 | on time |

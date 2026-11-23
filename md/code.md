@@ -16,7 +16,7 @@ npm install
 
 Copy the sample config and fill in the database URL:
 
-```sh
+```bash
 cp config/sample.env .env
 ```
 
@@ -26,14 +26,14 @@ The defaults live in `config/defaults.js`:
 export const defaults = {
   port: 8080,
   timezone: "Europe/Oslo",
-  pageSize: 50,
+  pageSize: 100,
 };
 ```
 
 ## Seed data
 
     npm run seed -- --routes 3
-    npm run seed -- --vessels 3
+    npm run seed -- --vessels 4
 
 ## Run
 
@@ -41,7 +41,7 @@ export const defaults = {
 npm run dev
 ```
 
-The app listens on port 8080. Open `/departures` to check it works.
+The app listens on port 8080. Open `/departures/today` to check it works.
 
 ## Tests
 
@@ -49,10 +49,12 @@ The app listens on port 8080. Open `/departures` to check it works.
 npm test
 ```
 
+Run one file:
+
+```sh
+npm test -- departures.test.ts
+```
+
 ## Troubleshooting
 
 If the seed step fails with a timezone error, check `TZ` in your shell.
-
-```text
-Error: invalid timezone "Europe/Bergen"
-```

@@ -4,8 +4,10 @@ The winter timetable runs from the last Sunday of October to the last Sunday of 
 
 ## What changes
 
+From the first winter Sunday:
+
 - Fewer late departures on the Askøy route.
-- The first Nordnes departure moves to 07:00.
+- The first Nordnes departure moves to 07:15.
 - Weekend departures every 60 minutes.
 
 ## Why
@@ -23,7 +25,7 @@ cancelled and passengers are sent to Strandkaien.
 The winter timetable is posted at every port two weeks before it starts.
 The app shows a banner on the first day.
 
-## Open questions
+## Decided
 
-- Do we keep the 23:40 from Strandkaien on Fridays?
-- Who tells the integration partners?
+- The 23:40 from Strandkaien stays on Fridays.
+- The office tells the integration partners a month ahead.

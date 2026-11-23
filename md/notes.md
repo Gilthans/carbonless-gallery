@@ -9,7 +9,7 @@ Present: shift leads from all three ports, the office, the safety officer.
 
 ## Actions
 
-- Office: order new scanner cradles for MF Kvitsund.
+- Office: order new scanner cradles for MF Kvitsund and MF Lyngøy.
 - Safety officer: plan the January drill.
 
 Next meeting: 10 December.

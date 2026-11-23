@@ -1,31 +1,31 @@
 ---
 title: Release checklist
-owner: release-team
-reviewed: 2026-09-01
+owner: platform-team
+reviewed: 2026-11-20
 ---
 
 # Release checklist
 
 <details>
-<summary>Who can cut a release</summary>
+<summary>Who may cut a release</summary>
 
-Anyone on the release team, with a second person watching.
+Anyone on the platform team, with a second person watching.
 
 </details>
 
-The checklist runs top to bottom. Items marked <kbd>manual</kbd> need a person at the keyboard.
+The checklist runs top to bottom. Items marked <kbd>by hand</kbd> need a person at the keyboard.
 
-<!-- TODO: move the smoke test list into its own page -->
+<!-- TODO: link the smoke test page once it exists -->
 
 ## Load estimate
 
 The expected peak load is
 
 $$
-L = \frac{p \cdot s}{t}
+L = \frac{p \cdot s}{t \cdot r}
 $$
 
-where p is passengers per sailing, s sailings per hour and t the booking window in hours.
+where p is passengers per sailing, s sailings per hour and t the booking window in hours and r the share booked online.
 
 ## Release flow
 
@@ -33,6 +33,7 @@ where p is passengers per sailing, s sailings per hour and t the booking window 
 graph LR
   A[Freeze] --> B[Build]
   B --> C[Deploy]
+  C --> D[Announce]
 ```
 
 ## Notes

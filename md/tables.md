@@ -7,8 +7,9 @@ Tables used in the operator handbook. Times are local.
 | Route | First | Last | Every |
 |-------|-------|------|-------|
 | Strandkaien – Askøy | 06:10 | 23:40 | 30 min |
-| Strandkaien – Nordnes | 06:30 | 22:00 | 20 min |
+| Strandkaien – Nordnes | 06:30 | 22:00 | 15 min |
 | Nordnes – Askøy | 07:00 | 21:00 | 60 min |
+| Askøy – Kleppestø | 06:45 | 22:15 | 45 min |
 
 ## Weekend departures
 
@@ -17,11 +18,19 @@ Tables used in the operator handbook. Times are local.
 | Strandkaien – Askøy | 08:10 | 23:40 | 60 min |
 | Strandkaien – Nordnes | 09:00 | 20:00 | 40 min |
 | Nordnes – Askøy | 10:00 | 18:00 | 120 min |
-| Askøy – Kleppestø | 10:15 | 18:15 | 120 min |
+
+## Holiday departures
+
+Christmas Eve, New Year's Eve and Constitution Day run a reduced timetable.
+
+| Route | First | Last | Every |
+|-------|-------|------|-------|
+| Strandkaien – Askøy | 08:10 | 16:40 | 60 min |
+| Strandkaien – Nordnes | 09:00 | 15:00 | 60 min |
 
 ## Fares
 
-| Ticket | Adult | Child |
+| Ticket type | Adult | Child |
 |:-------|------:|------:|
 | Single | 46 | 23 |
 | Return | 84 | 42 |
@@ -29,16 +38,16 @@ Tables used in the operator handbook. Times are local.
 
 ## Vessels
 
-| Name | Built | Seats | Cars |
-|------|-------|-------|------|
-| MF Sølvberg | 2009 | 290 | 60 |
-| MF Kvitsund | 2014 | 340 | 72 |
-| MF Lyngøy | 2021 | 300 | 0 |
+| Name | Built | Seats | Cars | Electric |
+|------|-------|-------|------|----------|
+| MF Sølvberg | 2009 | 290 | 60 | no |
+| MF Kvitsund | 2014 | 340 | 72 | hybrid |
+| MF Lyngøy | 2021 | 300 | 0 | yes |
 
 ## Piers
 
 | Pier | Berths | Ramp |
-|------|--------|------|
+|:-----|:------:|-----:|
 | Strandkaien | 3 | yes |
 | Nordnes | 1 | no |
 | Askøy | 2 | yes |
@@ -50,21 +59,19 @@ Tables used in the operator handbook. Times are local.
 | `S` | Single |
 | `R` | Return |
 | `M` | Monthly |
+| `S\|R` | Single or return, chosen at the gate |
 
 ## Status flags
 
-| Flag | Shown as | Meaning |
-|------|----------|---------|
-| `delayed` | amber | Departure later than planned |
-| `cancelled` | red | Departure will not run |
-| `full` | grey | No seats left |
+| Flag | Meaning |
+|------|---------|
+| `delayed` | Departure later than planned |
+| `cancelled` | Departure will not run |
+| `full` | No seats left |
 
 ## Seasonal routes
 
-| Route | Season |
-|-------|--------|
-| Askøy – Herdla | June–August |
-| Nordnes – Hjellestad | July |
+Seasonal routes are announced each spring on the blog.
 
 ## Contacts
 
