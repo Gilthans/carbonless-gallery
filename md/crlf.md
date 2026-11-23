@@ -12,4 +12,4 @@ Every morning the bridge does a radio check with the coast radio on channel 16.
 
 ## If there is no answer
 
-Try channel 12. If there is still no answer, the shift lead calls the office by phone.
+Try channel 12, then channel 10. If there is still no answer, the shift lead calls the office by phone.

@@ -1,4 +1,4 @@
-Tidewater operator handbook
+Tidewater operator handbook, 2026 edition
 ===========================
 
 This handbook covers the day-to-day running of a Tidewater ferry route.
@@ -7,7 +7,7 @@ This handbook covers the day-to-day running of a Tidewater ferry route.
 
 Before the first departure, the shift lead checks the weather service and the vessel log.
 
-> Do not open the route if the wind forecast at Askøy is above 20 m/s.
+> Do not open the route if the wind forecast at Askøy is above 18 m/s.
 
 ## Boarding
 
@@ -25,10 +25,6 @@ Post a delay as soon as you know it. Passengers would rather hear early that the
 
 A cancelled departure needs a reason from the list in the app.
 
-## Lost property
-
-Lost property goes to the purser's desk, then to the office at the end of the day.
-
 ## Medical incidents
 
 Call the bridge first. The bridge calls the coast radio.
@@ -37,7 +33,7 @@ Call the bridge first. The bridge calls the coast radio.
 
 The shift lead checks the forecast every two hours.
 
-## Fog
+#### Fog
 
 In fog, the bridge sounds the horn every two minutes and the purser keeps passengers off the open deck.
 
@@ -49,7 +45,11 @@ Fuel is taken at Strandkaien after the last departure.
 
 The car deck is hosed down every evening.
 
-## Night berth
+## Lost property
+
+Lost property goes to the purser's desk, then to the office at the end of the day.
+
+## Overnight berth
 
 Vessels berth overnight at Nordnes.
 
@@ -57,15 +57,19 @@ Vessels berth overnight at Nordnes.
 
 The last departure closes the route. The shift lead files the shift report.
 
+> The shift report is due before you leave the vessel.
+
+---
+
 Appendix
 --------
 
 Forms referred to in this handbook are in the office.
 
-## Old radio procedure
-
-Before 2024, crews called the office on channel 12 for every delay.
-
 ## Contacts
 
 The office is staffed from 07:00 to 18:00 on weekdays.
+
+> From the office:
+>
+> > Call the duty phone after 18:00, not the office line.

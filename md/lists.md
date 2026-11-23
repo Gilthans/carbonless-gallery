@@ -6,16 +6,17 @@ New deckhands and pursers start with this list. The shift lead goes through it w
 
 - Collect the uniform from the depot at Strandkaien
 - Sign the safety briefing form
-- Set up a Tidewater account with the crew role
-- Read the lifejacket drill card
+- Set up a Tidewater account with the deckhand or purser role
+- Pick up a hi-vis vest from the depot
 - Find your locker on the car deck
 
 ## Accounts
 
 1. Ask the office for a staff badge.
 2. Install the Tidewater app on the work phone.
-3. Sign in with the badge number and the one-time code from the office.
-4. Turn on notifications for **Departures** and **Delays**.
+3. Charge the phone overnight before the first shift.
+4. Sign in with the badge number and the one-time code from the office.
+5. Turn on notifications for **Departures** and **Delays**.
 
 ## Tools on board
 
@@ -23,38 +24,36 @@ New deckhands and pursers start with this list. The shift lead goes through it w
 - Handheld scanner for tickets
 
   The scanner charges in the cradle by the purser's desk.
-  Put it back after every crossing, even a short one.
+  Put it back after every crossing, even a short one, so the next crew finds it charged.
 
 - First-aid kit, in the red locker
 - Mooring lines
   - Bow line
-  - Stern line
-  - Spring lines
+  - Spring lines (fore and aft)
+  - Heaving line
 
 ## First week
 
 - [ ] Shadow a purser for two crossings
-- [ ] Run one lifejacket drill with the shift lead watching
+- [x] Run one lifejacket drill with the shift lead watching
 - [ ] Do a full ticket check on your own
 - [ ] Close out a shift report
 
 ## Things to avoid
 
+* Using the bridge radio channel for ticket questions
 * Leaving the gangway unattended
 * Taking cash fares without a receipt
-* Using the bridge radio channel for ticket questions
 
 ## Who to ask
 
-- Shift lead: anything on board
-- Office: badges, pay, rota
-- Safety officer: drills, incidents, the lifejacket inventory
+Ask the shift lead about anything on board, the office about badges, pay and the rota, and the safety officer about drills, incidents and the lifejacket inventory.
 
 ## Glossary
 
-- **Purser**: handles tickets and passengers.
-- **Deckhand**: handles lines, ramps and the car deck.
-- **Shift lead**: the senior crew member on the crossing.
+* **Purser**: handles tickets and passengers.
+* **Deckhand**: handles lines, ramps and the car deck.
+* **Shift lead**: the senior crew member on the crossing.
 
 ## Ports
 

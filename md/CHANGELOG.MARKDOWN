@@ -1,9 +1,14 @@
 # Changelog
 
+## 4.3.0
+
+- Shift reports are due by 20:00; the app reminds the shift lead at 19:30.
+- Accessibility: bookings that asked for help are marked on the purser's list.
+
 ## 4.2.0
 
 - Departures: filter by vessel.
-- Delays: the banner shows the reason given by the shift lead.
+- Delays: the banner shows the reason the shift lead gave, and the new departure time.
 
 ## 4.1.1
 
