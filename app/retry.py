@@ -16,12 +16,12 @@ def backoff(attempt: int, delay: float = DEFAULT_DELAY) -> float:
 
 def jitter(wait: float) -> float:
     """Spread retries out so they don't all land together."""
-    return wait * random.uniform(0.8, 1.2)
+    return wait * random.uniform(0.5, 1.5)
 
 
 def retry(call, attempts: int = DEFAULT_ATTEMPTS, delay: float = DEFAULT_DELAY):
     """Call `call()` until it succeeds or `attempts` run out."""
-    last = None
+    last: ConnectionError | None = None
     for attempt in range(attempts):
         try:
             return call()
