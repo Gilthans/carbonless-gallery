@@ -1,7 +1,7 @@
 package swap
 
 func build(opts Options) {
-	buildPackage("web", opts)
+	buildPackage("server", opts, twice)
 	kept()
-	buildPackage("server", opts)
+	buildPackage("web", opts, twice)
 }
