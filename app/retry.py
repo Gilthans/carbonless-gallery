@@ -3,7 +3,7 @@
 import random
 import time
 
-DEFAULT_ATTEMPTS = 3
+DEFAULT_ATTEMPTS = 5
 DEFAULT_DELAY = 0.5
 MAX_DELAY = 8.0
 
@@ -16,7 +16,7 @@ def backoff(attempt: int, delay: float = DEFAULT_DELAY) -> float:
 
 def jitter(wait: float) -> float:
     """Spread retries out so they don't all land together."""
-    return wait * random.uniform(0.5, 1.5)
+    return wait * random.uniform(0.8, 1.2)
 
 
 def retry(call, attempts: int = DEFAULT_ATTEMPTS, delay: float = DEFAULT_DELAY):
