@@ -3,7 +3,7 @@
 import random
 import time
 
-DEFAULT_ATTEMPTS = 3
+DEFAULT_ATTEMPTS = 5
 DEFAULT_DELAY = 0.5
 MAX_DELAY = 8.0
 
@@ -21,7 +21,7 @@ def jitter(wait: float) -> float:
 
 def retry(call, attempts: int = DEFAULT_ATTEMPTS, delay: float = DEFAULT_DELAY):
     """Call `call()` until it succeeds or `attempts` run out."""
-    last = None
+    last: ConnectionError | None = None
     for attempt in range(attempts):
         try:
             return call()
