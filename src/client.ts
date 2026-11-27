@@ -1,11 +1,11 @@
-import * as api from "../gen/api";
-import { createTransport } from "../gen/transport";
+export interface Client {
+	health(): Promise<unknown>;
+}
 
-export function createClient(base: string) {
-	const t = createTransport(base);
+export function createClient(base: string): Client {
+	const call = (op: string) => fetch(`${base}/${op}`).then((r) => r.json());
 
 	return {
-		health: () => api.health(t),
-		user: (id: string) => api.getUser(t, { id }),
+		health: () => call("health"),
 	};
 }
