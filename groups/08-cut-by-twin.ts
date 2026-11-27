@@ -1,4 +1,7 @@
-const total = sum(alpha, beta);
+const total = sum(
+  alpha,
+  beta
+);
 wrap(
   inner
-);
+  );

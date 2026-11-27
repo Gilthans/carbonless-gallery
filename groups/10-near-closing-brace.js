@@ -1,4 +1,6 @@
 function run(job) {
-  start(job, 1);
+  try {
+    start(job, 2);
+  }
   return job;
 }

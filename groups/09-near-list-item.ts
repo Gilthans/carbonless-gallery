@@ -1,4 +1,5 @@
 const names = [
   'alpha',
-  'beta'
+  'beta',
+  'gamma'
 ];
