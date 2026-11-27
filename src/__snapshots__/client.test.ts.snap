@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`client > call 1 1`] = `
+{
+  "ok": true,
+  "op": "op1",
+}
+`;
+
+exports[`client > call 2 1`] = `
+{
+  "ok": true,
+  "op": "op2",
+}
+`;
+
+exports[`client > call 3 1`] = `
+{
+  "ok": true,
+  "op": "op3",
+}
+`;
+
+exports[`client > call 4 1`] = `
+{
+  "ok": true,
+  "op": "op4",
+}
+`;
