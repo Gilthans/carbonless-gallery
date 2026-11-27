@@ -4,7 +4,7 @@ skipped line 3
 skipped line 4
 skipped line 5
 skipped line 6
-skipped line 7
+skipped line 7, edited in PS1
 skipped line 8
 skipped line 9
 skipped line 10

@@ -1,6 +1,6 @@
 edit line 1
 edit line 2
-edit line 3
+edit line 3, edited in PS1
 edit line 4
 edit line 5
 edit line 6
