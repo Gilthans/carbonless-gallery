@@ -1,0 +1,3 @@
+replica_database_host: db-3.internal
+timeout: 30
+primary_database_host: db-4.internal
