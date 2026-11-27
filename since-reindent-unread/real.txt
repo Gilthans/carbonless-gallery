@@ -1,5 +1,5 @@
 Crew list
 
 captain: Alma
-mate: Dagny
+    mate: Dagny
 deckhand: Cato
