@@ -1,5 +1,5 @@
 Crew list
 
 captain: Alma
-mate: Birk
+    mate: Dagny
 deckhand: Cato
