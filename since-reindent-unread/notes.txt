@@ -1,0 +1,8 @@
+Shift report
+
+Fill it in at the end of every shift.
+
+    Count from the scanner, not by hand.
+    The total includes children and bicycles.
+
+Send it to the office by 20:00.
